@@ -19,9 +19,9 @@ title: Search and transformation for human cells via latent space representation
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/d5348c269307cdb34b912826e72ca6d0ccdc93e5/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/4add3aaa9bb3c91c6a15096d77cc46c6b020bdaa/))
 was automatically generated
-from [greenelab/czi-seed-rfa@d5348c2](https://github.com/greenelab/czi-seed-rfa/tree/d5348c269307cdb34b912826e72ca6d0ccdc93e5)
+from [greenelab/czi-seed-rfa@4add3aa](https://github.com/greenelab/czi-seed-rfa/tree/4add3aaa9bb3c91c6a15096d77cc46c6b020bdaa)
 on September 19, 2018.
 </em></small>
 
