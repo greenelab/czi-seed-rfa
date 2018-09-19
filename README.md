@@ -1,4 +1,4 @@
-# Automated scholarly manuscripts on GitHub
+# Search and transformation for human cells via latent space representations
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
@@ -10,8 +10,8 @@
 
 <!-- usage note: edit this section. -->
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+This repository holds an application in response to the "https://www.chanzuckerberg.com/science/rfa/seed-networks" RFA from the Chan-Zuckerberg Initiative.
+Our team proposes to develop and disseminate methods and software that enable fast search over and transformation of cell profiles via latent space representations.
 
 ## Manubot
 

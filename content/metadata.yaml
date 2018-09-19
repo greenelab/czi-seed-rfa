@@ -1,21 +1,21 @@
 ---
-title: "Manubot Rootstock: Manuscript Title"
+title: "Search and transformation for human cells via latent space representations"
 keywords:
-  - markdown
-  - publishing
-  - manubot
+  - dimensionality reduction
+  - search
+  - single cell
+  - Human Cell Atlas
 lang: en-US
 author_info:
   -
-    github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+    github: cgreene
+    name: Casey S. Greene
+    initials: CSG
+    orcid: 0000-0001-8713-9213
+    twitter: greenescientist
+    email: greenescientist@gmail.com
     affiliations:
-      - Department of Something, University of Whatever
-    funders: Grant XXXXXXXX
+      - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
   -
     github: janeroe
     name: Jane Roe
