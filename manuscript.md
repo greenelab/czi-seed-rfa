@@ -1,14 +1,15 @@
 ---
 author-meta:
-- John Doe
+- Casey S. Greene
 - Jane Roe
 date-meta: '2018-09-19'
 keywords:
-- markdown
-- publishing
-- manubot
+- dimensionality reduction
+- search
+- single cell
+- Human Cell Atlas
 lang: en-US
-title: 'Manubot Rootstock: Manuscript Title'
+title: Search and transformation for human cells via latent space representations
 ...
 
 
@@ -18,9 +19,9 @@ title: 'Manubot Rootstock: Manuscript Title'
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/2e95f7368c98dead7bc39f02d4e690f0a8795268/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/a1ea9c08d728c589803ec90421ab3eceea7cda36/))
 was automatically generated
-from [greenelab/czi-seed-rfa@2e95f73](https://github.com/greenelab/czi-seed-rfa/tree/2e95f7368c98dead7bc39f02d4e690f0a8795268)
+from [greenelab/czi-seed-rfa@a1ea9c0](https://github.com/greenelab/czi-seed-rfa/tree/a1ea9c08d728c589803ec90421ab3eceea7cda36)
 on September 19, 2018.
 </em></small>
 
@@ -28,16 +29,15 @@ on September 19, 2018.
 
 
 
-+ **John Doe**<br>
++ **Casey S. Greene**<br>
     ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213)
     · ![GitHub icon](images/github.svg){height="13px" width="13px"}
-    [johndoe](https://github.com/johndoe)
+    [cgreene](https://github.com/cgreene)
     · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [greenescientist](https://twitter.com/greenescientist)<br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
+     Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
   </small>
 
 + **Jane Roe**<br>

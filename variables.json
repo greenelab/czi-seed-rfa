@@ -2,16 +2,15 @@
   "date": "September 19, 2018",
   "authors": [
     {
-      "github": "johndoe",
-      "name": "John Doe",
-      "initials": "JD",
-      "orcid": "XXXX-XXXX-XXXX-XXXX",
-      "twitter": "johndoe",
-      "email": "john.doe@something.com",
+      "github": "cgreene",
+      "name": "Casey S. Greene",
+      "initials": "CSG",
+      "orcid": "0000-0001-8713-9213",
+      "twitter": "greenescientist",
+      "email": "greenescientist@gmail.com",
       "affiliations": [
-        "Department of Something, University of Whatever"
+        "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania"
       ],
-      "funders": "Grant XXXXXXXX",
       "affiliation_numbers": [
         1
       ]
@@ -27,26 +26,30 @@
         "Department of Whatever, University of Something"
       ],
       "affiliation_numbers": [
-        1,
-        2
+        2,
+        3
       ]
     }
   ],
   "affiliations": [
     {
-      "affiliation": "Department of Something, University of Whatever",
+      "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania",
       "affiliation_number": 1
     },
     {
-      "affiliation": "Department of Whatever, University of Something",
+      "affiliation": "Department of Something, University of Whatever",
       "affiliation_number": 2
+    },
+    {
+      "affiliation": "Department of Whatever, University of Something",
+      "affiliation_number": 3
     }
   ],
   "ci_source": {
     "repo_slug": "greenelab/czi-seed-rfa",
     "repo_owner": "greenelab",
     "repo_name": "czi-seed-rfa",
-    "commit": "2e95f7368c98dead7bc39f02d4e690f0a8795268"
+    "commit": "a1ea9c08d728c589803ec90421ab3eceea7cda36"
   },
   "manuscript_stats": {
     "reference_counts": {
