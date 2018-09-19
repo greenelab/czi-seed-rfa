@@ -13,7 +13,7 @@
 This repository holds an application in response to the [Seed Networks for the Human Cell Atlas RFA](https://www.chanzuckerberg.com/science/rfa/seed-networks) from the Chan-Zuckerberg Initiative.
 Our team proposes to develop and disseminate methods and software that enable fast search over and transformation of cell profiles via latent space representations.
 
-The RFA requests these documents. We note which ones are included here:
+The RFA requests a set of documents. We note which ones are included here:
 
 * Project Details:
   - Project Title (**Included**)
