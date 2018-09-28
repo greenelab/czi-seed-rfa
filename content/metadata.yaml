@@ -1,8 +1,11 @@
 ---
-title: "Search and transformation for human cells via latent space representations"
+title: "Search for and transformation of human cells and cell types with latent space representations"
 keywords:
   - dimensionality reduction
   - search
+  - transformation
+  - reference
+  - cell types
   - single cell
   - Human Cell Atlas
 lang: en-US
