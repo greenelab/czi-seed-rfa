@@ -23,9 +23,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/d53fc877c753dd5315987ceff0fd5f5920611dfb/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/348e01f786f7e6cdcf6ad7cb8d69ba1a9cbadbcf/))
 was automatically generated
-from [greenelab/czi-seed-rfa@d53fc87](https://github.com/greenelab/czi-seed-rfa/tree/d53fc877c753dd5315987ceff0fd5f5920611dfb)
+from [greenelab/czi-seed-rfa@348e01f](https://github.com/greenelab/czi-seed-rfa/tree/348e01f786f7e6cdcf6ad7cb8d69ba1a9cbadbcf)
 on September 28, 2018.
 </em></small>
 
@@ -62,8 +62,49 @@ on September 28, 2018.
 
 
 
+## Project Team
+
+* Elana Fertig
+* Loyal Goff
+* Casey Greene (Submitter)
+* Tom Hampton
+* Stephanie Hicks
+* Mike Love
+* Rob Patro
 
 
+
+* Base enabling technologies:
+  * Low dimensional representations, ProjectR (Elana, Loyal)
+  * New methods published by other groups (scVI, etc -  others)
+  * Fast & improved quantification  (Rob)
+
+## Aim 1
+
+* Fast search: (in low dimensions, quantifying differences between case and reference maps, twist: shared latent spaces / k-mers)
+  * Stephanie: differences b/w maps
+  * Rob: new models for UMI deduplication accounting for transcript-level information
+    * Parsimony & likelihood based, integrated with gene-level uncertainty
+  * Rob: everything FAST! API for search against HCA reference?
+  * Casey & Rob: k-mer / quantified latent spaces
+
+## Aim 2
+
+* Transformation of latent spaces
+  * Loyal & Elana: search tool for perturbations / signatures in latent-space(s)
+  * Elana: latent space transformations for progression? Consider jawns for semi-supervised learning?
+  * Loyal transfer of signatures _between_ tissues
+
+## Aim 3
+
+* Reference Cell types
+  * Cell-type summarized expression profiles
+  * Versioning & provenance of cell types as the reference dataset changes
+
+* Delivery
+  * Training / teaching (scRNAseq, low-dimensional representations, RFA-developed tools)
+  * Software hardening/testing
+  * Bioconductor integration
 
 
 ## References {.page_break_before}
