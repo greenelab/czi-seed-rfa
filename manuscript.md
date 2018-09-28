@@ -23,9 +23,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/348e01f786f7e6cdcf6ad7cb8d69ba1a9cbadbcf/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/ee42334c754db729fc94f5fa3a23a57ce1889a46/))
 was automatically generated
-from [greenelab/czi-seed-rfa@348e01f](https://github.com/greenelab/czi-seed-rfa/tree/348e01f786f7e6cdcf6ad7cb8d69ba1a9cbadbcf)
+from [greenelab/czi-seed-rfa@ee42334](https://github.com/greenelab/czi-seed-rfa/tree/ee42334c754db729fc94f5fa3a23a57ce1889a46)
 on September 28, 2018.
 </em></small>
 
@@ -60,9 +60,10 @@ on September 28, 2018.
 
 
 
+## Five Key References
 
 
-## Project Team
+## Project Team (750 words each)
 
 * Elana Fertig
 * Loyal Goff
@@ -74,12 +75,14 @@ on September 28, 2018.
 
 
 
+## Proposal Body (2000 words)
+
 * Base enabling technologies:
   * Low dimensional representations, ProjectR (Elana, Loyal)
   * New methods published by other groups (scVI, etc -  others)
   * Fast & improved quantification  (Rob)
 
-## Aim 1
+### Aim 1
 
 * Fast search: (in low dimensions, quantifying differences between case and reference maps, twist: shared latent spaces / k-mers)
   * Stephanie: differences b/w maps
@@ -88,14 +91,14 @@ on September 28, 2018.
   * Rob: everything FAST! API for search against HCA reference?
   * Casey & Rob: k-mer / quantified latent spaces
 
-## Aim 2
+### Aim 2
 
 * Transformation of latent spaces
   * Loyal & Elana: search tool for perturbations / signatures in latent-space(s)
   * Elana: latent space transformations for progression? Consider jawns for semi-supervised learning?
   * Loyal transfer of signatures _between_ tissues
 
-## Aim 3
+### Aim 3
 
 * Reference Cell types
   * Cell-type summarized expression profiles
