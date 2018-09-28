@@ -23,9 +23,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/ee42334c754db729fc94f5fa3a23a57ce1889a46/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/ea7858dab28e56f26e689cb891951bdc86c20c7b/))
 was automatically generated
-from [greenelab/czi-seed-rfa@ee42334](https://github.com/greenelab/czi-seed-rfa/tree/ee42334c754db729fc94f5fa3a23a57ce1889a46)
+from [greenelab/czi-seed-rfa@ea7858d](https://github.com/greenelab/czi-seed-rfa/tree/ea7858dab28e56f26e689cb891951bdc86c20c7b)
 on September 28, 2018.
 </em></small>
 
@@ -78,36 +78,36 @@ on September 28, 2018.
 ## Proposal Body (2000 words)
 
 * Base enabling technologies:
-  * Low dimensional representations, ProjectR (Elana, Loyal)
-  * New methods published by other groups (scVI, etc -  others)
+  * Low dimensional representations (Elana)
+  * New methods published by other groups (scVI, etc -  other groups)
   * Fast & improved quantification  (Rob)
 
 ### Aim 1
 
 * Fast search: (in low dimensions, quantifying differences between case and reference maps, twist: shared latent spaces / k-mers)
-  * Stephanie: differences b/w maps
-  * Rob: new models for UMI deduplication accounting for transcript-level information
+  * Differences b/w maps (Stephanie)
+  * New models for UMI deduplication accounting for transcript-level information (Rob)
     * Parsimony & likelihood based, integrated with gene-level uncertainty
-  * Rob: everything FAST! API for search against HCA reference?
-  * Casey & Rob: k-mer / quantified latent spaces
+  * Everything FAST! API for search against HCA reference? (Rob)
+  * k-mer / quantified latent spaces (Casey / Rob)
 
 ### Aim 2
 
 * Transformation of latent spaces
-  * Loyal & Elana: search tool for perturbations / signatures in latent-space(s)
-  * Elana: latent space transformations for progression? Consider jawns for semi-supervised learning?
-  * Loyal transfer of signatures _between_ tissues
+  * Search tool for perturbations / signatures in latent-space(s) (Loyal)
+  * Latent space transformations for progression? Consider jawns for semi-supervised learning? (Elana)
+  * Transfer of signatures _between_ tissues (Loyal)
 
 ### Aim 3
 
 * Reference Cell types
-  * Cell-type summarized expression profiles
-  * Versioning & provenance of cell types as the reference dataset changes
+  * Cell-type summarized expression profiles (Mike, Loyal)
+  * Versioning & provenance of cell types as the reference dataset changes (Mike)
 
 * Delivery
-  * Training / teaching (scRNAseq, low-dimensional representations, RFA-developed tools)
-  * Software hardening/testing
-  * Bioconductor integration
+  * Training / teaching (scRNAseq, low-dimensional representations, RFA-developed tools) (Tom)
+  * Software hardening/testing (Casey - software eng)
+  * Bioconductor integration (Stephanie, Mike)
 
 
 ## References {.page_break_before}
