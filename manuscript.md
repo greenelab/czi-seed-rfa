@@ -2,14 +2,18 @@
 author-meta:
 - Casey S. Greene
 - Jane Roe
-date-meta: '2018-09-19'
+date-meta: '2018-09-28'
 keywords:
 - dimensionality reduction
 - search
+- transformation
+- reference
+- cell types
 - single cell
 - Human Cell Atlas
 lang: en-US
-title: Search and transformation for human cells via latent space representations
+title: Search for and transformation of human cells and cell types with latent space
+  representations
 ...
 
 
@@ -19,10 +23,10 @@ title: Search and transformation for human cells via latent space representation
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/4add3aaa9bb3c91c6a15096d77cc46c6b020bdaa/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/d53fc877c753dd5315987ceff0fd5f5920611dfb/))
 was automatically generated
-from [greenelab/czi-seed-rfa@4add3aa](https://github.com/greenelab/czi-seed-rfa/tree/4add3aaa9bb3c91c6a15096d77cc46c6b020bdaa)
-on September 19, 2018.
+from [greenelab/czi-seed-rfa@d53fc87](https://github.com/greenelab/czi-seed-rfa/tree/d53fc877c753dd5315987ceff0fd5f5920611dfb)
+on September 28, 2018.
 </em></small>
 
 ## Authors
@@ -52,6 +56,12 @@ on September 19, 2018.
 
 
 ## Abstract {.page_break_before}
+
+
+
+
+
+
 
 
 
