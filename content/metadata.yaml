@@ -29,6 +29,14 @@ author_info:
     affiliations:
       - Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health
   -
+    github: rob-p
+    name: Rob Patro
+    initials: RP
+    orcid: 0000-0001-8463-1675
+    email: rob.patro@cs.stonybrook.edu
+    affiliations:
+      - Department of Computer Science, Stony Brook University
+  -
     github: janeroe
     name: Jane Roe
     initials: JR
