@@ -17,3 +17,6 @@ __pycache__/
 # Misc temporary files
 *.bak
 
+# SCH - set to ignore rstudio files
+*.Rproj.user
+*.Rproj
