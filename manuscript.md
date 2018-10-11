@@ -24,9 +24,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/375f6105876fe6e7784c11dfd254b50f2376db9a/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/6d5bb32536cf44a47468429727154421de405a22/))
 was automatically generated
-from [greenelab/czi-seed-rfa@375f610](https://github.com/greenelab/czi-seed-rfa/tree/375f6105876fe6e7784c11dfd254b50f2376db9a)
+from [greenelab/czi-seed-rfa@6d5bb32](https://github.com/greenelab/czi-seed-rfa/tree/6d5bb32536cf44a47468429727154421de405a22)
 on October 11, 2018.
 </em></small>
 
@@ -79,13 +79,13 @@ on October 11, 2018.
 
 ### Stephanie Hicks
 
-\begin{itemize}
-\item Title: Assistant Professor
-\item Degrees: PhD
-\item Type of organization: Academic
-\item Tax ID: 52-0595110 (JHU)
-\item Email: shicks19@jhu.edu
-\item Co-PI Role (750 words): 
+* Title: Assistant Professor
+* Degrees: PhD
+* Type of organization: Academic
+* Tax ID: 52-0595110 (JHU)
+* Email: shicks19@jhu.edu
+
+Co-PI role: 
 
 Dr. Stephanie C. Hicks is an Assistant Professor of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. She is an expert in statistical methodology with a strong track record in processing and analyzing single-cell genomics data, including extensive experience developing fast, memory-efficient R/Bioconductor software to remove systematic and technical biases from scRNA-seq data. This work resulted in a K99/R00 grant from the National Human Genome Research Institute (NHGRI) and funding from the Chan-Zuckerberg Initiative to develop computational methods for the Human Cell Atlas in the previous round of funding.
 
