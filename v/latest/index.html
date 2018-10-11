@@ -29,7 +29,7 @@
 <header>
 <h1 class="title">Search for and transformation of human cells and cell types with latent space representations</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://greenelab.github.io/czi-seed-rfa/v/c97109d9aa0c82f6ce113ab47a35af277a7ccbc0/">permalink</a>) was automatically generated from <a href="https://github.com/greenelab/czi-seed-rfa/tree/c97109d9aa0c82f6ce113ab47a35af277a7ccbc0">greenelab/czi-seed-rfa@c97109d</a> on October 11, 2018. </em></small></p>
+<p><small><em> This manuscript (<a href="https://greenelab.github.io/czi-seed-rfa/v/375f6105876fe6e7784c11dfd254b50f2376db9a/">permalink</a>) was automatically generated from <a href="https://github.com/greenelab/czi-seed-rfa/tree/375f6105876fe6e7784c11dfd254b50f2376db9a">greenelab/czi-seed-rfa@375f610</a> on October 11, 2018. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>Casey S. Greene</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0001-8713-9213">0000-0001-8713-9213</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/cgreene">cgreene</a> · <img src="images/twitter.svg" alt="Twitter icon" width="13" height="13" /> <a href="https://twitter.com/greenescientist">greenescientist</a><br> <small> Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania </small></p></li>
@@ -37,17 +37,33 @@
 <li><p><strong>Jane Roe</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/janeroe">janeroe</a><br> <small> Department of Something, University of Whatever; Department of Whatever, University of Something </small></p></li>
 </ul>
 <h2 id="abstract" class="page_break_before">Abstract</h2>
+<p><strong>Instructions</strong>: Describe your collaborative project, highlighting key achievements of the project; limited to 250 words.</p>
 <h2 id="five-key-references">Five Key References</h2>
 <h2 id="project-team-750-words-each">Project Team (750 words each)</h2>
-<ul>
-<li>Elana Fertig</li>
-<li>Loyal Goff</li>
-<li>Casey Greene (Submitter)</li>
-<li>Tom Hampton</li>
-<li>Stephanie Hicks</li>
-<li>Mike Love</li>
-<li>Rob Patro</li>
-</ul>
+<h3 id="stephanie-hicks">Stephanie Hicks</h3>
+\begin{itemize}
+
+Title: Assistant Professor
+
+Degrees: PhD
+
+Type of organization: Academic
+
+Tax ID: 52-0595110 (JHU)
+
+Email: shicks19@jhu.edu
+
+<p>Co-PI Role (750 words):</p>
+<p>Dr. Stephanie C. Hicks is an Assistant Professor of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. She is an expert in statistical methodology with a strong track record in processing and analyzing single-cell genomics data, including extensive experience developing fast, memory-efficient R/Bioconductor software to remove systematic and technical biases from scRNA-seq data. This work resulted in a K99/R00 grant from the National Human Genome Research Institute (NHGRI) and funding from the Chan-Zuckerberg Initiative to develop computational methods for the Human Cell Atlas in the previous round of funding.</p>
+<p>During Aim 1 of the project period, Dr. Hicks will work together with Co-PIs (Greene, Love, and Patro) to implement fast search algorithms to quantify differences between a reference transcriptome map (the Human Cell Atlas) and non-reference transcriptome maps from other samples of interest, similar to the idea of using a reference genome to identify genomic differences in between a reference and non-reference genome. Globally quantifying differences between transcriptome maps is important because it allows for quantification of differences between, for example, ten transcriptome maps from individuals with a particular phenotype to be compared to the Human Cell Atlas reference map or other control transcriptome maps. We will leverage not only the cell-to-cell correlation structure within one transcriptome map (or human individual), but also the correlation structure across transcriptome maps (or multiple human individuals), which will share common latent spaces across individuals for a particular phenotype. Our initial approach will be to use linear mixed models to account for the correlation structure within and between transcriptome maps. The statistical method will be fast, memory-efficient and will scale to billions of cells because we work in the latent space with a significantly reduced number of dimensions (instead of billions, just hundreds or thousands). Finally, this work will be in close collaboration with the Co-PIs (Fertig, Goff, Love, and Greene) working on Aim 2, leading to an iterative process of updating the latent spaces generated in Aim 2 and updating the methods to quantify differences between transcriptome maps in the latent spaces.</p>
+<p>During Aim 3, Dr. Hicks and other Co-PIs (Love and Greene) will implement the methods developed in Aims 1 and 2 into R/Bioconductor software packages. The software will be fast, scalable, and memory-efficient because will lever the computational tools previously developed by Bioconductor for single-cell data access to the HCA (add name here), data representation (SingleCellExperiment, beachmat, DelayedArray, HDF5Array and rhdf5) and data assessment and ameliorization of data quality (scater, scran, DropletUtils). <em>add more about Bioc</em></p>
+<p>Dr. Hicks will hire a dedicated postdoctoral research fellow or software developer to take primary responsibility for the development and continued maintenance of the software packages.</p>
+<h3 id="elana-fertig">Elana Fertig</h3>
+<h3 id="loyal-goff">Loyal Goff</h3>
+<h3 id="casey-greene-submitter">Casey Greene (Submitter)</h3>
+<h3 id="tom-hampton">Tom Hampton</h3>
+<h3 id="mike-love">Mike Love</h3>
+<h3 id="rob-patro">Rob Patro</h3>
 <h2 id="proposal-body-2000-words">Proposal Body (2000 words)</h2>
 <ul>
 <li>Base enabling technologies:
