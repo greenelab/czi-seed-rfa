@@ -1,8 +1,9 @@
 ---
 author-meta:
 - Casey S. Greene
+- Stephanie C. Hicks
 - Jane Roe
-date-meta: '2018-09-28'
+date-meta: '2018-10-11'
 keywords:
 - dimensionality reduction
 - search
@@ -23,10 +24,10 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/ea7858dab28e56f26e689cb891951bdc86c20c7b/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/c97109d9aa0c82f6ce113ab47a35af277a7ccbc0/))
 was automatically generated
-from [greenelab/czi-seed-rfa@ea7858d](https://github.com/greenelab/czi-seed-rfa/tree/ea7858dab28e56f26e689cb891951bdc86c20c7b)
-on September 28, 2018.
+from [greenelab/czi-seed-rfa@c97109d](https://github.com/greenelab/czi-seed-rfa/tree/c97109d9aa0c82f6ce113ab47a35af277a7ccbc0)
+on October 11, 2018.
 </em></small>
 
 ## Authors
@@ -42,6 +43,17 @@ on September 28, 2018.
     [greenescientist](https://twitter.com/greenescientist)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
+  </small>
+
++ **Stephanie C. Hicks**<br>
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    [0000-0002-7858-0231](https://orcid.org/0000-0002-7858-0231)
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    [stephaniehicks](https://github.com/stephaniehicks)
+    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
+    [stephaniechicks](https://twitter.com/stephaniechicks)<br>
+  <small>
+     Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health
   </small>
 
 + **Jane Roe**<br>
@@ -81,6 +93,7 @@ on September 28, 2018.
   * Low dimensional representations (Elana)
   * New methods published by other groups (scVI, etc -  other groups)
   * Fast & improved quantification  (Rob)
+  * Incorporation of uncertainty estimates in low dimensional representations (Rob / Mike / Elana) - note this can be done w/o modification in scCoGAPS
 
 ### Aim 1
 
@@ -93,16 +106,19 @@ on September 28, 2018.
 
 ### Aim 2
 
-* Transformation of latent spaces
+* Eschewing marker genes: Practical exploration of the HCA in latent spaces
   * Search tool for perturbations / signatures in latent-space(s) (Loyal)
+    - Differential analysis of latent space usage across contexts
   * Latent space transformations for progression? Consider jawns for semi-supervised learning? (Elana)
-  * Transfer of signatures _between_ tissues (Loyal)
-
-### Aim 3
+  * Transfer learning of signatures _between/across_ tissues (Loyal)
 
 * Reference Cell types
   * Cell-type summarized expression profiles (Mike, Loyal)
-  * Versioning & provenance of cell types as the reference dataset changes (Mike)
+    - A 'reference catalog' of reduced dimensional representations
+  * Versioning & provenance of cell types / features as the reference dataset changes (Mike)
+  * 'Power-user' application of latent-space discovery in novel dataset and projection of HCA into new learned spaces.
+
+### Aim 3
 
 * Delivery
   * Training / teaching (scRNAseq, low-dimensional representations, RFA-developed tools) (Tom)

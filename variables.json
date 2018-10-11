@@ -1,5 +1,5 @@
 {
-  "date": "September 28, 2018",
+  "date": "October 11, 2018",
   "authors": [
     {
       "github": "cgreene",
@@ -16,6 +16,20 @@
       ]
     },
     {
+      "github": "stephaniehicks",
+      "name": "Stephanie C. Hicks",
+      "initials": "SCH",
+      "orcid": "0000-0002-7858-0231",
+      "twitter": "stephaniechicks",
+      "email": "shicks19@jhu.edu",
+      "affiliations": [
+        "Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health"
+      ],
+      "affiliation_numbers": [
+        2
+      ]
+    },
+    {
       "github": "janeroe",
       "name": "Jane Roe",
       "initials": "JR",
@@ -26,8 +40,8 @@
         "Department of Whatever, University of Something"
       ],
       "affiliation_numbers": [
-        2,
-        3
+        3,
+        4
       ]
     }
   ],
@@ -37,24 +51,28 @@
       "affiliation_number": 1
     },
     {
-      "affiliation": "Department of Something, University of Whatever",
+      "affiliation": "Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health",
       "affiliation_number": 2
     },
     {
-      "affiliation": "Department of Whatever, University of Something",
+      "affiliation": "Department of Something, University of Whatever",
       "affiliation_number": 3
+    },
+    {
+      "affiliation": "Department of Whatever, University of Something",
+      "affiliation_number": 4
     }
   ],
   "ci_source": {
     "repo_slug": "greenelab/czi-seed-rfa",
     "repo_owner": "greenelab",
     "repo_name": "czi-seed-rfa",
-    "commit": "ea7858dab28e56f26e689cb891951bdc86c20c7b"
+    "commit": "c97109d9aa0c82f6ce113ab47a35af277a7ccbc0"
   },
   "manuscript_stats": {
     "reference_counts": {
       "total": 0
     },
-    "word_count": 434
+    "word_count": 502
   }
 }
