@@ -1,5 +1,5 @@
 {
-  "date": "October 11, 2018",
+  "date": "October 17, 2018",
   "authors": [
     {
       "github": "cgreene",
@@ -30,6 +30,35 @@
       ]
     },
     {
+      "github": "rob-p",
+      "name": "Rob Patro",
+      "initials": "RP",
+      "orcid": "0000-0001-8463-1675",
+      "email": "rob.patro@cs.stonybrook.edu",
+      "affiliations": [
+        "Department of Computer Science, Stony Brook University"
+      ],
+      "affiliation_numbers": [
+        3
+      ]
+    },
+    {
+      "github": "ejfertig",
+      "name": "Elana J. Fertig",
+      "initials": "EJF",
+      "orcid": "0000-0003-3204-342X",
+      "twitter": "FertigLab",
+      "email": "ejfertig@jhmi.edu",
+      "affiliations": [
+        "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, School of Medicine, Johns Hopkins University",
+        "Department of Applied Mathematics and Statistics, Whiting School of Engineering, Johns Hopkins University"
+      ],
+      "affiliation_numbers": [
+        4,
+        5
+      ]
+    },
+    {
       "github": "janeroe",
       "name": "Jane Roe",
       "initials": "JR",
@@ -40,8 +69,8 @@
         "Department of Whatever, University of Something"
       ],
       "affiliation_numbers": [
-        3,
-        4
+        6,
+        7
       ]
     }
   ],
@@ -55,24 +84,38 @@
       "affiliation_number": 2
     },
     {
-      "affiliation": "Department of Something, University of Whatever",
+      "affiliation": "Department of Computer Science, Stony Brook University",
       "affiliation_number": 3
     },
     {
-      "affiliation": "Department of Whatever, University of Something",
+      "affiliation": "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, School of Medicine, Johns Hopkins University",
       "affiliation_number": 4
+    },
+    {
+      "affiliation": "Department of Applied Mathematics and Statistics, Whiting School of Engineering, Johns Hopkins University",
+      "affiliation_number": 5
+    },
+    {
+      "affiliation": "Department of Something, University of Whatever",
+      "affiliation_number": 6
+    },
+    {
+      "affiliation": "Department of Whatever, University of Something",
+      "affiliation_number": 7
     }
   ],
   "ci_source": {
     "repo_slug": "greenelab/czi-seed-rfa",
     "repo_owner": "greenelab",
     "repo_name": "czi-seed-rfa",
-    "commit": "6d5bb32536cf44a47468429727154421de405a22"
+    "commit": "038e2ef17d27103ea5850ec9b45d14294f965e56"
   },
   "manuscript_stats": {
     "reference_counts": {
-      "total": 0
+      "doi": 11,
+      "pmid": 1,
+      "total": 12
     },
-    "word_count": 982
+    "word_count": 3241
   }
 }

@@ -1,1 +1,1410 @@
-[]
+[
+  {
+    "publisher": "Humana Press",
+    "DOI": "10.1007/978-1-62703-721-1_6",
+    "type": "chapter",
+    "page": "87-112",
+    "source": "Crossref",
+    "title": "Pattern Identification in Time-Course Gene Expression Data with the CoGAPS Matrix Factorization",
+    "author": [
+      {
+        "given": "Elana J.",
+        "family": "Fertig"
+      },
+      {
+        "given": "Genevieve",
+        "family": "Stein-O’Brien"
+      },
+      {
+        "given": "Andrew",
+        "family": "Jaffe"
+      },
+      {
+        "given": "Carlo",
+        "family": "Colantuoni"
+      }
+    ],
+    "container-title": "Gene Function Analysis",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          10,
+          24
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f5j7xj",
+    "PMID": "24233779",
+    "id": "uInnOMwX"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "issue": "10",
+    "DOI": "10.1016/j.tig.2018.07.003",
+    "type": "article-journal",
+    "page": "790-805",
+    "source": "Crossref",
+    "title": "Enter the Matrix: Factorization Uncovers Knowledge from Omics",
+    "volume": "34",
+    "author": [
+      {
+        "given": "Genevieve L.",
+        "family": "Stein-O’Brien"
+      },
+      {
+        "given": "Raman",
+        "family": "Arora"
+      },
+      {
+        "given": "Aedin C.",
+        "family": "Culhane"
+      },
+      {
+        "given": "Alexander V.",
+        "family": "Favorov"
+      },
+      {
+        "given": "Lana X.",
+        "family": "Garmire"
+      },
+      {
+        "given": "Casey S.",
+        "family": "Greene"
+      },
+      {
+        "given": "Loyal A.",
+        "family": "Goff"
+      },
+      {
+        "given": "Yifeng",
+        "family": "Li"
+      },
+      {
+        "given": "Aloune",
+        "family": "Ngom"
+      },
+      {
+        "given": "Michael F.",
+        "family": "Ochs"
+      },
+      {
+        "given": "Yanxun",
+        "family": "Xu"
+      },
+      {
+        "given": "Elana J.",
+        "family": "Fertig"
+      }
+    ],
+    "container-title": "Trends in Genetics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          10
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gd93tk",
+    "container-title-short": "Trends in Genetics",
+    "PMID": "30143323",
+    "id": "Sn52lYwa"
+  },
+  {
+    "publisher": "Springer Nature",
+    "issue": "4",
+    "DOI": "10.1038/nmeth.3773",
+    "type": "article-journal",
+    "page": "310-318",
+    "source": "Crossref",
+    "title": "Inferring causal molecular networks: empirical assessment through a community-based effort",
+    "volume": "13",
+    "author": [
+      {
+        "given": "Steven M",
+        "family": "Hill"
+      },
+      {},
+      {
+        "given": "Laura M",
+        "family": "Heiser"
+      },
+      {
+        "given": "Thomas",
+        "family": "Cokelaer"
+      },
+      {
+        "given": "Michael",
+        "family": "Unger"
+      },
+      {
+        "given": "Nicole K",
+        "family": "Nesser"
+      },
+      {
+        "given": "Daniel E",
+        "family": "Carlin"
+      },
+      {
+        "given": "Yang",
+        "family": "Zhang"
+      },
+      {
+        "given": "Artem",
+        "family": "Sokolov"
+      },
+      {
+        "given": "Evan O",
+        "family": "Paull"
+      },
+      {
+        "given": "Chris K",
+        "family": "Wong"
+      },
+      {
+        "given": "Kiley",
+        "family": "Graim"
+      },
+      {
+        "given": "Adrian",
+        "family": "Bivol"
+      },
+      {
+        "given": "Haizhou",
+        "family": "Wang"
+      },
+      {
+        "given": "Fan",
+        "family": "Zhu"
+      },
+      {
+        "given": "Bahman",
+        "family": "Afsari"
+      },
+      {
+        "given": "Ludmila V",
+        "family": "Danilova"
+      },
+      {
+        "given": "Alexander V",
+        "family": "Favorov"
+      },
+      {
+        "given": "Wai Shing",
+        "family": "Lee"
+      },
+      {
+        "given": "Dane",
+        "family": "Taylor"
+      },
+      {
+        "given": "Chenyue W",
+        "family": "Hu"
+      },
+      {
+        "given": "Byron L",
+        "family": "Long"
+      },
+      {
+        "given": "David P",
+        "family": "Noren"
+      },
+      {
+        "given": "Alexander J",
+        "family": "Bisberg"
+      },
+      {
+        "given": "Bahman",
+        "family": "Afsari"
+      },
+      {
+        "given": "Rami",
+        "family": "Al-Ouran"
+      },
+      {
+        "given": "Bernat",
+        "family": "Anton"
+      },
+      {
+        "given": "Tomasz",
+        "family": "Arodz"
+      },
+      {
+        "given": "Omid Askari",
+        "family": "Sichani"
+      },
+      {
+        "given": "Neda",
+        "family": "Bagheri"
+      },
+      {
+        "given": "Noah",
+        "family": "Berlow"
+      },
+      {
+        "given": "Alexander J",
+        "family": "Bisberg"
+      },
+      {
+        "given": "Adrian",
+        "family": "Bivol"
+      },
+      {
+        "given": "Anwesha",
+        "family": "Bohler"
+      },
+      {
+        "given": "Jaume",
+        "family": "Bonet"
+      },
+      {
+        "given": "Richard",
+        "family": "Bonneau"
+      },
+      {
+        "given": "Gungor",
+        "family": "Budak"
+      },
+      {
+        "given": "Razvan",
+        "family": "Bunescu"
+      },
+      {
+        "given": "Mehmet",
+        "family": "Caglar"
+      },
+      {
+        "given": "Binghuang",
+        "family": "Cai"
+      },
+      {
+        "given": "Chunhui",
+        "family": "Cai"
+      },
+      {
+        "given": "Daniel E",
+        "family": "Carlin"
+      },
+      {
+        "given": "Azzurra",
+        "family": "Carlon"
+      },
+      {
+        "given": "Lujia",
+        "family": "Chen"
+      },
+      {
+        "given": "Mark F",
+        "family": "Ciaccio"
+      },
+      {
+        "given": "Thomas",
+        "family": "Cokelaer"
+      },
+      {
+        "given": "Gregory",
+        "family": "Cooper"
+      },
+      {
+        "given": "Chad J",
+        "family": "Creighton"
+      },
+      {
+        "given": "Seyed-Mohammad-Hadi",
+        "family": "Daneshmand"
+      },
+      {
+        "given": "Alberto",
+        "family": "de la Fuente"
+      },
+      {
+        "given": "Barbara",
+        "family": "Di Camillo"
+      },
+      {
+        "given": "Ludmila V",
+        "family": "Danilova"
+      },
+      {
+        "given": "Joyeeta",
+        "family": "Dutta-Moscato"
+      },
+      {
+        "given": "Kevin",
+        "family": "Emmett"
+      },
+      {
+        "given": "Chris",
+        "family": "Evelo"
+      },
+      {
+        "given": "Mohammad-Kasim H",
+        "family": "Fassia"
+      },
+      {
+        "given": "Alexander V",
+        "family": "Favorov"
+      },
+      {
+        "given": "Elana J",
+        "family": "Fertig"
+      },
+      {
+        "given": "Justin D",
+        "family": "Finkle"
+      },
+      {
+        "given": "Francesca",
+        "family": "Finotello"
+      },
+      {
+        "given": "Stephen",
+        "family": "Friend"
+      },
+      {
+        "given": "Xi",
+        "family": "Gao"
+      },
+      {
+        "given": "Jean",
+        "family": "Gao"
+      },
+      {
+        "given": "Javier",
+        "family": "Garcia-Garcia"
+      },
+      {
+        "given": "Samik",
+        "family": "Ghosh"
+      },
+      {
+        "given": "Alberto",
+        "family": "Giaretta"
+      },
+      {
+        "given": "Kiley",
+        "family": "Graim"
+      },
+      {
+        "given": "Joe W",
+        "family": "Gray"
+      },
+      {
+        "given": "Ruth",
+        "family": "Großeholz"
+      },
+      {
+        "given": "Yuanfang",
+        "family": "Guan"
+      },
+      {
+        "given": "Justin",
+        "family": "Guinney"
+      },
+      {
+        "given": "Christoph",
+        "family": "Hafemeister"
+      },
+      {
+        "given": "Oliver",
+        "family": "Hahn"
+      },
+      {
+        "given": "Saad",
+        "family": "Haider"
+      },
+      {
+        "given": "Takeshi",
+        "family": "Hase"
+      },
+      {
+        "given": "Laura M",
+        "family": "Heiser"
+      },
+      {
+        "given": "Steven M",
+        "family": "Hill"
+      },
+      {
+        "given": "Jay",
+        "family": "Hodgson"
+      },
+      {
+        "given": "Bruce",
+        "family": "Hoff"
+      },
+      {
+        "given": "Chih Hao",
+        "family": "Hsu"
+      },
+      {
+        "given": "Chenyue W",
+        "family": "Hu"
+      },
+      {
+        "given": "Ying",
+        "family": "Hu"
+      },
+      {
+        "given": "Xun",
+        "family": "Huang"
+      },
+      {
+        "given": "Mahdi",
+        "family": "Jalili"
+      },
+      {
+        "given": "Xia",
+        "family": "Jiang"
+      },
+      {
+        "given": "Tim",
+        "family": "Kacprowski"
+      },
+      {
+        "given": "Lars",
+        "family": "Kaderali"
+      },
+      {
+        "given": "Mingon",
+        "family": "Kang"
+      },
+      {
+        "given": "Venkateshan",
+        "family": "Kannan"
+      },
+      {
+        "given": "Michael",
+        "family": "Kellen"
+      },
+      {
+        "given": "Kaito",
+        "family": "Kikuchi"
+      },
+      {
+        "given": "Dong-Chul",
+        "family": "Kim"
+      },
+      {
+        "given": "Hiroaki",
+        "family": "Kitano"
+      },
+      {
+        "given": "Bettina",
+        "family": "Knapp"
+      },
+      {
+        "given": "George",
+        "family": "Komatsoulis"
+      },
+      {
+        "given": "Heinz",
+        "family": "Koeppl"
+      },
+      {
+        "given": "Andreas",
+        "family": "Krämer"
+      },
+      {
+        "given": "Miron Bartosz",
+        "family": "Kursa"
+      },
+      {
+        "given": "Martina",
+        "family": "Kutmon"
+      },
+      {
+        "given": "Wai Shing",
+        "family": "Lee"
+      },
+      {
+        "given": "Yichao",
+        "family": "Li"
+      },
+      {
+        "given": "Xiaoyu",
+        "family": "Liang"
+      },
+      {
+        "given": "Zhaoqi",
+        "family": "Liu"
+      },
+      {
+        "given": "Yu",
+        "family": "Liu"
+      },
+      {
+        "given": "Byron L",
+        "family": "Long"
+      },
+      {
+        "given": "Songjian",
+        "family": "Lu"
+      },
+      {
+        "given": "Xinghua",
+        "family": "Lu"
+      },
+      {
+        "given": "Marco",
+        "family": "Manfrini"
+      },
+      {
+        "given": "Marta R A",
+        "family": "Matos"
+      },
+      {
+        "given": "Daoud",
+        "family": "Meerzaman"
+      },
+      {
+        "given": "Gordon B",
+        "family": "Mills"
+      },
+      {
+        "given": "Wenwen",
+        "family": "Min"
+      },
+      {
+        "given": "Sach",
+        "family": "Mukherjee"
+      },
+      {
+        "given": "Christian Lorenz",
+        "family": "Müller"
+      },
+      {
+        "given": "Richard E",
+        "family": "Neapolitan"
+      },
+      {
+        "given": "Nicole K",
+        "family": "Nesser"
+      },
+      {
+        "given": "David P",
+        "family": "Noren"
+      },
+      {
+        "given": "Thea",
+        "family": "Norman"
+      },
+      {
+        "given": "Baldo",
+        "family": "Oliva"
+      },
+      {
+        "given": "Stephen Obol",
+        "family": "Opiyo"
+      },
+      {
+        "given": "Ranadip",
+        "family": "Pal"
+      },
+      {
+        "given": "Aljoscha",
+        "family": "Palinkas"
+      },
+      {
+        "given": "Evan O",
+        "family": "Paull"
+      },
+      {
+        "given": "Joan",
+        "family": "Planas-Iglesias"
+      },
+      {
+        "given": "Daniel",
+        "family": "Poglayen"
+      },
+      {
+        "given": "Amina A",
+        "family": "Qutub"
+      },
+      {
+        "given": "Julio",
+        "family": "Saez-Rodriguez"
+      },
+      {
+        "given": "Francesco",
+        "family": "Sambo"
+      },
+      {
+        "given": "Tiziana",
+        "family": "Sanavia"
+      },
+      {
+        "given": "Ali",
+        "family": "Sharifi-Zarchi"
+      },
+      {
+        "given": "Janusz",
+        "family": "Slawek"
+      },
+      {
+        "given": "Artem",
+        "family": "Sokolov"
+      },
+      {
+        "given": "Mingzhou",
+        "family": "Song"
+      },
+      {
+        "given": "Paul T",
+        "family": "Spellman"
+      },
+      {
+        "given": "Adam",
+        "family": "Streck"
+      },
+      {
+        "given": "Gustavo",
+        "family": "Stolovitzky"
+      },
+      {
+        "given": "Sonja",
+        "family": "Strunz"
+      },
+      {
+        "given": "Joshua M",
+        "family": "Stuart"
+      },
+      {
+        "given": "Dane",
+        "family": "Taylor"
+      },
+      {
+        "given": "Jesper",
+        "family": "Tegnér"
+      },
+      {
+        "given": "Kirste",
+        "family": "Thobe"
+      },
+      {
+        "given": "Gianna Maria",
+        "family": "Toffolo"
+      },
+      {
+        "given": "Emanuele",
+        "family": "Trifoglio"
+      },
+      {
+        "given": "Michael",
+        "family": "Unger"
+      },
+      {
+        "given": "Qian",
+        "family": "Wan"
+      },
+      {
+        "given": "Haizhou",
+        "family": "Wang"
+      },
+      {
+        "given": "Lonnie",
+        "family": "Welch"
+      },
+      {
+        "given": "Chris K",
+        "family": "Wong"
+      },
+      {
+        "given": "Jia J",
+        "family": "Wu"
+      },
+      {
+        "given": "Albert Y",
+        "family": "Xue"
+      },
+      {
+        "given": "Ryota",
+        "family": "Yamanaka"
+      },
+      {
+        "given": "Chunhua",
+        "family": "Yan"
+      },
+      {
+        "given": "Sakellarios",
+        "family": "Zairis"
+      },
+      {
+        "given": "Michael",
+        "family": "Zengerling"
+      },
+      {
+        "given": "Hector",
+        "family": "Zenil"
+      },
+      {
+        "given": "Shihua",
+        "family": "Zhang"
+      },
+      {
+        "given": "Yang",
+        "family": "Zhang"
+      },
+      {
+        "given": "Fan",
+        "family": "Zhu"
+      },
+      {
+        "given": "Zhike",
+        "family": "Zi"
+      },
+      {
+        "given": "Gordon B",
+        "family": "Mills"
+      },
+      {
+        "given": "Joe W",
+        "family": "Gray"
+      },
+      {
+        "given": "Michael",
+        "family": "Kellen"
+      },
+      {
+        "given": "Thea",
+        "family": "Norman"
+      },
+      {
+        "given": "Stephen",
+        "family": "Friend"
+      },
+      {
+        "given": "Amina A",
+        "family": "Qutub"
+      },
+      {
+        "given": "Elana J",
+        "family": "Fertig"
+      },
+      {
+        "given": "Yuanfang",
+        "family": "Guan"
+      },
+      {
+        "given": "Mingzhou",
+        "family": "Song"
+      },
+      {
+        "given": "Joshua M",
+        "family": "Stuart"
+      },
+      {
+        "given": "Paul T",
+        "family": "Spellman"
+      },
+      {
+        "given": "Heinz",
+        "family": "Koeppl"
+      },
+      {
+        "given": "Gustavo",
+        "family": "Stolovitzky"
+      },
+      {
+        "given": "Julio",
+        "family": "Saez-Rodriguez"
+      },
+      {
+        "given": "Sach",
+        "family": "Mukherjee"
+      }
+    ],
+    "container-title": "Nature Methods",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          22
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f3t7t4",
+    "container-title-short": "Nat Methods",
+    "PMCID": "PMC4854847",
+    "PMID": "26901648",
+    "id": "qpg6x7P4"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "DOI": "10.1093/biostatistics/kxx053",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Missing data and technical variability in single-cell RNA-sequencing experiments",
+    "author": [
+      {
+        "given": "Stephanie C",
+        "family": "Hicks"
+      },
+      {
+        "given": "F William",
+        "family": "Townes"
+      },
+      {
+        "given": "Mingxiang",
+        "family": "Teng"
+      },
+      {
+        "given": "Rafael A",
+        "family": "Irizarry"
+      }
+    ],
+    "container-title": "Biostatistics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          6
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfb8g4",
+    "PMID": "29121214",
+    "id": "DJaucmAA"
+  },
+  {
+    "publisher": "Cold Spring Harbor Laboratory",
+    "abstract": "<jats:p>Precise temporal control of gene expression in neuronal progenitors is necessary for correct regulation of neurogenesis and cell fate specification. However, the extensive cellular heterogeneity of the developing CNS has posed a major obstacle to identifying the gene regulatory networks that control these processes. To address this, we used single cell RNA-sequencing to profile ten developmental stages encompassing the full course of retinal neurogenesis. This allowed us to comprehensively characterize changes in gene expression that occur during initiation of neurogenesis, changes in developmental competence, and specification and differentiation of each of the major retinal cell types. These data identify transitions in gene expression between early and late-stage retinal progenitors, as well as a classification of neurogenic progenitors. We identify here the NFI family of transcription factors (Nfia, Nfib, and Nfix) as genes with enriched expression within late RPCs, and show they are regulators of bipolar interneuron and Muller glia specification and the control of proliferative quiescence.</jats:p>",
+    "DOI": "10.1101/378950",
+    "type": "manuscript",
+    "source": "Crossref",
+    "title": "Comprehensive analysis of retinal development at single cell resolution identifies NFI factors as essential for mitotic exit and specification of late-born cells",
+    "author": [
+      {
+        "given": "Brian",
+        "family": "Clark"
+      },
+      {
+        "given": "Genevieve",
+        "family": "Stein-O'Brien"
+      },
+      {
+        "given": "Fion",
+        "family": "Shiau"
+      },
+      {
+        "given": "Gabrielle",
+        "family": "Cannon"
+      },
+      {
+        "given": "Emily",
+        "family": "Davis"
+      },
+      {
+        "given": "Thomas",
+        "family": "Sherman"
+      },
+      {
+        "given": "Fatemeh",
+        "family": "Rajaii"
+      },
+      {
+        "given": "Rebecca",
+        "family": "James-Esposito"
+      },
+      {
+        "given": "Richard",
+        "family": "Gronostajski"
+      },
+      {
+        "given": "Elana",
+        "family": "Fertig"
+      },
+      {
+        "given": "Loyal",
+        "family": "Goff"
+      },
+      {
+        "given": "Seth",
+        "family": "Blackshaw"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          27
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gdwrzh",
+    "id": "6i1NIkNx"
+  },
+  {
+    "publisher": "Cold Spring Harbor Laboratory",
+    "abstract": "<jats:p>New approaches are urgently needed to glean biological insights from the vast amounts of single cell RNA sequencing (scRNA-Seq) data now being generated. To this end, we propose that cell identity should map to a reduced set of factors which will describe both exclusive and shared biology of individual cells, and that the dimensions which contain these factors reflect biologically meaningful relationships across different platforms, tissues and species. To find a robust set of dependent factors in large-scale scRNA-Seq data, we developed a Bayesian non-negative matrix factorization (NMF) algorithm, scCoGAPS. Application of scCoGAPS to scRNA-Seq data obtained over the course of mouse retinal development identified gene expression signatures for factors associated with specific cell types and continuous biological processes. To test whether these signatures are shared across diverse cellular contexts, we developed projectR to map biologically disparate datasets into the factors learned by scCoGAPS. Because projecting these dimensions preserve relative distances between samples, biologically meaningful relationships/factors will stratify new data consistent with their underlying processes, allowing labels or information from one dataset to be used for annotation of the other — a machine learning concept called transfer learning. Using projectR, data from multiple datasets was used to annotate latent spaces and reveal novel parallels between developmental programs in other tissues, species and cellular assays. Using this approach we are able to transfer cell type and state designations across datasets to rapidly annotate cellular features in a new dataset without a priori knowledge of their type, identify a species-specific signature of microglial cells, and identify a previously undescribed subpopulation of neurosecretory cells within the lung. Together, these algorithms define biologically meaningful dimensions of cellular identity, state, and trajectories that persist across technologies, molecular features, and species.</jats:p>",
+    "DOI": "10.1101/395004",
+    "type": "manuscript",
+    "source": "Crossref",
+    "title": "Decomposing cell identity for transfer learning across cellular measurements, platforms, tissues, and species.",
+    "author": [
+      {
+        "given": "Genevieve L",
+        "family": "Stein-O'Brien"
+      },
+      {
+        "given": "Brian S.",
+        "family": "Clark"
+      },
+      {
+        "given": "Thomas",
+        "family": "Sherman"
+      },
+      {
+        "given": "Christina",
+        "family": "Zibetti"
+      },
+      {
+        "given": "Qiwen",
+        "family": "Hu"
+      },
+      {
+        "given": "Rachel",
+        "family": "Sealfon"
+      },
+      {
+        "given": "Sheng",
+        "family": "Liu"
+      },
+      {
+        "given": "Jiang",
+        "family": "Qian"
+      },
+      {
+        "given": "Carlo",
+        "family": "Colantuoni"
+      },
+      {
+        "given": "Seth",
+        "family": "Blackshaw"
+      },
+      {
+        "given": "Loyal A.",
+        "family": "Goff"
+      },
+      {
+        "given": "Elana J.",
+        "family": "Fertig"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          20
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gd2xpn",
+    "id": "cJPxOJMp"
+  },
+  {
+    "publisher": "Cold Spring Harbor Laboratory",
+    "abstract": "<jats:p>Unsupervised machine learning methods provide a promising means to analyze and interpret large datasets. However, most datasets generated by individual researchers remain too small to fully benefit from these methods. In the case of rare diseases, there may be too few cases available, even when multiple studies are combined. We sought to determine whether or not machine learning models could be constructed from large public data compendia and then transferred to small datasets for subsequent analysis. We trained models using Pathway Level Information ExtractoR (PLIER) over datasets of different types and scales. Models constructed from large public datasets were i) more detailed than those constructed from individual datasets; ii) included features that aligned well to important biological factors; iii) transferrable to rare disease datasets where the models describe biological processes related to disease severity more effectively than models trained within those datasets.</jats:p>",
+    "DOI": "10.1101/395947",
+    "type": "manuscript",
+    "source": "Crossref",
+    "title": "MultiPLIER: a transfer learning framework reveals systemic features of rare autoimmune disease",
+    "author": [
+      {
+        "given": "Jaclyn N",
+        "family": "Taroni"
+      },
+      {
+        "given": "Peter C",
+        "family": "Grayson"
+      },
+      {
+        "given": "Qiwen",
+        "family": "Hu"
+      },
+      {
+        "given": "Sean",
+        "family": "Eddy"
+      },
+      {
+        "given": "Matthias",
+        "family": "Kretzler"
+      },
+      {
+        "given": "Peter A",
+        "family": "Merkel"
+      },
+      {
+        "given": "Casey S",
+        "family": "Greene"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          20
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfc9bb",
+    "id": "1GtRgPRxn"
+  },
+  {
+    "publisher": "Springer Nature",
+    "issue": "1",
+    "DOI": "10.1186/1471-2164-13-160",
+    "type": "article-journal",
+    "page": "160",
+    "source": "Crossref",
+    "title": "Gene expression signatures modulated by epidermal growth factor receptor activation and their relationship to cetuximab resistance in head and neck squamous cell carcinoma",
+    "volume": "13",
+    "author": [
+      {
+        "given": "Elana J",
+        "family": "Fertig"
+      },
+      {
+        "given": "Qing",
+        "family": "Ren"
+      },
+      {
+        "given": "Haixia",
+        "family": "Cheng"
+      },
+      {
+        "given": "Hiromitsu",
+        "family": "Hatakeyama"
+      },
+      {
+        "given": "Adam P",
+        "family": "Dicker"
+      },
+      {
+        "given": "Ulrich",
+        "family": "Rodeck"
+      },
+      {
+        "given": "Michael",
+        "family": "Considine"
+      },
+      {
+        "given": "Michael F",
+        "family": "Ochs"
+      },
+      {
+        "given": "Christine H",
+        "family": "Chung"
+      }
+    ],
+    "container-title": "BMC Genomics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gb3fgp",
+    "container-title-short": "BMC Genomics",
+    "PMCID": "PMC3460736",
+    "PMID": "22549044",
+    "id": "wkhRfjyx"
+  },
+  {
+    "publisher": "Springer Nature",
+    "issue": "1",
+    "DOI": "10.1186/s13073-018-0545-2",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Integrated time course omics analysis distinguishes immediate therapeutic response from acquired resistance",
+    "volume": "10",
+    "author": [
+      {
+        "given": "Genevieve",
+        "family": "Stein-O’Brien"
+      },
+      {
+        "given": "Luciane T.",
+        "family": "Kagohara"
+      },
+      {
+        "given": "Sijia",
+        "family": "Li"
+      },
+      {
+        "given": "Manjusha",
+        "family": "Thakar"
+      },
+      {
+        "given": "Ruchira",
+        "family": "Ranaweera"
+      },
+      {
+        "given": "Hiroyuki",
+        "family": "Ozawa"
+      },
+      {
+        "given": "Haixia",
+        "family": "Cheng"
+      },
+      {
+        "given": "Michael",
+        "family": "Considine"
+      },
+      {
+        "given": "Sandra",
+        "family": "Schmitz"
+      },
+      {
+        "given": "Alexander V.",
+        "family": "Favorov"
+      },
+      {
+        "given": "Ludmila V.",
+        "family": "Danilova"
+      },
+      {
+        "given": "Joseph A.",
+        "family": "Califano"
+      },
+      {
+        "given": "Evgeny",
+        "family": "Izumchenko"
+      },
+      {
+        "given": "Daria A.",
+        "family": "Gaykalova"
+      },
+      {
+        "given": "Christine H.",
+        "family": "Chung"
+      },
+      {
+        "given": "Elana J.",
+        "family": "Fertig"
+      }
+    ],
+    "container-title": "Genome Medicine",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          23
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfc4dq",
+    "container-title-short": "Genome Med",
+    "PMCID": "PMC5966898",
+    "PMID": "29792227",
+    "id": "1DZRsfkoC"
+  },
+  {
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "11",
+    "DOI": "10.1371/journal.pone.0078127",
+    "type": "article-journal",
+    "page": "e78127",
+    "source": "Crossref",
+    "title": "Preferential Activation of the Hedgehog Pathway by Epigenetic Modulations in HPV Negative HNSCC Identified with Meta-Pathway Analysis",
+    "volume": "8",
+    "author": [
+      {
+        "given": "Elana J.",
+        "family": "Fertig"
+      },
+      {
+        "given": "Ana",
+        "family": "Markovic"
+      },
+      {
+        "given": "Ludmila V.",
+        "family": "Danilova"
+      },
+      {
+        "given": "Daria A.",
+        "family": "Gaykalova"
+      },
+      {
+        "given": "Leslie",
+        "family": "Cope"
+      },
+      {
+        "given": "Christine H.",
+        "family": "Chung"
+      },
+      {
+        "given": "Michael F.",
+        "family": "Ochs"
+      },
+      {
+        "given": "Joseph A.",
+        "family": "Califano"
+      }
+    ],
+    "container-title": "PLoS ONE",
+    "language": "en",
+    "editor": [
+      {
+        "given": "Torbjörn",
+        "family": "Ramqvist"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          11,
+          4
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gcpgc6",
+    "container-title-short": "PLoS ONE",
+    "PMCID": "PMC3817178",
+    "PMID": "24223768",
+    "id": "5Cj8i4Xu"
+  },
+  {
+    "publisher": "Impact Journals, LLC",
+    "issue": "45",
+    "DOI": "10.18632/oncotarget.12075",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "CoGAPS matrix factorization algorithm identifies transcriptional changes in AP-2alpha target genes in feedback from therapeutic inhibition of the EGFR network",
+    "volume": "7",
+    "author": [
+      {
+        "given": "Elana J.",
+        "family": "Fertig"
+      },
+      {
+        "given": "Hiroyuki",
+        "family": "Ozawa"
+      },
+      {
+        "given": "Manjusha",
+        "family": "Thakar"
+      },
+      {
+        "given": "Jason D.",
+        "family": "Howard"
+      },
+      {
+        "given": "Luciane T.",
+        "family": "Kagohara"
+      },
+      {
+        "given": "Gabriel",
+        "family": "Krigsfeld"
+      },
+      {
+        "given": "Ruchira S.",
+        "family": "Ranaweera"
+      },
+      {
+        "given": "Robert M.",
+        "family": "Hughes"
+      },
+      {
+        "given": "Jimena",
+        "family": "Perez"
+      },
+      {
+        "given": "Siân",
+        "family": "Jones"
+      },
+      {
+        "given": "Alexander V.",
+        "family": "Favorov"
+      },
+      {
+        "given": "Jacob",
+        "family": "Carey"
+      },
+      {
+        "given": "Genevieve",
+        "family": "Stein-O’Brien"
+      },
+      {
+        "given": "Daria A.",
+        "family": "Gaykalova"
+      },
+      {
+        "given": "Daria A.",
+        "family": "Gaykalova"
+      },
+      {
+        "given": "Michael F.",
+        "family": "Ochs"
+      },
+      {
+        "given": "Christine H.",
+        "family": "Chung"
+      }
+    ],
+    "container-title": "Oncotarget",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          9,
+          16
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f9k8d8",
+    "container-title-short": "Oncotarget",
+    "PMCID": "PMC5342018",
+    "PMID": "27650546",
+    "id": "1GkdWBzqU"
+  },
+  {
+    "title": "quantro: a data-driven approach to guide the choice of an appropriate normalization method.",
+    "volume": "16",
+    "page": "117",
+    "container-title": "Genome biology",
+    "container-title-short": "Genome Biol.",
+    "ISSN": "1474-760X",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          6,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Stephanie C",
+        "family": "Hicks"
+      },
+      {
+        "given": "Rafael A",
+        "family": "Irizarry"
+      }
+    ],
+    "PMID": "26040460",
+    "PMCID": "PMC4495646",
+    "DOI": "10.1186/s13059-015-0679-0",
+    "abstract": "Normalization is an essential step in the analysis of high-throughput data. Multi-sample global normalization methods, such as quantile normalization, have been successfully used to remove technical variation. However, these methods rely on the assumption that observed global changes across samples are due to unwanted technical variability. Applying global normalization methods has the potential to remove biologically driven variation. Currently, it is up to the subject matter experts to determine if the stated assumptions are appropriate. Here, we propose a data-driven alternative. We demonstrate the utility of our method (quantro) through examples and simulations. A software implementation is available from http://www.bioconductor.org/packages/release/bioc/html/quantro.html . ",
+    "URL": "https://www.ncbi.nlm.nih.gov/pubmed/26040460",
+    "type": "article-journal",
+    "id": "13owodqhx"
+  }
+]
