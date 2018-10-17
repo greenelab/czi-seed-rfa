@@ -26,9 +26,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/89740a3d3322714a8d2e2a38d5eb403b0b373da9/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/4ce288644548c703b0ce07d3728894d27c252d4c/))
 was automatically generated
-from [greenelab/czi-seed-rfa@89740a3](https://github.com/greenelab/czi-seed-rfa/tree/89740a3d3322714a8d2e2a38d5eb403b0b373da9)
+from [greenelab/czi-seed-rfa@4ce2886](https://github.com/greenelab/czi-seed-rfa/tree/4ce288644548c703b0ce07d3728894d27c252d4c)
 on October 17, 2018.
 </em></small>
 
@@ -426,6 +426,7 @@ by our group in response to this RFA.*
      - UNIX
      - Statistical Approaches for High Dimension Biomedical Data
      - Gene Set and Pathway Analysis
+     - Low dimensional representations of high dimensional data
      - R and UNIX Tools Specific to HCA Data Analysis
       + scRNAseq tools
       + RFA-developed tools
