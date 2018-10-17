@@ -26,9 +26,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/038e2ef17d27103ea5850ec9b45d14294f965e56/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/89740a3d3322714a8d2e2a38d5eb403b0b373da9/))
 was automatically generated
-from [greenelab/czi-seed-rfa@038e2ef](https://github.com/greenelab/czi-seed-rfa/tree/038e2ef17d27103ea5850ec9b45d14294f965e56)
+from [greenelab/czi-seed-rfa@89740a3](https://github.com/greenelab/czi-seed-rfa/tree/89740a3d3322714a8d2e2a38d5eb403b0b373da9)
 on October 17, 2018.
 </em></small>
 
@@ -419,14 +419,14 @@ by our group in response to this RFA.*
     use software created in this project effectively. We will address these goals
     by offering short courses and creating distributed communities.
     + Short Courses
-    Short courses (3-5 days) will intriduce all features of bioinformatics required to access HCA
+    Short courses (3-5 days) will introduce all features of bioinformatics required to access HCA
     and use the tools developed in this application successfully, such as
-     - Visualization and Exploration of High Dimension Data
+     - Visualization and Exploration of High Dimensional Data
      - R Statistical Programming Environment
      - UNIX
      - Statistical Approaches for High Dimension Biomedical Data
      - Gene Set and Pathway Analysis
-     - R and UNIX Tools Specific to HCA Data Anlysis
+     - R and UNIX Tools Specific to HCA Data Analysis
       + scRNAseq tools
       + RFA-developed tools
      - Course Project
