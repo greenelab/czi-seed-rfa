@@ -37,24 +37,15 @@ author_info:
     affiliations:
       - Department of Computer Science, Stony Brook University
   -
-    github: ejfertig 
-    name: Elana J. Fertig 
+    github: ejfertig
+    name: Elana J. Fertig
     initials: EJF
-    orcid: 0000-0003-3204-342X 
-    twitter: FertigLab 
-    email: ejfertig@jhmi.edu 
+    orcid: 0000-0003-3204-342X
+    twitter: FertigLab
+    email: ejfertig@jhmi.edu
     affiliations:
       - Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, School of Medicine, Johns Hopkins University
       - Department of Applied Mathematics and Statistics, Whiting School of Engineering, Johns Hopkins University
-  -
-github: janeroe
-name: Jane Roe
-initials: JR
-orcid: XXXX-XXXX-XXXX-XXXX
-email: jane.roe@whatever.edu
-affiliations:
-- Department of Something, University of Whatever
-- Department of Whatever, University of Something
   -
     github: janeroe
     name: Jane Roe
