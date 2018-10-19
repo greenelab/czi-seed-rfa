@@ -26,9 +26,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/def30c11bc4b26a0bdd12d07093b2e240c15825b/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/6870fecefdd25f17d5b3ab4402bf6a9ecf0a0860/))
 was automatically generated
-from [greenelab/czi-seed-rfa@def30c1](https://github.com/greenelab/czi-seed-rfa/tree/def30c11bc4b26a0bdd12d07093b2e240c15825b)
+from [greenelab/czi-seed-rfa@6870fec](https://github.com/greenelab/czi-seed-rfa/tree/6870fecefdd25f17d5b3ab4402bf6a9ecf0a0860)
 on October 19, 2018.
 </em></small>
 
@@ -364,14 +364,16 @@ set of basis vectors associated with cellular identity in datasets
 with known ground truth. We will adapt the software we developed for
 transfer learning of features from bulk data recount
 [@1GtRgPRxn] to facilitate querying of signatures in new
-user-defined datasets. As datasets accumulate and methods are refined,
+user-defined datasets (delivery of which is described in the next aim).
+As datasets accumulate and methods are refined,
 the biological basis and reference catalog of gene weights will evolve
 over time. To enable reproducible research leveraging HCA, we will
-implement a content-based versioning system, which identifies a
-reference catalog by the gene weights and gene/transcript cDNA
-sequences using a hash function. Such a versioning and provenance
-identification and detection framework has proven successful in the
-bulk RNA-seq context [@1FQ0kp4Dj].
+implement a content-based versioning system, which identifies
+versions of the reference cell type catalog by the gene weights and
+transcript nucleotide sequences using a hash function. Such a
+hash-based versioning and provenance identification and detection
+framework has proven successful in the bulk RNA-seq context to support
+reproducible computational analyses [@1FQ0kp4Dj].
 
 *Differentiating context-specific latent spaces from latent spaces
 that are universal across biological contexts:* The search tool to
@@ -391,18 +393,9 @@ if this is what you had in mind. It may also be that these are
 reflected in the hierarchy of dimensionality -- may want to
 incorporate here.**
 
-
-* Reference Cell types
-  * Cell-type summarized expression profiles (Mike, Loyal)
-    - A 'reference catalog' of reduced dimensional representations
-  * Versioning & provenance of cell types / features as the reference
-    dataset changes (Mike)
-  * 'Power-user' application of latent-space discovery in novel
-    dataset and projection of HCA into new learned spaces.
-
 ### Aim 3
 
-*Rationale:* Low dimensional representations in provide a powerful means to
+*Rationale:* Low dimensional representations provide a powerful means to
 analyze scRNA-seq and HCA data to make tasks faster, perform more biologically
 grounded analyses, and provide interpretable summaries of complex
 high-dimensional data. However, using these capabilities to the fullest extent
@@ -411,13 +404,12 @@ used toolkits, and in a scalable education effort that can reach students from
 the undergraduate level and beyond. *We propose to enhance software usability
 and develop open instructional materials that we will use to deliver
 short-course training that includes the topics of single cell profiling,
-machine learning methods, low-dimensional representations, and tools developed
-by our group in response to this RFA.*
+machine learning methods, low-dimensional representations, reference
+cell type catalogs, and tools developed by our group in response to
+this RFA.*
 
-
-* Delivery
   * Training / teaching (scRNAseq, low-dimensional representations,
-    RFA-developed tools) (Tom)
+    reference cell type catalog, RFA-developed tools) (Tom)
     Although the HCA data set will greatly increase the rate of biological
     discovery across many biomedical fields, a background in bioinformatics
     will be required to these data effectively. Our mission is to make this
@@ -452,8 +444,39 @@ by our group in response to this RFA.*
      - Workshops and Seminars For Group Leaders
      - Access to Community-Developed Curricula and Documentation
      - Scholarships for Short Courses
-  * Software hardening/testing (Casey - software eng)
-  * Bioconductor integration (Stephanie, Mike)
+
+* Software hardening/testing (Casey - software eng)
+
+*Delivery of reference cell type catalogs as versioned annotation
+objects into Bioconductor/python frameworks:* One of the primary ways
+in which groups that are not working directly in the HCA will make use
+of the HCA datasets will be through use of HCA-defined biological
+entities such as reference cell types as annotation on top of local
+genomic datasets. Reference cell types, as well as additional information
+about biological variability that can be transferred from individual
+or ensemble latent spaces, can be used landmarks to ordinate
+differences among populations of cells observed in a local datasets,
+whether bulk or single-cell experiments. Use of consortia data
+summaries as annotation and interpretive scaffold for outside datasets
+has proven widely successful for the ENCODE, Roadmap Epigenome
+Mapping, and GTEx projects. We will package and version reference cell
+types, including measures of technical and biological variability
+transferred from the latent spaces defined in earlier aims, and
+deliver these as structured data objects in Bioconductor and
+python. We will leverage our expertise in working with Bioconductor
+both as core package developers and power users to enable on-the-fly
+downloading of reference cell types and variability via the
+*AnnotationHub* framework, which includes rich specification of
+metadata including the provenance and versioning of the catalog.
+Python workflows leveraging existing frameworks for genomic data
+analysis (Biopython, BioRanges, and bx-pythong) will also be supported
+via cross-platform packages such as Feather that facilitate transfer
+of data objects between languages. We will develop *F1000Research*
+workflows for R and python demonstrating how HCA-defined reference
+cell types and tools developed in this RFA can be used within a
+typical genomic data analysis.
+(Stephanie, Mike)
+
 
 
 ## References {.page_break_before}
