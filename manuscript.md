@@ -26,9 +26,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/a31d628eef3078e81f3c4960168f0307f03abc0b/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/def30c11bc4b26a0bdd12d07093b2e240c15825b/))
 was automatically generated
-from [greenelab/czi-seed-rfa@a31d628](https://github.com/greenelab/czi-seed-rfa/tree/a31d628eef3078e81f3c4960168f0307f03abc0b)
+from [greenelab/czi-seed-rfa@def30c1](https://github.com/greenelab/czi-seed-rfa/tree/def30c11bc4b26a0bdd12d07093b2e240c15825b)
 on October 19, 2018.
 </em></small>
 
@@ -364,9 +364,14 @@ set of basis vectors associated with cellular identity in datasets
 with known ground truth. We will adapt the software we developed for
 transfer learning of features from bulk data recount
 [@1GtRgPRxn] to facilitate querying of signatures in new
-user-defined datasets. **Mike: Can you write up the versioning &
-provenance here. I somewhat merged this with the tool below -- not
-sure if that's what was desired.**
+user-defined datasets. As datasets accumulate and methods are refined,
+the biological basis and reference catalog of gene weights will evolve
+over time. To enable reproducible research leveraging HCA, we will
+implement a content-based versioning system, which identifies a
+reference catalog by the gene weights and gene/transcript cDNA
+sequences using a hash function. Such a versioning and provenance
+identification and detection framework has proven successful in the
+bulk RNA-seq context [@1FQ0kp4Dj].
 
 *Differentiating context-specific latent spaces from latent spaces
 that are universal across biological contexts:* The search tool to

@@ -1279,6 +1279,27 @@
     "id": "5Cj8i4Xu"
   },
   {
+    "type": "article",
+    "id": "1FQ0kp4Dj",
+    "author": [
+      {
+        "family": "Michael Love",
+        "given": "Rob Patro"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "DOI": "10.18129/b9.bioc.tximeta",
+    "publisher": "Bioconductor",
+    "title": "tximeta",
+    "URL": "https://doi.org/gfddxw"
+  },
+  {
     "publisher": "Impact Journals, LLC",
     "issue": "45",
     "DOI": "10.18632/oncotarget.12075",
