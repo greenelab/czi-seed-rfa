@@ -5,7 +5,7 @@ author-meta:
 - Rob Patro
 - Elana J. Fertig
 - Jane Roe
-date-meta: '2018-10-17'
+date-meta: '2018-10-19'
 keywords:
 - dimensionality reduction
 - search
@@ -26,10 +26,10 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/4ce288644548c703b0ce07d3728894d27c252d4c/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/a31d628eef3078e81f3c4960168f0307f03abc0b/))
 was automatically generated
-from [greenelab/czi-seed-rfa@4ce2886](https://github.com/greenelab/czi-seed-rfa/tree/4ce288644548c703b0ce07d3728894d27c252d4c)
-on October 17, 2018.
+from [greenelab/czi-seed-rfa@a31d628](https://github.com/greenelab/czi-seed-rfa/tree/a31d628eef3078e81f3c4960168f0307f03abc0b)
+on October 19, 2018.
 </em></small>
 
 ## Authors
@@ -202,7 +202,7 @@ uncertainty estimate that can be readily modified to account for
 measurement-specific technical variation
 [@5Cj8i4Xu]. Moreover, this same study
 demonstrated that low dimensional factorizations of tumor populations
-separates tumor samples relative to normals whereas higher
+separate tumor samples relative to normals whereas higher
 dimensionalities separate tumor subtypes. Thus, CoGAPS has been shown
 to yield different factorizations reflective of biological hierarchies
 at different dimensionalities, rather than having a single
@@ -222,9 +222,11 @@ _About fast and improved quant_ Existing approaches for quantification
 from scRNA-seq data using tagged-end end protocols (e.g. 10x Chromium,
 drop-Seq, inDrop, etc.) have no mechanism for accounting for reads
 mapping between multiple genes in the resulting quantification
-estimates.  This reduces quantification accuracy, and leads to
-fundamental and systematic baises in gene expression estimates **Cite
-new alevin pre-print**.  We have recently developed a novel approach
+estimates, and therefore such reads are typically removed **CORRECT?**.
+This reduces quantification accuracy, and leads to
+systematic biases in gene expression estimates
+that correlate problematically with the size of gene families and gene function **Cite
+new alevin pre-print**. We have recently developed a novel approach
 for quantification from tagged-end data that accounts for reads
 mapping to multiple genomic loci (~15-25% of the reads in a typical
 experiment) in a principled and consistent way.  We propose to expand
