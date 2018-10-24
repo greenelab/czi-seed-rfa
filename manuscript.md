@@ -26,9 +26,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/0c0ce8122be0382b1dd0b6145a30523b16c2570f/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/0482082a45c04d0885ec51aab3135ce0d6043191/))
 was automatically generated
-from [greenelab/czi-seed-rfa@0c0ce81](https://github.com/greenelab/czi-seed-rfa/tree/0c0ce8122be0382b1dd0b6145a30523b16c2570f)
+from [greenelab/czi-seed-rfa@0482082](https://github.com/greenelab/czi-seed-rfa/tree/0482082a45c04d0885ec51aab3135ce0d6043191)
 on October 24, 2018.
 </em></small>
 
@@ -225,8 +225,7 @@ mapping between multiple genes in the resulting quantification
 estimates, and therefore such reads are typically removed **CORRECT?**.
 This reduces quantification accuracy, and leads to
 systematic biases in gene expression estimates
-that correlate problematically with the size of gene families and gene function **Cite
-new alevin pre-print**. We have recently developed a novel approach
+that correlate problematically with the size of gene families and gene function [@FPpU83vH] . We have recently developed a novel approach
 for quantification from tagged-end data that accounts for reads
 mapping to multiple genomic loci (~15-25% of the reads in a typical
 experiment) in a principled and consistent way.  We propose to expand

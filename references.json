@@ -874,6 +874,47 @@
   },
   {
     "publisher": "Cold Spring Harbor Laboratory",
+    "abstract": "<jats:p>We introduce alevin, a fast end-to-end pipeline to process droplet-based single cell RNA sequencing data, which performs cell barcode detection, read mapping, unique molecular identifier deduplication, gene count estimation, and cell barcode whitelisting. Alevin's approach to UMI deduplication accounts for both gene-unique reads and reads that multimap between genes. This addresses the inherent bias in existing tools which discard gene-ambiguous reads, and improves the accuracy of gene abundance estimates. Alevin is written in C++14, and is integrated into the salmon tool available at https://github.com/COMBINE-lab/salmon.</jats:p>",
+    "DOI": "10.1101/335000",
+    "type": "manuscript",
+    "source": "Crossref",
+    "title": "Alevin efficiently estimates accurate gene abundances from dscRNA-seq data",
+    "author": [
+      {
+        "given": "Avi",
+        "family": "Srivastava"
+      },
+      {
+        "given": "Laraib",
+        "family": "Malik"
+      },
+      {
+        "given": "Tom Sean",
+        "family": "Smith"
+      },
+      {
+        "given": "Ian",
+        "family": "Sudbery"
+      },
+      {
+        "given": "Rob",
+        "family": "Patro"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          1
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gffk42",
+    "id": "FPpU83vH"
+  },
+  {
+    "publisher": "Cold Spring Harbor Laboratory",
     "abstract": "<jats:p>Precise temporal control of gene expression in neuronal progenitors is necessary for correct regulation of neurogenesis and cell fate specification. However, the extensive cellular heterogeneity of the developing CNS has posed a major obstacle to identifying the gene regulatory networks that control these processes. To address this, we used single cell RNA-sequencing to profile ten developmental stages encompassing the full course of retinal neurogenesis. This allowed us to comprehensively characterize changes in gene expression that occur during initiation of neurogenesis, changes in developmental competence, and specification and differentiation of each of the major retinal cell types. These data identify transitions in gene expression between early and late-stage retinal progenitors, as well as a classification of neurogenic progenitors. We identify here the NFI family of transcription factors (Nfia, Nfib, and Nfix) as genes with enriched expression within late RPCs, and show they are regulators of bipolar interneuron and Muller glia specification and the control of proliferative quiescence.</jats:p>",
     "DOI": "10.1101/378950",
     "type": "manuscript",
