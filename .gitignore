@@ -20,3 +20,4 @@ __pycache__/
 # SCH - set to ignore rstudio files
 *.Rproj.user
 *.Rproj
+.Rproj.user
