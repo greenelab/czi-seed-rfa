@@ -5,7 +5,7 @@ author-meta:
 - Rob Patro
 - Elana J. Fertig
 - Jane Roe
-date-meta: '2018-10-19'
+date-meta: '2018-10-24'
 keywords:
 - dimensionality reduction
 - search
@@ -26,10 +26,10 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/6870fecefdd25f17d5b3ab4402bf6a9ecf0a0860/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/9d143acf90b9afb4342a432b1fa7f495cc2063dc/))
 was automatically generated
-from [greenelab/czi-seed-rfa@6870fec](https://github.com/greenelab/czi-seed-rfa/tree/6870fecefdd25f17d5b3ab4402bf6a9ecf0a0860)
-on October 19, 2018.
+from [greenelab/czi-seed-rfa@9d143ac](https://github.com/greenelab/czi-seed-rfa/tree/9d143acf90b9afb4342a432b1fa7f495cc2063dc)
+on October 24, 2018.
 </em></small>
 
 ## Authors
@@ -408,44 +408,56 @@ machine learning methods, low-dimensional representations, reference
 cell type catalogs, and tools developed by our group in response to
 this RFA.*
 
-  * Training / teaching (scRNAseq, low-dimensional representations,
-    reference cell type catalog, RFA-developed tools) (Tom)
-    Although the HCA data set will greatly increase the rate of biological
-    discovery across many biomedical fields, a background in bioinformatics
-    will be required to these data effectively. Our mission is to make this
-    obstacle easy for most biologists and physician scientists to overcome, and
-    to enable scientists who already possess a background in bioinformatics to
-    use software created in this project effectively. We will address these goals
-    by offering short courses and creating distributed communities.
-    + Short Courses
-    Short courses (3-5 days) will introduce all features of bioinformatics required to access HCA
-    and use the tools developed in this application successfully, such as
-     - Visualization and Exploration of High Dimensional Data
-     - R Statistical Programming Environment
-     - UNIX
-     - Statistical Approaches for High Dimension Biomedical Data
-     - Gene Set and Pathway Analysis
-     - Low dimensional representations of high dimensional data
-     - R and UNIX Tools Specific to HCA Data Analysis
-      + scRNAseq tools
-      + RFA-developed tools
-     - Course Project
-     The course project will provide a hands-on experience of retrieving data from HCA,
-     performing quality control, exploratory data analysis, identification of differentially
-     abundant clusters, identification of martker genes associated with clusters, differential
-     gene expression, and interpretation of results in the context of other data such as
-     Gene Ontology and KEGG pathways.
-     Groups of participants share their findings in a final presentation.
-    + Destributed Communities
-    Where short courses jump start participants'ability to perform basic tasks and learn the
-    tools relevant to scRNA-seq, distributed communities provide the opportunity of mastery
-    of these techniques, which includes the ability to teach others. Our support of these
-    communities will include
-     - Workshops and Seminars For Group Leaders
-     - Access to Community-Developed Curricula and Documentation
-     - Scholarships for Short Courses
+#### Aim 3.1: Training for next-generation of single cell data scientists (Tom)
 
-* Software hardening/testing (Casey - software eng)
+Training / teaching (scRNAseq, low-dimensional representations,
+reference cell type catalog, RFA-developed tools) 
+
+Although the HCA data set will greatly increase the rate of biological
+discovery across many biomedical fields, a background in bioinformatics
+will be required to these data effectively. Our mission is to make this
+obstacle easy for most biologists and physician scientists to overcome, and
+to enable scientists who already possess a background in bioinformatics to
+use software created in this project effectively. We will address these goals
+by offering short courses and creating distributed communities.
+
+1. Short Courses. Short courses (3-5 days) will introduce all 
+features of bioinformatics required to access HCA and use the tools
+developed in this application successfully, such as:
+    
+    - Visualization and Exploration of High Dimensional Data
+    - R Statistical Programming Environment
+    - UNIX
+    - Statistical Approaches for High Dimension Biomedical Data
+    - Gene Set and Pathway Analysis
+    - Low dimensional representations of high dimensional data
+    - R and UNIX Tools Specific to HCA Data Analysis
+    - scRNAseq tools
+    - RFA-developed tools
+    
+2. Course Project. The course project will provide a hands-on 
+experience of retrieving data from HCA, performing quality control, 
+exploratory data analysis, identification of differentially
+abundant clusters, identification of martker genes associated
+with clusters, differential gene expression, and interpretation
+of results in the context of other data such as Gene Ontology and
+KEGG pathways. Groups of participants share their findings in a 
+final presentation.
+
+3. Distributed Communities. Where short courses jump start
+participants' ability to perform basic tasks and learn the
+tools relevant to scRNA-seq, distributed communities provide
+the opportunity of mastery of these techniques, which includes 
+the ability to teach others. Our support of these communities 
+will include: 
+
+    - Workshops and Seminars For Group Leaders
+    - Access to Community-Developed Curricula and Documentation
+    - Scholarships for Short Courses
+
+#### Aim 3.2: Software Engineering: implementation and robust testing (Casey)
+
+#### Aim 3.3: Software and Data Integration: Bioconductor (Stephanie and Mike)
 
 *Delivery of reference cell type catalogs as versioned annotation
 objects into Bioconductor/python frameworks:* One of the primary ways
