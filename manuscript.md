@@ -5,7 +5,7 @@ author-meta:
 - Rob Patro
 - Elana J. Fertig
 - Jane Roe
-date-meta: '2018-10-24'
+date-meta: '2018-10-26'
 keywords:
 - dimensionality reduction
 - search
@@ -26,10 +26,10 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/0482082a45c04d0885ec51aab3135ce0d6043191/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/4d82cd8643fa00f268751626e463df8ca9b59a0d/))
 was automatically generated
-from [greenelab/czi-seed-rfa@0482082](https://github.com/greenelab/czi-seed-rfa/tree/0482082a45c04d0885ec51aab3135ce0d6043191)
-on October 24, 2018.
+from [greenelab/czi-seed-rfa@4d82cd8](https://github.com/greenelab/czi-seed-rfa/tree/4d82cd8643fa00f268751626e463df8ca9b59a0d)
+on October 26, 2018.
 </em></small>
 
 ## Authors
@@ -458,10 +458,11 @@ will include:
 
 We will implement the proposed methods from Aims 1 and 2 into
 robust software, which will be integrated into the R/Bioconductor 
-and Python frameworks. We will leverage the `SingleCellExperiment` and 
-`LinearEmbeddingMatrix` classes in Bioconductor to provide
-interoperatiblity between the suite of Bioconductor packages for the 
-analysis of scRNA-seq data. 
+and Python frameworks. We will leverage the `SingleCellExperiment` 
+(stores the expression data) and `LinearEmbeddingMatrix` 
+(stores the low dimensional representations) classes in Bioconductor, 
+which will provide interoperatiblity between the suite of Bioconductor
+software packages for the analysis of scRNA-seq data. 
 
 #### Aim 3.3: Data Integration into Bioconductor (Stephanie and Mike)
 
@@ -492,7 +493,6 @@ of data objects between languages. We will develop *F1000Research*
 workflows for R and python demonstrating how HCA-defined reference
 cell types and tools developed in this RFA can be used within a
 typical genomic data analysis.
-(Stephanie, Mike)
 
 
 

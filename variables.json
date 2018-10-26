@@ -1,5 +1,5 @@
 {
-  "date": "October 24, 2018",
+  "date": "October 26, 2018",
   "authors": [
     {
       "github": "cgreene",
@@ -108,7 +108,7 @@
     "repo_slug": "greenelab/czi-seed-rfa",
     "repo_owner": "greenelab",
     "repo_name": "czi-seed-rfa",
-    "commit": "0482082a45c04d0885ec51aab3135ce0d6043191"
+    "commit": "4d82cd8643fa00f268751626e463df8ca9b59a0d"
   },
   "manuscript_stats": {
     "reference_counts": {
@@ -116,6 +116,6 @@
       "pmid": 1,
       "total": 14
     },
-    "word_count": 3591
+    "word_count": 3600
   }
 }
