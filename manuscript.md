@@ -5,7 +5,7 @@ author-meta:
 - Rob Patro
 - Elana J. Fertig
 - Jane Roe
-date-meta: '2018-10-26'
+date-meta: '2018-10-30'
 keywords:
 - dimensionality reduction
 - search
@@ -26,10 +26,10 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/4d82cd8643fa00f268751626e463df8ca9b59a0d/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/f97307b9a724825552ea619948ac848f9ab12c72/))
 was automatically generated
-from [greenelab/czi-seed-rfa@4d82cd8](https://github.com/greenelab/czi-seed-rfa/tree/4d82cd8643fa00f268751626e463df8ca9b59a0d)
-on October 26, 2018.
+from [greenelab/czi-seed-rfa@f97307b](https://github.com/greenelab/czi-seed-rfa/tree/f97307b9a724825552ea619948ac848f9ab12c72)
+on October 30, 2018.
 </em></small>
 
 ## Authors
@@ -97,55 +97,54 @@ on October 26, 2018.
 ## Five Key References
 
 
-## Project Team (750 words each)
+## Project Team 
 
-### Stephanie Hicks
+### PI information
 
-* Title: Assistant Professor
-* Degrees: PhD
-* Type of organization: Academic
-* Tax ID: 52-0595110 (JHU)
-* Email: shicks19@jhu.edu
+1. Loyal Goff (Submitter)
 
-Co-PI role:
+2. Stephanie Hicks
+    
+    * Title: Assistant Professor
+    * Degrees: PhD
+    * Type of organization: Academic
+    * Tax ID: 52-0595110 (JHU)
+    * Email: shicks19@jhu.edu
 
-Dr. Stephanie C. Hicks is an Assistant Professor of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. She is an expert in statistical methodology with a strong track record in processing and analyzing single-cell genomics data, including extensive experience developing fast, memory-efficient R/Bioconductor software to remove systematic and technical biases from scRNA-seq data [@DJaucmAA]. This work resulted in a K99/R00 grant from the National Human Genome Research Institute (NHGRI) and funding from the Chan-Zuckerberg Initiative to develop computational tools for the Human Cell Atlas in the previous round of funding.
+3. Elana Fertig
 
-During Aim 1 of the project period, Dr. Hicks will work together with Co-PIs (Greene, Love, and Patro) to implement fast search algorithms to quantify differences between a reference transcriptome map (the Human Cell Atlas) and non-reference transcriptome maps from other samples of interest, similar to the idea of using a reference genome to identify genomic differences in between a reference and non-reference genome. Globally quantifying differences between transcriptome maps is important because it allows for quantification of differences at the population or individual level between, for example, ten transcriptome maps from individuals with a particular phenotype to be compared to the Human Cell Atlas reference map (or other control transcriptome maps if available). Our metric to quantify differences will depend on the distributions of cell expression within and between individuals, which Dr. Hicks has extensive experience with [@13owodqhx]. We will leverage not only the cell-to-cell correlation structure within one transcriptome map (or human individual), but also the correlation structure across transcriptome maps (or multiple human individuals), which will share common latent spaces across individuals for a particular phenotype. Our initial approach will be to use linear mixed models to account for the correlation structure within and between transcriptome maps. The statistical method will be fast, memory-efficient and will scale to billions of cells because we work in the latent space with a significantly reduced number of dimensions (instead of billions, just hundreds or thousands). Finally, this work will be in close collaboration with the Co-PIs (Fertig, Goff, Love, and Greene) working on Aim 2, leading to an iterative process of updating the latent spaces generated in Aim 2 and updating the methods to quantify differences between transcriptome maps in the latent spaces. 
+    * Title: Associate Professor
+    * Degrees: PhD
+    * Type of organization: Academic
+    * Tax ID: 52-0595110 (JHU)
+    * Email: ejfertig@jhmi.edu
 
-During Aim 3, Dr. Hicks and other Co-PIs (Love and Greene) will implement the methods developed in Aims 1 and 2 into R/Bioconductor software packages. The software will be fast, scalable, and memory-efficient because will lever the computational tools previously developed by Bioconductor for single-cell data access to the HCA (add name here), data representation (SingleCellExperiment, beachmat, DelayedArray, HDF5Array and rhdf5) and data assessment and ameliorization of data quality (scater, scran, DropletUtils). *add more about Bioc*
+4. Casey Greene 
 
-Dr. Hicks will hire a dedicated postdoctoral research fellow or software developer to take primary responsibility for the development and continued maintenance of the software packages.
+5. Tom Hampton
+
+6. Michael Love
+
+    * Title: Assistant Professor
+    * Degrees: Dr. rer. nat.
+    * Type of organization: Academic
+    * Tax ID: 56-6001393 (UNC)
+    * Email: michaelisaiahlove@gmail.com
+
+7. Rob Patro
 
 
+### Description (750 words TOTAL)
 
-### Elana Fertig
+1. Loyal Goff
+2. Stephanie C. Hicks is an Assistant Professor of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. She is an expert in statistical methodology with a strong track record in processing and analyzing single-cell genomics data, including extensive experience developing fast, memory-efficient R/Bioconductor software to remove systematic and technical biases from scRNA-seq data [@DJaucmAA]. Dr. Hicks will work together with Co-PIs to implement fast search algorithms in latent spaces (Aim 1) and to implement the methods developed into fast, scalable, and memory-efficient R/Bioconductor software packages (Aim 3). 
+3. Elana Fertig
+4. Casey Greene
+5. Tom Hampton
+6. Michael Lov
+7. Rob Patro 
 
-* Title: Associate Professor
-* Degrees: PhD
-* Type of organization: Academic
-* Tax ID: 52-0595110 (JHU)
-* Email: ejfertig@jhmi.edu
 
-Co-PI role:
-
-### Loyal Goff
-
-### Casey Greene (Submitter)
-
-### Tom Hampton
-
-### Michael Love
-
-* Title: Assistant Professor
-* Degrees: Dr. rer. nat.
-* Type of organization: Academic
-* Tax ID: 56-6001393 (UNC)
-* Email: michaelisaiahlove@gmail.com
-
-Co-PI role:
-
-### Rob Patro
 
 
 
@@ -252,15 +251,51 @@ transfer across datasets of related biological contexts.
 
 ### Aim 1
 
-* Fast search: (in low dimensions, quantifying differences between
-  case and reference maps, twist: shared latent spaces / k-mers)
-  * Differences b/w maps (Stephanie)
-  * New models for UMI deduplication accounting for transcript-level
-    information (Rob)
-    * Parsimony & likelihood based, integrated with gene-level
-      uncertainty
-  * Everything FAST! API for search against HCA reference? (Rob)
-  * k-mer / quantified latent spaces (Casey / Rob)
+*Rationale*: need to add
+
+*Fast search algorithms* (in low dimensions, quantifying 
+differences between case and reference maps, twist: 
+shared latent spaces / k-mers):
+
+
+*Finding differences between maps*: The fast search 
+algorithms will then be used quantify differences between
+a reference transcriptome map (the Human Cell Atlas) 
+and non-reference transcriptome maps from other samples
+of interest, similar to the idea of using a reference 
+genome to identify genomic differences in between a 
+reference and non-reference genome. Globally quantifying 
+differences between transcriptome maps is important 
+because it allows for quantification of differences 
+at the population or individual level between, for 
+example, ten transcriptome maps from individuals with
+a particular phenotype to be compared to the Human 
+Cell Atlas reference map (or other control transcriptome
+maps if available). Our metric to quantify differences 
+will depend on the distributions of cell expression 
+within and between individuals, which Dr. Hicks has 
+extensive experience with [@13owodqhx]. We will
+leverage not only the cell-to-cell correlation structure 
+within one transcriptome map (or human individual), 
+but also the correlation structure across transcriptome
+maps (or multiple human individuals), which will share 
+common latent spaces across individuals for a particular
+phenotype. Our initial approach will be to use linear 
+mixed models to account for the correlation structure 
+within and between transcriptome maps. The statistical
+method will be fast, memory-efficient and will scale to
+billions of cells because we work in the latent space 
+with a significantly reduced number of dimensions 
+(instead of billions, just hundreds or thousands).
+
+
+*New models for UMI deduplication accounting for transcript-level information*:  (Rob)
+
+*Parsimony & likelihood based, integrated with gene-level uncertainty*: 
+
+    * Everything FAST! API for search against HCA reference? (Rob)
+    * k-mer / quantified latent spaces (Casey / Rob)
+
 
 ### Aim 2
 
@@ -458,11 +493,13 @@ will include:
 
 We will implement the proposed methods from Aims 1 and 2 into
 robust software, which will be integrated into the R/Bioconductor 
-and Python frameworks. We will leverage the `SingleCellExperiment` 
-(stores the expression data) and `LinearEmbeddingMatrix` 
-(stores the low dimensional representations) classes in Bioconductor, 
-which will provide interoperatiblity between the suite of Bioconductor
-software packages for the analysis of scRNA-seq data. 
+and Python frameworks. The software will be fast, scalable, 
+and memory-efficient because will leverage the computational 
+tools previously developed by Bioconductor for single-cell 
+data access to the HCA, data representation (`SingleCellExperiment`,
+`beachmat`, `DelayedArray`, `HDF5Array` and `rhdf5`) and 
+data assessment and ameliorization of data quality (`scater`, 
+`scran`, `DropletUtils`). 
 
 #### Aim 3.3: Data Integration into Bioconductor (Stephanie and Mike)
 
