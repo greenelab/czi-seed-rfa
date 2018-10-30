@@ -26,9 +26,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/f97307b9a724825552ea619948ac848f9ab12c72/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/aca481b6e0efe6295937947886e1ac7d373b5b5a/))
 was automatically generated
-from [greenelab/czi-seed-rfa@f97307b](https://github.com/greenelab/czi-seed-rfa/tree/f97307b9a724825552ea619948ac848f9ab12c72)
+from [greenelab/czi-seed-rfa@aca481b](https://github.com/greenelab/czi-seed-rfa/tree/aca481b6e0efe6295937947886e1ac7d373b5b5a)
 on October 30, 2018.
 </em></small>
 
@@ -96,6 +96,7 @@ on October 30, 2018.
 
 ## Five Key References
 
+* Hicks refs: @DJaucmAA
 
 ## Project Team 
 
