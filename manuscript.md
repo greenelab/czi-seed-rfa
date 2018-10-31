@@ -5,7 +5,7 @@ author-meta:
 - Rob Patro
 - Elana J. Fertig
 - Jane Roe
-date-meta: '2018-10-30'
+date-meta: '2018-10-31'
 keywords:
 - dimensionality reduction
 - search
@@ -26,10 +26,10 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/aca481b6e0efe6295937947886e1ac7d373b5b5a/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/32c307590deb76c18541b22c2923df9316d91152/))
 was automatically generated
-from [greenelab/czi-seed-rfa@aca481b](https://github.com/greenelab/czi-seed-rfa/tree/aca481b6e0efe6295937947886e1ac7d373b5b5a)
-on October 30, 2018.
+from [greenelab/czi-seed-rfa@32c3075](https://github.com/greenelab/czi-seed-rfa/tree/32c307590deb76c18541b22c2923df9316d91152)
+on October 31, 2018.
 </em></small>
 
 ## Authors
@@ -139,7 +139,7 @@ on October 30, 2018.
 
 1. Loyal Goff
 2. Stephanie C. Hicks is an Assistant Professor of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. She is an expert in statistical methodology with a strong track record in processing and analyzing single-cell genomics data, including extensive experience developing fast, memory-efficient R/Bioconductor software to remove systematic and technical biases from scRNA-seq data [@DJaucmAA]. Dr. Hicks will work together with Co-PIs to implement fast search algorithms in latent spaces (Aim 1) and to implement the methods developed into fast, scalable, and memory-efficient R/Bioconductor software packages (Aim 3). 
-3. Elana Fertig
+3. Elana Fertig is an Associate Professor of Oncology and Applied Mathematics and Statistics at Johns Hopkins University. She developed of the Bayesian non-negative matrix factorization algorithm CoGAPS [@1DrhKLdVp] for latent space analysis. In collaboration with co-PI Goff, she adapted this tool to scRNA-seq data and developed a new transfer learning framework to relate the low-dimensional features in scRNA-seq data across data modalities, biological conditions, and organisms [@cJPxOJMp]. Dr. Fertig will work with the co-PIs to incorporate the error models from Aim 1 into the latent space represntations, dimensionality estimation, and biological assessment metrics in Aim 2. She is developing standardized language for latent space representation in collaboration with co-PIs Goff and Greene [@Sn52lYwa] that will provide a strong foundation for standardization of these approaches across different unsupervised learning tools.
 4. Casey Greene
 5. Tom Hampton
 6. Michael Lov
