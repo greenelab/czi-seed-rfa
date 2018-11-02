@@ -27,9 +27,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/c49556f2dd2e5d5d7679f1753294bfb6ef3476f7/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/269b0e89d12a3614406aa99cbe4200e9675dc3d2/))
 was automatically generated
-from [greenelab/czi-seed-rfa@c49556f](https://github.com/greenelab/czi-seed-rfa/tree/c49556f2dd2e5d5d7679f1753294bfb6ef3476f7)
+from [greenelab/czi-seed-rfa@269b0e8](https://github.com/greenelab/czi-seed-rfa/tree/269b0e89d12a3614406aa99cbe4200e9675dc3d2)
 on November 2, 2018.
 </em></small>
 
@@ -168,6 +168,14 @@ on November 2, 2018.
 
 
 ## Proposal Body (2000 words)
+
+High dimensional data can often be compressed into fewer dimensions without a
+substantial loss of information. For transcriptomic data, compressing on the
+gene dimension is most attractive: it can be done a single sample at a time, and
+genes are often co-regulated and thus provide information about each other. In
+the best case, the fewer dimensions both capture the biological sources of
+variability while ignoring noise and each dimension or small combination of
+dimensions aligns to interpretable biological processes.
 
 Latent space determination relies on computational techniques that
 learn low dimensional structure from high dimensional data. A wide
