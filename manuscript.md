@@ -27,9 +27,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/1d1435f4dd04c1c3cebac5aee3a80a2443f89660/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/9dff46fcbc4e5c70fb070a734d2bbe6b0a45bf86/))
 was automatically generated
-from [greenelab/czi-seed-rfa@1d1435f](https://github.com/greenelab/czi-seed-rfa/tree/1d1435f4dd04c1c3cebac5aee3a80a2443f89660)
+from [greenelab/czi-seed-rfa@9dff46f](https://github.com/greenelab/czi-seed-rfa/tree/9dff46fcbc4e5c70fb070a734d2bbe6b0a45bf86)
 on November 2, 2018.
 </em></small>
 
@@ -335,8 +335,8 @@ with a significantly reduced number of dimensions
 ### Aim 2
 
 *Rationale:* Biological systems are comprised of common cell types
-with overlapping molecular phenotypes. The function of these systems
-are determined by the interactions between these complex components,
+with overlapping molecular phenotypes. The functional output of these systems
+is determined by the interactions between these complex components,
 rather than a single gene or cell. This suggests that fundamental
 biological mechanisms may broadly contribute to an observed state,
 with context-specific modifiers conferring selective suceptiability to
@@ -349,7 +349,7 @@ processes or features. Thus, these basis vectors will be shared across
 different biological systems, with context-specific perturbations
 indicating pathogenic differences in disease. *We propose a central
 suite of statistics for assessment and interpretation of latent space
-tools to define the basis vectors of biological systems.*
+tools to define the identity and dimensionality of biological systems.*
 
 *Quantifying latent space estimation with transfer learning:* A
 critical challenge to latent space methods is the quantification of
