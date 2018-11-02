@@ -21,3 +21,6 @@ __pycache__/
 *.Rproj.user
 *.Rproj
 .Rproj.user
+
+# Don't make budgets public
+budgets/
