@@ -4,8 +4,9 @@ author-meta:
 - Stephanie C. Hicks
 - Rob Patro
 - Elana J. Fertig
+- Michael I. Love
 - Jane Roe
-date-meta: '2018-10-31'
+date-meta: '2018-11-02'
 keywords:
 - dimensionality reduction
 - search
@@ -26,10 +27,10 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/32c307590deb76c18541b22c2923df9316d91152/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/c206f3c3f513087afb23fd5fab63fd7387440694/))
 was automatically generated
-from [greenelab/czi-seed-rfa@32c3075](https://github.com/greenelab/czi-seed-rfa/tree/32c307590deb76c18541b22c2923df9316d91152)
-on October 31, 2018.
+from [greenelab/czi-seed-rfa@c206f3c](https://github.com/greenelab/czi-seed-rfa/tree/c206f3c3f513087afb23fd5fab63fd7387440694)
+on November 2, 2018.
 </em></small>
 
 ## Authors
@@ -78,6 +79,17 @@ on October 31, 2018.
      Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, School of Medicine, Johns Hopkins University; Department of Applied Mathematics and Statistics, Whiting School of Engineering, Johns Hopkins University
   </small>
 
++ **Michael I. Love**<br>
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    [0000-0001-8401-0545](https://orcid.org/0000-0001-8401-0545)
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    [mikelove](https://github.com/mikelove)
+    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
+    [mikelove](https://twitter.com/mikelove)<br>
+  <small>
+     Department of Biostatistics, University of North Carolina at Chapel Hill; Department of Genetics, University of North Carolina at Chapel Hill
+  </small>
+
 + **Jane Roe**<br>
     ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
@@ -96,16 +108,19 @@ on October 31, 2018.
 
 ## Five Key References
 
-* Hicks refs: @DJaucmAA
+* Hicks refs: [@DJaucmAA]
+* projectR: [@cJPxOJMp]
+* Alevin: [@FPpU83vH]
 
-## Project Team 
+
+## Project Team
 
 ### PI information
 
 1. Loyal Goff (Submitter)
 
 2. Stephanie Hicks
-    
+
     * Title: Assistant Professor
     * Degrees: PhD
     * Type of organization: Academic
@@ -120,7 +135,7 @@ on October 31, 2018.
     * Tax ID: 52-0595110 (JHU)
     * Email: ejfertig@jhmi.edu
 
-4. Casey Greene 
+4. Casey Greene
 
 5. Tom Hampton
 
@@ -130,22 +145,25 @@ on October 31, 2018.
     * Degrees: Dr. rer. nat.
     * Type of organization: Academic
     * Tax ID: 56-6001393 (UNC)
-    * Email: michaelisaiahlove@gmail.com
+    * Email: milove@email.unc.edu
 
 7. Rob Patro
+    * Title: Assistant Professor
+    * Degrees: PhD
+    * Type of Organization: Academic
+    * Tax ID: 16-1514621 (Stony Brook)
+    * Email: rob.patro@cs.stonybrook.edu
 
 
 ### Description (750 words TOTAL)
 
 1. Loyal Goff
-2. Stephanie C. Hicks is an Assistant Professor of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. She is an expert in statistical methodology with a strong track record in processing and analyzing single-cell genomics data, including extensive experience developing fast, memory-efficient R/Bioconductor software to remove systematic and technical biases from scRNA-seq data [@DJaucmAA]. Dr. Hicks will work together with Co-PIs to implement fast search algorithms in latent spaces (Aim 1) and to implement the methods developed into fast, scalable, and memory-efficient R/Bioconductor software packages (Aim 3). 
+2. Stephanie C. Hicks is an Assistant Professor of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. She is an expert in statistical methodology with a strong track record in processing and analyzing single-cell genomics data, including extensive experience developing fast, memory-efficient R/Bioconductor software to remove systematic and technical biases from scRNA-seq data [@DJaucmAA]. Dr. Hicks will work together with Co-PIs to implement fast search algorithms in latent spaces (Aim 1) and to implement the methods developed into fast, scalable, and memory-efficient R/Bioconductor software packages (Aim 3).
 3. Elana Fertig is an Associate Professor of Oncology and Applied Mathematics and Statistics at Johns Hopkins University. She developed of the Bayesian non-negative matrix factorization algorithm CoGAPS [@1DrhKLdVp] for latent space analysis. In collaboration with co-PI Goff, she adapted this tool to scRNA-seq data and developed a new transfer learning framework to relate the low-dimensional features in scRNA-seq data across data modalities, biological conditions, and organisms [@cJPxOJMp]. Dr. Fertig will work with the co-PIs to incorporate the error models from Aim 1 into the latent space represntations, dimensionality estimation, and biological assessment metrics in Aim 2. She is developing standardized language for latent space representation in collaboration with co-PIs Goff and Greene [@Sn52lYwa] that will provide a strong foundation for standardization of these approaches across different unsupervised learning tools.
 4. Casey Greene
 5. Tom Hampton
-6. Michael Lov
-7. Rob Patro 
-
-
+6. Michael Love is an Assistant Professor of Biostatistics and Genetics at the University of North Carolina at Chapel Hill. He is a leading developer of statistical software for RNA-seq analysis in the Bioconductor Project, maintaining the widely used DESeq2 [@w9AOzBMw] and tximport [@9CN5KEFo] packages. He is a close collaborator with Dr. Rob Patro on bias-aware estimation of transcript abundance from RNA-seq and estimation of uncertainty during transcript quantification [@vrqQcFyx]. Dr. Love will work with co-PIs to disseminate versioned reference cell type catalogs through widely used frameworks for genomic data analysis including R/Bioconductor and Python.
+7. Rob Patro
 
 
 

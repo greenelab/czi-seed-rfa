@@ -834,6 +834,54 @@
     "id": "qpg6x7P4"
   },
   {
+    "publisher": "Springer Nature",
+    "issue": "4",
+    "DOI": "10.1038/nmeth.4197",
+    "type": "article-journal",
+    "page": "417-419",
+    "source": "Crossref",
+    "title": "Salmon provides fast and bias-aware quantification of transcript expression",
+    "volume": "14",
+    "author": [
+      {
+        "given": "Rob",
+        "family": "Patro"
+      },
+      {
+        "given": "Geet",
+        "family": "Duggal"
+      },
+      {
+        "given": "Michael I",
+        "family": "Love"
+      },
+      {
+        "given": "Rafael A",
+        "family": "Irizarry"
+      },
+      {
+        "given": "Carl",
+        "family": "Kingsford"
+      }
+    ],
+    "container-title": "Nature Methods",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          6
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gcw9f5",
+    "container-title-short": "Nat Methods",
+    "PMCID": "PMC5600148",
+    "PMID": "28263959",
+    "id": "vrqQcFyx"
+  },
+  {
     "publisher": "Oxford University Press (OUP)",
     "issue": "21",
     "DOI": "10.1093/bioinformatics/btq503",
@@ -1211,6 +1259,44 @@
   },
   {
     "publisher": "Springer Nature",
+    "issue": "12",
+    "DOI": "10.1186/s13059-014-0550-8",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2",
+    "volume": "15",
+    "author": [
+      {
+        "given": "Michael I",
+        "family": "Love"
+      },
+      {
+        "given": "Wolfgang",
+        "family": "Huber"
+      },
+      {
+        "given": "Simon",
+        "family": "Anders"
+      }
+    ],
+    "container-title": "Genome Biology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          12
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gd3zvn",
+    "container-title-short": "Genome Biol",
+    "PMCID": "PMC4302049",
+    "PMID": "25516281",
+    "id": "w9AOzBMw"
+  },
+  {
+    "publisher": "Springer Nature",
     "issue": "1",
     "DOI": "10.1186/s13073-018-0545-2",
     "type": "article-journal",
@@ -1299,6 +1385,45 @@
     "PMCID": "PMC5966898",
     "PMID": "29792227",
     "id": "1DZRsfkoC"
+  },
+  {
+    "publisher": "F1000 Research, Ltd.",
+    "DOI": "10.12688/f1000research.7563.1",
+    "type": "article-journal",
+    "page": "1521",
+    "source": "Crossref",
+    "title": "Differential analyses for RNA-seq: transcript-level estimates improve gene-level inferences",
+    "volume": "4",
+    "author": [
+      {
+        "given": "Charlotte",
+        "family": "Soneson"
+      },
+      {
+        "given": "Michael I.",
+        "family": "Love"
+      },
+      {
+        "given": "Mark D.",
+        "family": "Robinson"
+      }
+    ],
+    "container-title": "F1000Research",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          30
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gdtgw8",
+    "container-title-short": "F1000Res",
+    "PMCID": "PMC4712774",
+    "PMID": "26925227",
+    "id": "9CN5KEFo"
   },
   {
     "publisher": "Public Library of Science (PLoS)",

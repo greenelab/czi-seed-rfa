@@ -1,5 +1,5 @@
 {
-  "date": "October 31, 2018",
+  "date": "November 2, 2018",
   "authors": [
     {
       "github": "cgreene",
@@ -59,6 +59,22 @@
       ]
     },
     {
+      "github": "mikelove",
+      "name": "Michael I. Love",
+      "initials": "MIL",
+      "orcid": "0000-0001-8401-0545",
+      "twitter": "mikelove",
+      "email": "milove@email.unc.edu",
+      "affiliations": [
+        "Department of Biostatistics, University of North Carolina at Chapel Hill",
+        "Department of Genetics, University of North Carolina at Chapel Hill"
+      ],
+      "affiliation_numbers": [
+        6,
+        7
+      ]
+    },
+    {
       "github": "janeroe",
       "name": "Jane Roe",
       "initials": "JR",
@@ -69,8 +85,8 @@
         "Department of Whatever, University of Something"
       ],
       "affiliation_numbers": [
-        6,
-        7
+        8,
+        9
       ]
     }
   ],
@@ -96,26 +112,34 @@
       "affiliation_number": 5
     },
     {
-      "affiliation": "Department of Something, University of Whatever",
+      "affiliation": "Department of Biostatistics, University of North Carolina at Chapel Hill",
       "affiliation_number": 6
     },
     {
-      "affiliation": "Department of Whatever, University of Something",
+      "affiliation": "Department of Genetics, University of North Carolina at Chapel Hill",
       "affiliation_number": 7
+    },
+    {
+      "affiliation": "Department of Something, University of Whatever",
+      "affiliation_number": 8
+    },
+    {
+      "affiliation": "Department of Whatever, University of Something",
+      "affiliation_number": 9
     }
   ],
   "ci_source": {
     "repo_slug": "greenelab/czi-seed-rfa",
     "repo_owner": "greenelab",
     "repo_name": "czi-seed-rfa",
-    "commit": "32c307590deb76c18541b22c2923df9316d91152"
+    "commit": "c206f3c3f513087afb23fd5fab63fd7387440694"
   },
   "manuscript_stats": {
     "reference_counts": {
-      "doi": 14,
+      "doi": 17,
       "pmid": 1,
-      "total": 15
+      "total": 18
     },
-    "word_count": 3588
+    "word_count": 3707
   }
 }
