@@ -27,9 +27,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/b91109bdd5f8e61dd878326df3dd57bda592bbec/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/c49556f2dd2e5d5d7679f1753294bfb6ef3476f7/))
 was automatically generated
-from [greenelab/czi-seed-rfa@b91109b](https://github.com/greenelab/czi-seed-rfa/tree/b91109bdd5f8e61dd878326df3dd57bda592bbec)
+from [greenelab/czi-seed-rfa@c49556f](https://github.com/greenelab/czi-seed-rfa/tree/c49556f2dd2e5d5d7679f1753294bfb6ef3476f7)
 on November 2, 2018.
 </em></small>
 
@@ -169,9 +169,6 @@ on November 2, 2018.
 
 ## Proposal Body (2000 words)
 
-* Base enabling technologies:
-  * Low dimensional representations (Elana)
-
 Latent space determination relies on computational techniques that
 learn low dimensional structure from high dimensional data. A wide
 variety of computational methods for dimensionality reduction have
@@ -234,8 +231,6 @@ will also facilitate educational initiatives to advance broader
 understanding of the interpretation of latent space solutions from
 high dimensional data (Aim 3).
 
-  * Fast & improved quantification (Rob / Mike)
-
 _About fast and improved quant_ Existing approaches for quantification
 from scRNA-seq data using tagged-end end protocols (e.g. 10x Chromium,
 drop-Seq, inDrop, etc.) have no mechanism for accounting for reads
@@ -272,45 +267,45 @@ transfer across datasets of related biological contexts.
 
 *Rationale*: need to add
 
-*Fast search algorithms* (in low dimensions, quantifying 
-differences between case and reference maps, twist: 
+*Fast search algorithms* (in low dimensions, quantifying
+differences between case and reference maps, twist:
 shared latent spaces / k-mers):
 
 
-*Finding differences between maps*: The fast search 
+*Finding differences between maps*: The fast search
 algorithms will then be used quantify differences between
-a reference transcriptome map (the Human Cell Atlas) 
+a reference transcriptome map (the Human Cell Atlas)
 and non-reference transcriptome maps from other samples
-of interest, similar to the idea of using a reference 
-genome to identify genomic differences in between a 
-reference and non-reference genome. Globally quantifying 
-differences between transcriptome maps is important 
-because it allows for quantification of differences 
-at the population or individual level between, for 
+of interest, similar to the idea of using a reference
+genome to identify genomic differences in between a
+reference and non-reference genome. Globally quantifying
+differences between transcriptome maps is important
+because it allows for quantification of differences
+at the population or individual level between, for
 example, ten transcriptome maps from individuals with
-a particular phenotype to be compared to the Human 
+a particular phenotype to be compared to the Human
 Cell Atlas reference map (or other control transcriptome
-maps if available). Our metric to quantify differences 
-will depend on the distributions of cell expression 
-within and between individuals, which Dr. Hicks has 
+maps if available). Our metric to quantify differences
+will depend on the distributions of cell expression
+within and between individuals, which Dr. Hicks has
 extensive experience with [@13owodqhx]. We will
-leverage not only the cell-to-cell correlation structure 
-within one transcriptome map (or human individual), 
+leverage not only the cell-to-cell correlation structure
+within one transcriptome map (or human individual),
 but also the correlation structure across transcriptome
-maps (or multiple human individuals), which will share 
+maps (or multiple human individuals), which will share
 common latent spaces across individuals for a particular
-phenotype. Our initial approach will be to use linear 
-mixed models to account for the correlation structure 
+phenotype. Our initial approach will be to use linear
+mixed models to account for the correlation structure
 within and between transcriptome maps. The statistical
 method will be fast, memory-efficient and will scale to
-billions of cells because we work in the latent space 
-with a significantly reduced number of dimensions 
+billions of cells because we work in the latent space
+with a significantly reduced number of dimensions
 (instead of billions, just hundreds or thousands).
 
 
 *New models for UMI deduplication accounting for transcript-level information*:  (Rob)
 
-*Parsimony & likelihood based, integrated with gene-level uncertainty*: 
+*Parsimony & likelihood based, integrated with gene-level uncertainty*:
 
     * Everything FAST! API for search against HCA reference? (Rob)
     * k-mer / quantified latent spaces (Casey / Rob)
@@ -464,7 +459,7 @@ this RFA.*
 #### Aim 3.1: Training for next-generation of single cell data scientists (Tom)
 
 Training / teaching (scRNAseq, low-dimensional representations,
-reference cell type catalog, RFA-developed tools) 
+reference cell type catalog, RFA-developed tools)
 
 Although the HCA data set will greatly increase the rate of biological
 discovery across many biomedical fields, a background in bioinformatics
@@ -474,10 +469,10 @@ to enable scientists who already possess a background in bioinformatics to
 use software created in this project effectively. We will address these goals
 by offering short courses and creating distributed communities.
 
-1. Short Courses. Short courses (3-5 days) will introduce all 
+1. Short Courses. Short courses (3-5 days) will introduce all
 features of bioinformatics required to access HCA and use the tools
 developed in this application successfully, such as:
-    
+
     - Visualization and Exploration of High Dimensional Data
     - R Statistical Programming Environment
     - UNIX
@@ -487,22 +482,22 @@ developed in this application successfully, such as:
     - R and UNIX Tools Specific to HCA Data Analysis
     - scRNAseq tools
     - RFA-developed tools
-    
-2. Course Project. The course project will provide a hands-on 
-experience of retrieving data from HCA, performing quality control, 
+
+2. Course Project. The course project will provide a hands-on
+experience of retrieving data from HCA, performing quality control,
 exploratory data analysis, identification of differentially
 abundant clusters, identification of martker genes associated
 with clusters, differential gene expression, and interpretation
 of results in the context of other data such as Gene Ontology and
-KEGG pathways. Groups of participants share their findings in a 
+KEGG pathways. Groups of participants share their findings in a
 final presentation.
 
 3. Distributed Communities. Where short courses jump start
 participants' ability to perform basic tasks and learn the
 tools relevant to scRNA-seq, distributed communities provide
-the opportunity of mastery of these techniques, which includes 
-the ability to teach others. Our support of these communities 
-will include: 
+the opportunity of mastery of these techniques, which includes
+the ability to teach others. Our support of these communities
+will include:
 
     - Workshops and Seminars For Group Leaders
     - Access to Community-Developed Curricula and Documentation
@@ -511,28 +506,28 @@ will include:
 #### Aim 3.2: Software Engineering and Integration into Bioconductor (Stephanie and Casey)
 
 We will implement the proposed methods from Aims 1 and 2 into
-robust software, which will be integrated into the R/Bioconductor 
-and Python frameworks. The software will be fast, scalable, 
-and memory-efficient because will leverage the computational 
-tools previously developed by Bioconductor for single-cell 
+robust software, which will be integrated into the R/Bioconductor
+and Python frameworks. The software will be fast, scalable,
+and memory-efficient because will leverage the computational
+tools previously developed by Bioconductor for single-cell
 data access to the HCA, data representation (`SingleCellExperiment`,
-`beachmat`, `DelayedArray`, `HDF5Array` and `rhdf5`) and 
-data assessment and ameliorization of data quality (`scater`, 
-`scran`, `DropletUtils`). 
+`beachmat`, `DelayedArray`, `HDF5Array` and `rhdf5`) and
+data assessment and ameliorization of data quality (`scater`,
+`scran`, `DropletUtils`).
 
 #### Aim 3.3: Data Integration into Bioconductor (Stephanie and Mike)
 
-We will integrate the catalogs of reference cell types (Aim 2) 
-into the R/Bioconductor and Python frameworks. 
-The use of consortia data summaries as annotation and 
-interpretive scaffold for outside datasets has proven widely 
-successful for the ENCODE, Roadmap Epigenome Mapping, and 
-GTEx projects. We will use HCA data to define similar summaries 
-as annotation and scaffolding for local genomic datasets. 
-Additional information about biological variability that can 
-be transferred from individual or ensemble latent spaces, can also 
-be used landmarks to ordinate differences among populations of 
-cells observed in a local datasets, whether bulk or single-cell 
+We will integrate the catalogs of reference cell types (Aim 2)
+into the R/Bioconductor and Python frameworks.
+The use of consortia data summaries as annotation and
+interpretive scaffold for outside datasets has proven widely
+successful for the ENCODE, Roadmap Epigenome Mapping, and
+GTEx projects. We will use HCA data to define similar summaries
+as annotation and scaffolding for local genomic datasets.
+Additional information about biological variability that can
+be transferred from individual or ensemble latent spaces, can also
+be used landmarks to ordinate differences among populations of
+cells observed in a local datasets, whether bulk or single-cell
 experiments. We will package and version reference cell
 types, including measures of technical and biological variability
 transferred from the latent spaces defined in earlier aims, and
@@ -549,7 +544,6 @@ of data objects between languages. We will develop *F1000Research*
 workflows for R and python demonstrating how HCA-defined reference
 cell types and tools developed in this RFA can be used within a
 typical genomic data analysis.
-
 
 
 ## References {.page_break_before}
