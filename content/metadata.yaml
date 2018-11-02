@@ -11,6 +11,17 @@ keywords:
 lang: en-US
 author_info:
   -
+    github: loyale
+    name: Loyal A. Goff
+    initials: LAG
+    orcid: 0000-0003-2875-451X
+    twitter: loyalgoff
+    email: loyalgoff@jhmi.edu
+    affiliations:
+      - Solomon H. Snyder Department of Neuroscience, Johns Hopkins University School of Medicine
+      - Kavli Neurodiscovery Institute, Johns Hopkins University
+      - McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University School of Medicine
+  -
     github: cgreene
     name: Casey S. Greene
     initials: CSG
