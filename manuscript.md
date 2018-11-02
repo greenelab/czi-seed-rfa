@@ -27,9 +27,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/269b0e89d12a3614406aa99cbe4200e9675dc3d2/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/1d1435f4dd04c1c3cebac5aee3a80a2443f89660/))
 was automatically generated
-from [greenelab/czi-seed-rfa@269b0e8](https://github.com/greenelab/czi-seed-rfa/tree/269b0e89d12a3614406aa99cbe4200e9675dc3d2)
+from [greenelab/czi-seed-rfa@1d1435f](https://github.com/greenelab/czi-seed-rfa/tree/1d1435f4dd04c1c3cebac5aee3a80a2443f89660)
 on November 2, 2018.
 </em></small>
 
@@ -176,6 +176,19 @@ genes are often co-regulated and thus provide information about each other. In
 the best case, the fewer dimensions both capture the biological sources of
 variability while ignoring noise and each dimension or small combination of
 dimensions aligns to interpretable biological processes.
+
+For the Human Cell Atlas (HCA), low-dimensional representations enable efficient
+search and transformation, with the benefits becoming particularly pronounced as
+the number of cells and tissues becomes particularly large. Our **__central
+hypothesis__** is that these approaches will also enable search at the tissue
+and cell level of biologically-meaningful features and transformation in
+biologically meaningful ways, e.g., from a healthy to a disease context.
+
+We propose to advance **__base enabling technologies__** for low-dimensional
+representations and to develop solutions for search and transformation that can
+be practically applied across the entirety of the HCA. We will continue to
+develop techniques that seek to learn interpretable biologically-aligned
+representations.
 
 Latent space determination relies on computational techniques that
 learn low dimensional structure from high dimensional data. A wide
