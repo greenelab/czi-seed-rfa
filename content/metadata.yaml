@@ -47,6 +47,16 @@ author_info:
       - Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, School of Medicine, Johns Hopkins University
       - Department of Applied Mathematics and Statistics, Whiting School of Engineering, Johns Hopkins University
   -
+    github: mikelove
+    name: Michael I. Love
+    initials: MIL
+    orcid: 0000-0001-8401-0545
+    twitter: mikelove
+    email: milove@email.unc.edu
+    affiliations:
+      - Department of Biostatistics, University of North Carolina at Chapel Hill
+      - Department of Genetics, University of North Carolina at Chapel Hill
+  -
     github: janeroe
     name: Jane Roe
     initials: JR
