@@ -969,6 +969,214 @@
   },
   {
     "publisher": "Cold Spring Harbor Laboratory",
+    "abstract": "<jats:p>High-throughput, high-dimensional single-cell data is accumulating at a staggering rate. As costs of data generation decrease, experimental design is moving towards measurement of many different samples, such as different patients, conditions, or treatments. While scalability is a challenge on its own, dealing with large experimental design presents a whole new set of problems, such as large-scale batch effects and sample comparison issues. Currently, there are no computational tools that can both handle large amounts of data in a scalable manner (many cells) and at the same time deal with many samples (many patients). Moreover, data analysis currently involves the use of different tools that each operate on their own data representation, not guaranteeing a synchronized analysis pipeline, such as a visualization that matches the clustering. For this purpose, we present SAUCIE, a deep neural network that leverages the high degree of parallelization and scalability offered by neural networks, as well as the deep representation of data that can be learned by them. A well-known limitation of neural networks is their interpretability. Our key contribution here is to constrain and regularize the layers with newly formulated regularizations such that their features become interpretable. When large multipatient datasets are fed into SAUCIE, the layers contain denoised and batch-normalized data, a low dimensional visualization, unsupervised clustering, as well as other information that can be used to explore the data. We show this capability by analyzing a newly generated 180-sample dataset consisting of T cells from dengue patients in India, measured with mass cytometry. We show that SAUCIE, for the first time, can batch normalize and process this 11-million cell data identify cluster-based signatures of acute dengue infection and create a patient manifold, stratifying immune response to dengue on the basis of single-cell measurements.</jats:p>",
+    "DOI": "10.1101/237065",
+    "type": "manuscript",
+    "source": "Crossref",
+    "title": "Exploring Single-Cell Data with Deep Multitasking Neural Networks",
+    "author": [
+      {
+        "given": "Matthew",
+        "family": "Amodio"
+      },
+      {
+        "given": "David",
+        "family": "van Dijk"
+      },
+      {
+        "given": "Krishnan",
+        "family": "Srinivasan"
+      },
+      {
+        "given": "William S",
+        "family": "Chen"
+      },
+      {
+        "given": "Hussein",
+        "family": "Mohsen"
+      },
+      {
+        "given": "Kevin R",
+        "family": "Moon"
+      },
+      {
+        "given": "Allison",
+        "family": "Campbell"
+      },
+      {
+        "given": "Yujiao",
+        "family": "Zhao"
+      },
+      {
+        "given": "Xiaomei",
+        "family": "Wang"
+      },
+      {
+        "given": "Manjunatha",
+        "family": "Venkataswamy"
+      },
+      {
+        "given": "Anita",
+        "family": "Desai"
+      },
+      {
+        "given": "Ravi",
+        "family": "V."
+      },
+      {
+        "given": "Priti",
+        "family": "Kumar"
+      },
+      {
+        "given": "Ruth",
+        "family": "Montgomery"
+      },
+      {
+        "given": "Guy",
+        "family": "Wolf"
+      },
+      {
+        "given": "Smita",
+        "family": "Krishnaswamy"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          19
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfgrpk",
+    "id": "TkR5VPF7"
+  },
+  {
+    "publisher": "Cold Spring Harbor Laboratory",
+    "abstract": "<jats:p>Transcriptome profiles of individual cells reflect true and often unexplored biological diversity, but are also affected by noise of biological and technical nature. This raises the need to explicitly model the resulting uncertainty and take it into account in any downstream analysis, such as dimensionality reduction, clustering, and differential expression. Here, we introduce Single-cell Variational Inference (scVI), a scalable framework for probabilistic representation and analysis of gene expression in single cells. Our model uses variational inference and stochastic optimization of deep neural networks to approximate the parameters that govern the distribution of expression values of each gene in every cell, using a non-linear mapping between the observations and a low-dimensional latent space. By doing so, scVI pools information between similar cells or genes while taking nuisance factors of variation such as batch effects and limited sensitivity into account. To evaluate scVI, we conducted a comprehensive comparative analysis to existing methods for distributional modeling and dimensionality reduction, all of which rely on generalized linear models. We first show that scVI scales to over one million cells, whereas competing algorithms can process at most tens of thousands of cells. Next, we show that scVI fits unseen data more closely and can impute missing data more accurately, both indicative of a better generalization capacity. We then utilize scVI to conduct a set of fundamental analysis tasks -- including batch correction, visualization, clustering and differential expression -- and demonstrate its accuracy in comparison to the state-of-the-art tools in each task. scVI is publicly available, and can be readily used as a principled and inclusive solution for multiple tasks of single-cell RNA sequencing data analysis.</jats:p>",
+    "DOI": "10.1101/292037",
+    "type": "manuscript",
+    "source": "Crossref",
+    "title": "Bayesian Inference for a Generative Model of Transcriptome Profiles from Single-cell RNA Sequencing",
+    "author": [
+      {
+        "given": "Romain",
+        "family": "Lopez"
+      },
+      {
+        "given": "Jeffrey",
+        "family": "Regier"
+      },
+      {
+        "given": "Michael B",
+        "family": "Cole"
+      },
+      {
+        "given": "Michael I",
+        "family": "Jordan"
+      },
+      {
+        "given": "Nir",
+        "family": "Yosef"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          30
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gdm9jf",
+    "id": "XjfRUvN5"
+  },
+  {
+    "publisher": "Cold Spring Harbor Laboratory",
+    "abstract": "<jats:p>Single-cell RNA sequencing (scRNA-seq) has enabled researchers to study gene expression at a cellular resolution. However, noise due to amplification and dropout may obstruct analyses, so scalable denoising methods for increasingly large but sparse scRNAseq data are needed. We propose a deep count autoencoder network (DCA) to denoise scRNA-seq datasets. DCA takes the count distribution, overdispersion and sparsity of the data into account using a zero-inflated negative binomial noise model, and nonlinear gene-gene or gene-dispersion interactions are captured. Our method scales linearly with the number of cells and can therefore be applied to datasets of millions of cells. We demonstrate that DCA denoising improves a diverse set of typical scRNA-seq data analyses using simulated and real datasets. DCA outperforms existing methods for data imputation in quality and speed, enhancing biological discovery.</jats:p>",
+    "DOI": "10.1101/300681",
+    "type": "manuscript",
+    "source": "Crossref",
+    "title": "Single cell RNA-seq denoising using a deep count autoencoder",
+    "author": [
+      {
+        "given": "Gökcen",
+        "family": "Eraslan"
+      },
+      {
+        "given": "Lukas M.",
+        "family": "Simon"
+      },
+      {
+        "given": "Maria",
+        "family": "Mircea"
+      },
+      {
+        "given": "Nikola S.",
+        "family": "Mueller"
+      },
+      {
+        "given": "Fabian J.",
+        "family": "Theis"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          4,
+          13
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gdjcb3",
+    "id": "vpa3pNZU"
+  },
+  {
+    "publisher": "Cold Spring Harbor Laboratory",
+    "abstract": "<jats:p>Recent advances in large-scale RNA-seq enable fine-grained characterization of phenotypically distinct cellular states within heterogeneous tissues. We present scScope, a scalable deep-learning based approach that can accurately and rapidly identify cell-type composition from millions of noisy single-cell gene-expression profiles.</jats:p>",
+    "DOI": "10.1101/315556",
+    "type": "manuscript",
+    "source": "Crossref",
+    "title": "Massive single-cell RNA-seq analysis and imputation via deep learning",
+    "author": [
+      {
+        "given": "Yue",
+        "family": "Deng"
+      },
+      {
+        "given": "Feng",
+        "family": "Bao"
+      },
+      {
+        "given": "Qionghai",
+        "family": "Dai"
+      },
+      {
+        "given": "Lani",
+        "family": "Wu"
+      },
+      {
+        "given": "Steven",
+        "family": "Altschuler"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          6
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfgrpm",
+    "id": "V3nGUaio"
+  },
+  {
+    "publisher": "Cold Spring Harbor Laboratory",
     "abstract": "<jats:p>We introduce alevin, a fast end-to-end pipeline to process droplet-based single cell RNA sequencing data, which performs cell barcode detection, read mapping, unique molecular identifier deduplication, gene count estimation, and cell barcode whitelisting. Alevin's approach to UMI deduplication accounts for both gene-unique reads and reads that multimap between genes. This addresses the inherent bias in existing tools which discard gene-ambiguous reads, and improves the accuracy of gene abundance estimates. Alevin is written in C++14, and is integrated into the salmon tool available at https://github.com/COMBINE-lab/salmon.</jats:p>",
     "DOI": "10.1101/335000",
     "type": "manuscript",
@@ -1076,6 +1284,35 @@
     },
     "URL": "https://doi.org/gdwrzh",
     "id": "6i1NIkNx"
+  },
+  {
+    "publisher": "Cold Spring Harbor Laboratory",
+    "abstract": "<jats:p>Single-cell RNA sequencing (scRNA-seq) is a powerful tool to profile the transcriptomes of a large number of individual cells at a high resolution. These data usually contain measurements of gene expression for many genes in thousands or tens of thousands of cells, though some datasets now reach the million-cell mark. Projecting high-dimensional scRNA-seq data into a low dimensional space aids downstream analysis and data visualization. Many recent preprints accomplish this using variational autoencoders (VAE), generative models that learn underlying structure of data by compress it into a constrained, low dimensional space. The low dimensional spaces generated by VAEs have revealed complex patterns and novel biological signals from large-scale gene expression data and drug response predictions. Here, we evaluate a simple VAE approach for gene expression data, Tybalt, by training and measuring its performance on sets of simulated scRNA-seq data. We find a number of counter-intuitive performance features: i.e., deeper neural networks can struggle when datasets contain more observations under some parameter configurations. We show that these methods are highly sensitive to parameter tuning: when tuned, the performance of the Tybalt model, which was not optimized for scRNA-seq data, outperforms other popular dimension reduction approaches - PCA, ZIFA, UMAP and t-SNE. On the other hand, without tuning performance can also be remarkably poor on the same data. Our results should discourage authors and reviewers from relying on self-reported performance comparisons to evaluate the relative value of contributions in this area at this time. Instead, we recommend that attempts to compare or benchmark autoencoder methods for scRNA-seq data be performed by disinterested third parties or by methods developers only on unseen benchmark data that are provided to all participants simultaneously because the potential for performance differences due to unequal parameter tuning is so high.</jats:p>",
+    "DOI": "10.1101/385534",
+    "type": "manuscript",
+    "source": "Crossref",
+    "title": "Parameter tuning is a key part of dimensionality reduction via deep variational autoencoders for single cell RNA transcriptomics",
+    "author": [
+      {
+        "given": "Qiwen",
+        "family": "Hu"
+      },
+      {
+        "given": "Casey S",
+        "family": "Greene"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          5
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gdxxjf",
+    "id": "5CsWRjfp"
   },
   {
     "publisher": "Cold Spring Harbor Laboratory",
@@ -1194,6 +1431,59 @@
     },
     "URL": "https://doi.org/gfc9bb",
     "id": "1GtRgPRxn"
+  },
+  {
+    "publisher": "Cold Spring Harbor Laboratory",
+    "abstract": "<jats:p>Although single-cell RNA sequencing (scRNA-seq) technologies have shed light on the role of cellular diversity in human pathophysiology, the resulting data remains noisy and sparse, making reliable quantification of gene expression challenging. Here, we show that a deep autoencoder coupled to a Bayesian model remarkably improves UMI-based scRNA-seq data quality by transfer learning across datasets. This new technology, SAVER-X, outperforms existing state-of-the-art tools. The deep learning model in SAVER-X extracts transferable gene expression features across data from different labs, generated by varying technologies, and obtained from divergent species. Through this framework, we explore the limits of transfer learning in a diverse testbed and demonstrate that future human sequencing projects will unequivocally benefit from the accumulation of publicly available data. We further show, through examples in immunology and neurodevelopment, that SAVER-X can harness existing public data to enhance downstream analysis of new data, such as those collected in clinical settings.</jats:p>",
+    "DOI": "10.1101/457879",
+    "type": "manuscript",
+    "source": "Crossref",
+    "title": "Transfer learning in single-cell transcriptomics improves data denoising and pattern discovery",
+    "author": [
+      {
+        "given": "Jingshu",
+        "family": "Wang"
+      },
+      {
+        "given": "Divyansh",
+        "family": "Agarwal"
+      },
+      {
+        "given": "Mo",
+        "family": "Huang"
+      },
+      {
+        "given": "Gang",
+        "family": "Hu"
+      },
+      {
+        "given": "Zilu",
+        "family": "Zhou"
+      },
+      {
+        "given": "Vincent B.",
+        "family": "Conley"
+      },
+      {
+        "given": "Hugh",
+        "family": "MacMullan"
+      },
+      {
+        "given": "Nancy R.",
+        "family": "Zhang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          10,
+          31
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfgrpn",
+    "id": "eMe9qeSH"
   },
   {
     "publisher": "Springer Nature",
