@@ -1,12 +1,13 @@
 ---
 author-meta:
+- Loyal A. Goff
 - Casey S. Greene
 - Stephanie C. Hicks
 - Rob Patro
 - Elana J. Fertig
 - Michael I. Love
 - Jane Roe
-date-meta: '2018-11-02'
+date-meta: '2018-11-03'
 keywords:
 - dimensionality reduction
 - search
@@ -27,15 +28,26 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/9dff46fcbc4e5c70fb070a734d2bbe6b0a45bf86/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/f4557d2b023cb9bbd6376e8afdb08c27d99a06ac/))
 was automatically generated
-from [greenelab/czi-seed-rfa@9dff46f](https://github.com/greenelab/czi-seed-rfa/tree/9dff46fcbc4e5c70fb070a734d2bbe6b0a45bf86)
-on November 2, 2018.
+from [greenelab/czi-seed-rfa@f4557d2](https://github.com/greenelab/czi-seed-rfa/tree/f4557d2b023cb9bbd6376e8afdb08c27d99a06ac)
+on November 3, 2018.
 </em></small>
 
 ## Authors
 
 
+
++ **Loyal A. Goff**<br>
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    [0000-0003-2875-451X](https://orcid.org/0000-0003-2875-451X)
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    [loyale](https://github.com/loyale)
+    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
+    [loyalgoff](https://twitter.com/loyalgoff)<br>
+  <small>
+     Solomon H. Snyder Department of Neuroscience, Johns Hopkins University School of Medicine; Kavli Neurodiscovery Institute, Johns Hopkins University; McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University School of Medicine
+  </small>
 
 + **Casey S. Greene**<br>
     ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
@@ -109,7 +121,7 @@ on November 2, 2018.
 ## Five Key References
 
 * Hicks refs: [@DJaucmAA]
-* projectR: [@cJPxOJMp]
+* projectR & scCoGAPS: [@cJPxOJMp]
 * Alevin: [@FPpU83vH]
 
 
@@ -118,6 +130,12 @@ on November 2, 2018.
 ### PI information
 
 1. Loyal Goff (Submitter)
+
+    * Title: Assistant Professor
+    * Degrees: PhD
+    * Type of organization: Academic
+    * Tax ID: 52-0595110 (JHU)
+    * Email: loyalgoff@jhmi.edu
 
 2. Stephanie Hicks
 
@@ -334,13 +352,14 @@ with a significantly reduced number of dimensions
 
 ### Aim 2
 
-*Rationale:* Biological systems are comprised of common cell types
-with overlapping molecular phenotypes. The functional output of these systems
-is determined by the interactions between these complex components,
-rather than a single gene or cell. This suggests that fundamental
-biological mechanisms may broadly contribute to an observed state,
-with context-specific modifiers conferring selective suceptiability to
-disease. Latent space techniques are poised to reveal these
+*Rationale:* Biological systems are comprised of diverse cell types
+with overlapping molecular phenotypes, and biological processess are
+often reused with modifications across cellular contexts. The functional 
+output of these systems is determined by the interactions between these 
+complex components, rather than a single gene or cell. This suggests that 
+fundamental biological mechanisms may broadly contribute to an observed 
+state, with context-specific modifiers conferring selective suceptiability
+to disease. Latent space techniques are poised to reveal these
 fundamental mechanisms in the broad survey of single cell data across
 model systems and cellular contexts in the Human Cell Atlas. We
 hypothesize that the features learned from these techniques will
