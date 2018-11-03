@@ -91,21 +91,6 @@
         9,
         10
       ]
-    },
-    {
-      "github": "janeroe",
-      "name": "Jane Roe",
-      "initials": "JR",
-      "orcid": "XXXX-XXXX-XXXX-XXXX",
-      "email": "jane.roe@whatever.edu",
-      "affiliations": [
-        "Department of Something, University of Whatever",
-        "Department of Whatever, University of Something"
-      ],
-      "affiliation_numbers": [
-        11,
-        12
-      ]
     }
   ],
   "affiliations": [
@@ -148,21 +133,13 @@
     {
       "affiliation": "Department of Genetics, University of North Carolina at Chapel Hill",
       "affiliation_number": 10
-    },
-    {
-      "affiliation": "Department of Something, University of Whatever",
-      "affiliation_number": 11
-    },
-    {
-      "affiliation": "Department of Whatever, University of Something",
-      "affiliation_number": 12
     }
   ],
   "ci_source": {
     "repo_slug": "greenelab/czi-seed-rfa",
     "repo_owner": "greenelab",
     "repo_name": "czi-seed-rfa",
-    "commit": "df766e2a6c9c68c041a4071d047ec0f953cb0e24"
+    "commit": "ca1c5f405b800bc9ec0157c4bbc31ee77052b13d"
   },
   "manuscript_stats": {
     "reference_counts": {
@@ -170,6 +147,6 @@
       "pmid": 1,
       "total": 24
     },
-    "word_count": 3939
+    "word_count": 3713
   }
 }
