@@ -16,8 +16,7 @@ keywords:
 - single cell
 - Human Cell Atlas
 lang: en-US
-title: Search for and transformation of human cells and cell types with latent space
-  representations
+title: Practical search and analysis with low-dimensional representations of the HCA
 ...
 
 
@@ -27,9 +26,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/900b63e7d24a485e85a1b3e5048f83ed2e608d98/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/fabf403784f7ab962cea44bdbf1b3a08b9ff5d89/))
 was automatically generated
-from [greenelab/czi-seed-rfa@900b63e](https://github.com/greenelab/czi-seed-rfa/tree/900b63e7d24a485e85a1b3e5048f83ed2e608d98)
+from [greenelab/czi-seed-rfa@fabf403](https://github.com/greenelab/czi-seed-rfa/tree/fabf403784f7ab962cea44bdbf1b3a08b9ff5d89)
 on November 4, 2018.
 </em></small>
 
