@@ -27,9 +27,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/1999f3745cbb25fcf0f24086d0836633d8736d9d/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/a06140b2a06ad001acc20dbe6193e3dfea616c4c/))
 was automatically generated
-from [greenelab/czi-seed-rfa@1999f37](https://github.com/greenelab/czi-seed-rfa/tree/1999f3745cbb25fcf0f24086d0836633d8736d9d)
+from [greenelab/czi-seed-rfa@a06140b](https://github.com/greenelab/czi-seed-rfa/tree/a06140b2a06ad001acc20dbe6193e3dfea616c4c)
 on November 4, 2018.
 </em></small>
 
@@ -456,51 +456,43 @@ RFA can be used within a typical genomic data analysis.
 ### Aim 3
 
 *Rationale:* Low-dimensional representations for scRNA-seq and HCA data make
-tasks faster, biological grounding, and provide interpretable summaries of
-complex high-dimensional data. However, a scalable education effort that reaches
-students at and beyond undergraduate level will be needed to prepare students
-maximize impact. *We propose deliver short-course training on the HCA, single
-cell profiling, machine learning methods, low-dimensional representations, and
-tools developed by our group in response to this RFA.*
+tasks faster and provide interpretable summaries of complex high-dimensional
+data. The HCA data associated methods, will be valuable to many biomedical
+fields, but their use will require experience with this new toolkit. A scalable
+education effort that reaches students at and beyond undergraduate level will be
+needed to prepare students and maximize impact. *We propose short-course
+training for the HCA, single cell profiling, machine learning methods,
+low-dimensional representations, and tools developed by our group in response to
+this RFA.*
 
-HCA data, and low-dimensional representation methods that work with them, will
-be valuable to many biomedical fields, but their use will require experience
-with this new toolkit. We have designed an educational program to fill this gap
-based on a one-week short course that we (PI Hampton) have run annually at Mount
-Desert Island Biological Lab over the last **X TOM FILL IN** years. The course
-covers R, gene expression analysis, statistical interpretation, and introduces
-machine learning (PI Greene). Attendees rate the course well and report that
-they incorporate new knowledge into their research and teaching. Under this
-grant we will add topics required to successfully use the HCA and increase the
-frequency of the course. We will also run the course at locations distributed
-throughout the US. We will provide open course materials on GitHub to allow
-others to replicate the course. The expanded topics will include:
+Our educational program is based on a one-week short course that we (PI Hampton)
+have run annually at Mount Desert Island Biological Lab over the last **X TOM
+FILL IN** years. The course covers R, gene expression analysis, statistical
+interpretation, and introduces machine learning (PI Greene). Attendees rate the
+course well and report that they incorporate new knowledge into their research
+and teaching. For this grant we will add topics centered on the HCA and increase
+the frequency of the course. We will run the course at locations distributed
+throughout the US and provide open course materials on GitHub to allow others to
+replicate the course. New topics will include:
 
-UNIX
-The R Statistical Programming Environment
-Visualization and Exploration of High Dimensional Data
-Statistical Approaches for High Dimension Biomedical Data
-Gene Set and Pathway Analysis for Bulk Gene Expression Data
-Low-dimensional Representations of High Dimensional Data
-Compare and Contrast Bulk and Single-cell Biology
-scRNA-seq Assay Methods and Data
+Comparison of Bulk and Single-cell Assays and Data
 The Human Cell Atlas Project
-scRNA-seq Computational Tools for Quantification and Cell Type Discovery
-scRNA-seq Statistical Tools for Low-dimensional Representations
-Tools for Search and Analysis in Low-dimensional Representations
+scRNA-seq: Expression Quantification and Cell Type Discovery
+scRNA-seq: Low-dimensional Representations
+scRNA-seq: Search and Analysis in Low-dimensional Representations
 
-We aim to have this course provide a force-multiplier effect for the HCA and
-low-dimensional methods, where course attendees transmit what they learn to tens
-of students each year at their own institutions. We will run this course on a
-cost recovery model but have budgeted for at least *ten scholarships* per course
-that cover room, board, and tuition to faculty who are primarily engaged in
-undergraduate instruction. This, combined with the geographically distributed
-locations, will allow faculty with this mission to attend at very low cost. We
-will also develop a one-week module that can be added in to an undergraduate
-class on single-cell profiling and the HCA, which we will distribute via GitHub.
-The materials will include recorded videos (primarily intended for a refresher
-for the instructors), slides, and exercises. We expect that this module will
-support faculty who attend with an easy enhancement to any bioinformatics or
+We aim to provide a force-multiplier for the HCA and low-dimensional methods as
+course attendees transmit what they learn to tens of students each year at their
+own institutions. We will run this course on a cost recovery model, but to
+maximize the multiplier effect we budget at least *ten scholarships* per
+offering to cover the room, board, and tuition of faculty who are primarily
+engaged in undergraduate instruction. This will allow faculty who will
+disseminate these materials in their own reaching to attend at very low cost. We
+will develop a one-week module that can be added in to an undergraduate class on
+single-cell profiling and the HCA, which we will distribute via GitHub.
+Materials will include recorded videos (intended for a refresher for
+instructors), slides, and exercises. We expect that this module will support
+faculty who attend with an easy enhancement to any bioinformatics or
 computational biology instruction that they are already providing at their
 institution.
 
