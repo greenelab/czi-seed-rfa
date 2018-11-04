@@ -27,9 +27,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/01fc3884ffe48ad528e5dc836460ffe0f5728593/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/d3d4736df5e8d4b85bdaebd961e22ec3232bb35b/))
 was automatically generated
-from [greenelab/czi-seed-rfa@01fc388](https://github.com/greenelab/czi-seed-rfa/tree/01fc3884ffe48ad528e5dc836460ffe0f5728593)
+from [greenelab/czi-seed-rfa@d3d4736](https://github.com/greenelab/czi-seed-rfa/tree/d3d4736df5e8d4b85bdaebd961e22ec3232bb35b)
 on November 4, 2018.
 </em></small>
 
@@ -148,7 +148,7 @@ on November 4, 2018.
     * Title: Assistant Professor
     * Degrees: PhD
     * Type of organization: Academic
-    * Tax ID: TBD
+    * Tax ID: 23-1352685 (UPenn)
     * Email: greenescientist@gmail.com
 
 5. Tom Hampton
