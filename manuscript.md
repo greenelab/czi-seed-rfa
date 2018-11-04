@@ -27,9 +27,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/b9bab3895b8dcd46a12ff955b11fdd55395a1e39/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/14f87495fffcec2f636470ce1508cdc521ba0745/))
 was automatically generated
-from [greenelab/czi-seed-rfa@b9bab38](https://github.com/greenelab/czi-seed-rfa/tree/b9bab3895b8dcd46a12ff955b11fdd55395a1e39)
+from [greenelab/czi-seed-rfa@14f8749](https://github.com/greenelab/czi-seed-rfa/tree/14f87495fffcec2f636470ce1508cdc521ba0745)
 on November 4, 2018.
 </em></small>
 
@@ -195,19 +195,16 @@ often provide information about other co-regulated genes. In the best case, the
 reduced dimensional space captures biological sources of variability while
 ignoring noise and each dimension aligns to interpretable biological processes.
 
-Our seem network aims to develop low-dimensional representations to
-enable efficient
-search and transformation of HCA data,
-with the benefits becoming particularly pronounced as
-the number of cells and tissues becomes large. Our **__central hypothesis__** is
-that these approaches will enable search at the tissue and cell level of
-biologically-meaningful features, categorization and transformation (e.g., from
-a healthy to a disease context). We propose to advance **__base enabling
-technologies__** for low-dimensional representations. We also propose three
-aims: 1) fast and accurate search for cell, samples, and pathways; 2) statistics
-to assess, interpret, and define cell types and biological processes in
-low-dimensional spaces; and 3) to increase the impact of the HCA and
-low-dimensional methods by enhancing software and training opportunities.
+Our seed network aims to create low-dimensional representations that provide
+search and catalog capabilities for the HCA. The benefit of these approaches
+will become particularly pronounced as the number of cells and tissues becomes
+large. Our **__central hypothesis__** is that these approaches will enable
+faster algorithms while reducing the influence of technical noise. We propose to
+advance **__base enabling technologies__** for low-dimensional representations.
+We also propose three aims: 1) fast and accurate search for cell, samples, and
+pathways; 2) a catalog of cell types and biological processes in low-dimensional
+spaces; and 3) educational materials to increase the impact of low-dimensional
+representations and the HCA in general.
 
 *The first goal of our base enabling technology work* is to develop techniques
 that learn interpretable biologically-aligned representations. We consider both
