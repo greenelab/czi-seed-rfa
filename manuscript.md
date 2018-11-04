@@ -26,9 +26,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/0d1c4a2db44c4e3aa9d9bc96f2f4d4e9ecaa7211/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/fd3b764168fe0e39ca17c01d81a3c506e299bfe1/))
 was automatically generated
-from [greenelab/czi-seed-rfa@0d1c4a2](https://github.com/greenelab/czi-seed-rfa/tree/0d1c4a2db44c4e3aa9d9bc96f2f4d4e9ecaa7211)
+from [greenelab/czi-seed-rfa@fd3b764](https://github.com/greenelab/czi-seed-rfa/tree/fd3b764168fe0e39ca17c01d81a3c506e299bfe1)
 on November 4, 2018.
 </em></small>
 
@@ -316,137 +316,38 @@ perturbations such as pathogenic differences in disease. *We propose a central
 catalog of cell types and biological processes derived from low-dimensional
 representations of the HCA.*
 
-*Quantifying latent space estimation with transfer learning:* A
-critical challenge to latent space methods is the quantification of
-methods performance. Numerous computational metrics have been
-developed to assess convergence of the low-dimensional
-estimation. However, these metrics do not quantify whether the
-features in a low-dimensional representation of scRNA-seq data
-represent biological processes in the measured system. The performance
-of these methods can be quantified directly in datasets for which cell
-types and states are known (e.g., perturbation experiments, controlled
-admixture experiments, etc). However, these annotations are lacking in
-most biological datasets limiting any such quantification. Transfer
-learning methods have been developed in machine learning to relate
-features learned in a source dataset to those in a new, target dataset
-in order to transfer annotations from one context to another. In this
-project, we will adapt these methods to quantify the performance of
-latent space methods by the extent to which learned low-dimensional
-features from a source dataset transfer to a target dataset in a
-related biological context. We will benchmark the performance of the
-resulting metric on simulated datasets, cross-validation in scRNA-seq
-datasets with known cell types and states, and cross-study validation
-of systems in related biological contexts with known cell types and
-states. Gene set enrichment methods will also be used to explore the
-relevant biological processes described by individual basis vectors,
-and related bases will be identified through clustering and
-exploratory approaches in these benchmark datasets. Our transfer
-learning based metric will be piloted on low-dimensional
-representations learned with scCoGAPS and then applied to a broader
-suite of latent space tools. We will release software for this
-transfer learning quantification of latent space representations in R
-and Python using standard latent space file formats developed by our
-team in the first year of HCA funding.
+Basing a catalog of cell types and their corresponding processes off of multiple
+low-dimensional representations can reduce noise and aid in biological
+interpretability. However, there are currently no standardized, quantitative
+metrics to determine the extent to which low-dimensional representations capture
+generalizable biolobical features. We have developed new transfer learning
+methods to quantify the extent to which latent space representations from one
+set of training data are represented in another
+[@cJPxOJMp,@1GtRgPRxn]. These provide a strong foundation to
+compare low-dimensional representations. Generalizable representations should
+transfer across datasets of related biological contexts. In addition, We have
+found that combining multiple representations can better capture biological
+processes across scales [@Hlprh8TG], and that
+representations across scales capture distinct, valid signatures
+[@5Cj8i4Xu].
 
-*Dimensionality estimation:* Dimensionality reduction methods are
-sensitive to the number of low features learned in each dataset. Many
-computational techniques optimize dimensionality by creating a cost
-function which penalizes models with higher number of
-features. Similar to the quantification metrics, these penalty terms
-do not reflect the extent to which features learned at a given
-dimensionality reflect biology. Moreover, many systems may have more
-than one biologically accurate low-dimensional representation. Such
-multiple truths in data would be particular prominent in systems that
-can be subdivided into hierarchical classifications. For example, in
-the case of cancer we observed that a low-dimensional representation
-of bulk data learned from CoGAPS distinguished cancers from normals
-whereas a higher dimension distinguished tumor subtypes
-[@5Cj8i4Xu]. Both of these low-dimensional
-representations are equally valid, and each reflects different
-biological features in the data. To find these multiple truths, we
-will develop a parallel framework to run scCoGAPS for multiple
-dimensionalities and quantify performance with our transfer-learning
-based metric on random subsets of the data. The dimensions with
-greatest cross-validated feature robustness will be retained as the
-optimal dimensionalities for each dataset. We will develop software to
-enable this cross-validation dimensionality estimation across multiple
-latent space methods. We note that this same software will provide a
-robust tool to define ensembles of low-dimensional representations
-that reflect underlying biology learned across multiple latent space
-methods.  **Rob: I'm not sure if you want to fill in some of your
-ideas re persistent homology instead. Very open to that idea and think
-it may be a nice, more efficient methodology than what's proposed
-here.**
-
-*Search tool for latent spaces and reference cell types:* **Loyal,
-Casey -- what are the datasets that will be used for this -- I would
-think all healthy cells in a single system to enable quantification of
-context-specific in the next part of this aim.** Comprehensive
-identification of basis vectors across conditions is an area of active
-research for our group in the previous funding period. We will use
-scCoGAPS and other tools developed within our collaborative network to
-establish a compendium of basis vectors across our single cell
-catalog. Ensembles of the low-dimensional features that represent
-robust biological features across methods using methods described
-above will be preserved as the 'biological basis' of the Human Cell
-Atlas. The weights of these bases will be correlated across all
-available metadata attributes for each cell to identify basis vectors
-that are associated with specific cellular contexts, disease states,
-technical parameters, or other phenotypic features. A reference
-catalog of gene weights for specific cell types will be defined by the
-set of basis vectors associated with cellular identity in datasets
-with known ground truth. We will adapt the software we developed for
-transfer learning of features from bulk data recount
-[@1GtRgPRxn] to facilitate querying of signatures in new
-user-defined datasets (delivery of which is described in the next aim).
-As datasets accumulate and methods are refined,
-the biological basis and reference catalog of gene weights will evolve
-over time. To enable reproducible research leveraging HCA, we will
-implement a content-based versioning system, which identifies
-versions of the reference cell type catalog by the gene weights and
-transcript nucleotide sequences using a hash function. Such a
-hash-based versioning and provenance identification and detection
-framework has proven successful in the bulk RNA-seq context to support
-reproducible computational analyses [@1FQ0kp4Dj].
-
-*Differentiating context-specific latent spaces from latent spaces
-that are universal across biological contexts:* The search tool to
-define reference cell types based upon latent spaces was defined for
-healthy tissues from XXX (some control). Deviations of common cell
-types or states from the healthy baseline in other populations will
-indicate context-specific alterations, which may be associated with
-disease. To identify potentially pathogenic responses in target
-datasets, we will implement a random forest classifier into our
-transfer learning method to segregate cells based on their usage of
-disease-associated basis vectors after projection. In other cases,
-disease may arise from changes in variation reflective of
-inter-cellular heterogeneity. Therefore, we will also develop methods
-to quantify variation from latent space vectors. Both methods will be
-incorporated in our latent space search tool.  **Loyal: I'm not sure
-if this is what you had in mind. It may also be that these are
-reflected in the hierarchy of dimensionality -- may want to
-incorporate here.**
-
-The technologies to improve quantification will have a critical impact
-on the outcomes of latent spaces. However, there are currently no
-standardized, quantitative metrics to determine relative uncovering of
-biology from low-dimensional representations. We have developed new
-transfer learning methods to quantify the extent to which latent space
-representations from one set of training data are represented in
-another [@cJPxOJMp,@1GtRgPRxn]. These tools provide a
-strong foundation to enable biological quantification of latent space
-representations by quantifying the extent to which those spaces
-transfer across datasets of related biological contexts.
-
-We will also integrate catalogs of reference cell types (Aim 2). Such summaries
-and annotations have proven widely successful for the ENCODE, Roadmap Epigenome
-Mapping, and GTEx projects. We will package and version reference cell types and
+We will package and version reference cell types and their corresponding
 low-dimensional representations and deliver these as structured data objects in
-Bioconductor and Python. We are core package developers and power users of
-Bioconductor and will support on-the-fly downloading of these materials via the
-*AnnotationHub* framework. We will develop *F1000Research* workflows
-demonstrating how HCA-defined reference cell types and tools developed in this
-RFA can be used within a typical genomic data analysis.
+Bioconductor and Python. Such summaries and annotations have proven widely
+successful for the ENCODE, Roadmap Epigenome Mapping, and GTEx projects. We are
+core package developers and power users of Bioconductor (PIs Hicks and Love) and
+will support on-the-fly downloading of these materials via the *AnnotationHub*
+framework. To enable reproducible research leveraging HCA, we will implement a
+content-based versioning system, which identifies versions of the reference cell
+type catalog by the gene weights and transcript nucleotide sequences using a
+hash function. We (PI Love) developed hash-based versioning and provenance
+identification and detection framework for bulk RNA-seq that supports
+reproducible computational analyses and has proven to be successful
+[@1FQ0kp4Dj]. This will help to avoid scenarios where
+researchers report on matches to a certain cell type in HCA without precisely
+defining which definition of that cell type. We will develop *F1000Research*
+workflows demonstrating how HCA-defined reference cell types and tools developed
+in this RFA can be used within a typical genomic data analysis.
 
 ### Aim 3
 

@@ -87,6 +87,73 @@
   },
   {
     "publisher": "Elsevier BV",
+    "issue": "1",
+    "DOI": "10.1016/j.cels.2017.06.003",
+    "type": "article-journal",
+    "page": "63-71.e6",
+    "source": "Crossref",
+    "title": "Unsupervised Extraction of Stable Expression Signatures from Public Compendia with an Ensemble of Neural Networks",
+    "volume": "5",
+    "author": [
+      {
+        "given": "Jie",
+        "family": "Tan"
+      },
+      {
+        "given": "Georgia",
+        "family": "Doing"
+      },
+      {
+        "given": "Kimberley A.",
+        "family": "Lewis"
+      },
+      {
+        "given": "Courtney E.",
+        "family": "Price"
+      },
+      {
+        "given": "Kathleen M.",
+        "family": "Chen"
+      },
+      {
+        "given": "Kyle C.",
+        "family": "Cady"
+      },
+      {
+        "given": "Barret",
+        "family": "Perchuk"
+      },
+      {
+        "given": "Michael T.",
+        "family": "Laub"
+      },
+      {
+        "given": "Deborah A.",
+        "family": "Hogan"
+      },
+      {
+        "given": "Casey S.",
+        "family": "Greene"
+      }
+    ],
+    "container-title": "Cell Systems",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          7
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gcw9f4",
+    "container-title-short": "Cell Systems",
+    "PMCID": "PMC5532071",
+    "PMID": "28711280",
+    "id": "Hlprh8TG"
+  },
+  {
+    "publisher": "Elsevier BV",
     "issue": "10",
     "DOI": "10.1016/j.tig.2018.07.003",
     "type": "article-journal",
