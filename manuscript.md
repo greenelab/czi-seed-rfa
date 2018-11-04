@@ -27,9 +27,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/14f87495fffcec2f636470ce1508cdc521ba0745/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/86ac9b5c9e98eb453d7f60b4ed5554dae8740150/))
 was automatically generated
-from [greenelab/czi-seed-rfa@14f8749](https://github.com/greenelab/czi-seed-rfa/tree/14f87495fffcec2f636470ce1508cdc521ba0745)
+from [greenelab/czi-seed-rfa@86ac9b5](https://github.com/greenelab/czi-seed-rfa/tree/86ac9b5c9e98eb453d7f60b4ed5554dae8740150)
 on November 4, 2018.
 </em></small>
 
@@ -206,35 +206,29 @@ pathways; 2) a catalog of cell types and biological processes in low-dimensional
 spaces; and 3) educational materials to increase the impact of low-dimensional
 representations and the HCA in general.
 
-*The first goal of our base enabling technology work* is to develop techniques
-that learn interpretable biologically-aligned representations. We consider both
+*The first goal of our base enabling technology work* is to identify techniques
+that learn interpretable, biologically-aligned representations. We consider both
 linear and non-linear techniques. For linear techiques, we rely on our Bayesian,
 non-negative matrix factorization method scCoGAPS
-[@6i1NIkNx,@cJPxOJMp] (PI Fertig). This technique has
-been established as learning biologically relevant features in numerous
-contexts and data modalities
+[@6i1NIkNx,@cJPxOJMp] (PI Fertig). This technique learns
+biologically relevant features across contexts and data modalities
 [@wkhRfjyx,@1GkdWBzqU,@uInnOMwX,@1DZRsfkoC,@6i1NIkNx],
-including notably the HPN DREAM8 challenge [@qpg6x7P4].
-This method includes an uncertainty estimate that can be
-readily modified to account for measurement-specific technical variation
-[@5Cj8i4Xu], which supports this seed network. As
-increasing spatial data becomes available, we will extend these techniques to
-incorporate this additional source of information. For non-linear mapping
-techniques, neural networks with multiple layers, provide a
-complementary path to low-dimensional representations [@5CsWRjfp] (PI Greene).
-We note that many groups are working in this area for both linear and
-non-linear techniques (see as some examples
-[@vpa3pNZU,@XjfRUvN5,@TkR5VPF7,@V3nGUaio,@eMe9qeSH,@1GR3FIJMG,@GC2u23Xj,@OekvE5up]
-among many others). We plan to
-continue to use and rigorously evaluate these methods.
-We will develop generalizable
-techniques to incorporate accurate error models and spatial distributions
-for these low dimensional representations, and incorporate the
-best performing methods into search and transformation approaches. In the event
-that it becomes clear that these methods must be adapted, we are well positioned
-to address such needs. The latent space team from the HCA collaborative networks
-RFA (including PIs Fertig, Goff, Greene, and Patro) is defining common output
-formats for low-dimensional representations from distinct classes of methods.
+including notably the HPN DREAM8 challenge [@qpg6x7P4]. We will
+modify the scCoGAPS uncertainty estimate to account for measurement-specific
+technical variation [@5Cj8i4Xu] in the HCA. As spatially
+annotated data becomes available, we will extend scCoGAPS to incorporate this.
+For non-linear needs, neural networks with multiple layers, provide a
+complementary path to low-dimensional representations [@5CsWRjfp] (PI
+Greene). We note that many groups are working in this area for both linear and
+non-linear techniques (e.g.,
+[@vpa3pNZU,@XjfRUvN5,@TkR5VPF7,@V3nGUaio,@eMe9qeSH,@1GR3FIJMG,@GC2u23Xj,@OekvE5up]).
+Because of the substantial number of groups developing neural network based
+methods, we don't currently plan additional efforts on this front; however, we
+will continue to use and rigorously evaluate these methods. We will incorporate
+the best performing methods into our search and catalog tools. The latent space
+team from the HCA collaborative networks RFA (including PIs Fertig, Goff,
+Greene, and Patro) is defining common output formats for low-dimensional
+representations from distinct classes of methods.
 
 The *second part of our work on base enabling technologies* is the improvement
 of techniques for fast and accurate quantification. Existing approaches for
@@ -251,8 +245,16 @@ building these capabilities into a production quality tool for the processing of
 scRNA-seq data. The tool will support: 1. Exploring alternative models for UMI
 resolution. 2. Developing new approaches for quality control and filtering using
 the UMI-resolution graph. 3. Creating a compressed and indexible data structure
-for the UMI-resolution graph to enable direct access, query, and fast search,
-which will support our Aim 1.
+for the UMI-resolution graph to enable direct access, query, and fast search.
+
+We will implement the base enabling technologies and methods for search,
+analysis, and transformation into R/Bioconductor and Python frameworks. The
+python and R software will use common input and output formats. The software
+will be fast, scalable, and memory-efficient because will leverage the
+computational tools previously developed by Bioconductor for single-cell data
+access to the HCA, data representation (`SingleCellExperiment`, `beachmat`,
+`DelayedArray`, `HDF5Array` and `rhdf5`) and data assessment and amelioration of
+data quality (`scater`, `scran`, `DropletUtils`).
 
 ### Aim 1
 
@@ -441,6 +443,16 @@ strong foundation to enable biological quantification of latent space
 representations by quantifying the extent to which those spaces
 transfer across datasets of related biological contexts.
 
+We will also integrate catalogs of reference cell types (Aim 2). Such summaries
+and annotations have proven widely successful for the ENCODE, Roadmap Epigenome
+Mapping, and GTEx projects. We will package and version reference cell types and
+low-dimensional representations and deliver these as structured data objects in
+Bioconductor and Python. We are core package developers and power users of
+Bioconductor and will support on-the-fly downloading of these materials via the
+*AnnotationHub* framework. We will develop *F1000Research* workflows
+demonstrating how HCA-defined reference cell types and tools developed in this
+RFA can be used within a typical genomic data analysis.
+
 ### Aim 3
 
 *Rationale:* Low-dimensional representations for scRNA-seq and HCA data make
@@ -453,25 +465,6 @@ includes the topics of single cell profiling, machine learning methods,
 low-dimensional representations, reference cell type catalogs, and tools
 developed by our group in response to this RFA via educational materials that we
 will produce and make openly available.*
-
-We will implement the base enabling technologies and methods for search,
-analysis, and transformation into R/Bioconductor and Python frameworks. The
-python and R software will use common input and output formats. The software
-will be fast, scalable, and memory-efficient because will leverage the
-computational tools previously developed by Bioconductor for single-cell data
-access to the HCA, data representation (`SingleCellExperiment`, `beachmat`,
-`DelayedArray`, `HDF5Array` and `rhdf5`) and data assessment and amelioration of
-data quality (`scater`, `scran`, `DropletUtils`).
-
-We will also integrate catalogs of reference cell types (Aim 2). Such summaries
-and annotations have proven widely successful for the ENCODE, Roadmap Epigenome
-Mapping, and GTEx projects. We will package and version reference cell types and
-low-dimensional representations and deliver these as structured data objects in
-Bioconductor and Python. We are core package developers and power users of
-Bioconductor and will support on-the-fly downloading of these materials via the
-*AnnotationHub* framework. We will develop *F1000Research* workflows
-demonstrating how HCA-defined reference cell types and tools developed in this
-RFA can be used within a typical genomic data analysis.
 
 *Below sections need to be cut by about half by my count*
 
