@@ -27,9 +27,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/e7d13f055f72375bac1bc610adcba3ed1c1824fb/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/95d5524834107c5dba371161fcdb8fbf96ab30f3/))
 was automatically generated
-from [greenelab/czi-seed-rfa@e7d13f0](https://github.com/greenelab/czi-seed-rfa/tree/e7d13f055f72375bac1bc610adcba3ed1c1824fb)
+from [greenelab/czi-seed-rfa@95d5524](https://github.com/greenelab/czi-seed-rfa/tree/95d5524834107c5dba371161fcdb8fbf96ab30f3)
 on November 4, 2018.
 </em></small>
 
@@ -186,7 +186,7 @@ on November 4, 2018.
 The Human Cell Atlas (HCA) provides unprecidented characterization of the molecular
 states of each cell across tissues, organisms, and individuals. 
 Computational techniques that enable readily accessible identification of 
-common biological processes from these data are critical to search and
+common biological processes from these data are critical to 
 interpretation of this comprehensive dataset.
 The data from HCA are fundamentally high dimensional. These data can often be 
 compressed into fewer dimensions without a substantial loss of information and
@@ -198,8 +198,10 @@ case, the reduced dimensional space captures biological sources of variability
 while ignoring noise and each dimension aligns to interpretable biological
 processes.
 
-For the Human Cell Atlas (HCA), low-dimensional representations enable efficient
-search and transformation, with the benefits becoming particularly pronounced as
+Our seem network aims to develop low-dimensional representations to 
+enable efficient
+search and transformation of HCA data, 
+with the benefits becoming particularly pronounced as
 the number of cells and tissues becomes large. Our **__central hypothesis__** is
 that these approaches will enable search at the tissue and cell level of
 biologically-meaningful features, categorization and transformation (e.g., from
