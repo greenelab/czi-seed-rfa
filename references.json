@@ -40,6 +40,53 @@
   },
   {
     "publisher": "Elsevier BV",
+    "issue": "6",
+    "DOI": "10.1016/j.cell.2017.10.023",
+    "type": "article-journal",
+    "page": "1424-1436.e18",
+    "source": "Crossref",
+    "title": "Efficient Generation of Transcriptomic Profiles by Random Composite Measurements",
+    "volume": "171",
+    "author": [
+      {
+        "given": "Brian",
+        "family": "Cleary"
+      },
+      {
+        "given": "Le",
+        "family": "Cong"
+      },
+      {
+        "given": "Anthea",
+        "family": "Cheung"
+      },
+      {
+        "given": "Eric S.",
+        "family": "Lander"
+      },
+      {
+        "given": "Aviv",
+        "family": "Regev"
+      }
+    ],
+    "container-title": "Cell",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          11
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gcrjhc",
+    "container-title-short": "Cell",
+    "PMCID": "PMC5726792",
+    "PMID": "29153835",
+    "id": "1GR3FIJMG"
+  },
+  {
+    "publisher": "Elsevier BV",
     "issue": "10",
     "DOI": "10.1016/j.tig.2018.07.003",
     "type": "article-journal",
@@ -1486,6 +1533,51 @@
     "id": "eMe9qeSH"
   },
   {
+    "publisher": "Cold Spring Harbor Laboratory",
+    "abstract": "<jats:p>Defining cell types requires integrating diverse measurements from multiple experiments and biological contexts. Recent technological developments in single-cell analysis have enabled high-throughput profiling of gene expression, epigenetic regulation, and spatial relationships amongst cells in complex tissues, but computational approaches that deliver a sensitive and specific joint analysis of these datasets are lacking.  We developed LIGER, an algorithm that delineates shared and dataset-specific features of cell identity, allowing flexible modeling of highly heterogeneous single-cell datasets. We demonstrated its broad utility by applying it to four diverse and challenging datasets from human and mouse brain cells. First, we defined both cell-type-specific and sexually dimorphic gene expression in the mouse bed nucleus of the stria terminalis, an anatomically complex brain region that plays important roles in sex-specific behaviors. Second, we analyzed gene expression in the substantia nigra of seven postmortem human subjects, comparing cell states in specific donors, and relating cell types to those in the mouse. Third, we jointly leveraged in situ gene expression and scRNA-seq data to spatially locate fine subtypes of cells present in the mouse frontal cortex. Finally, we integrated mouse cortical scRNA-seq profiles with single-cell DNA methylation signatures, revealing mechanisms of cell-type-specific gene regulation. Integrative analyses using the LIGER algorithm promise to accelerate single-cell investigations of cell-type definition, gene regulation, and disease states.</jats:p>",
+    "DOI": "10.1101/459891",
+    "type": "manuscript",
+    "source": "Crossref",
+    "title": "Integrative inference of brain cell similarities and differences from single-cell genomics",
+    "author": [
+      {
+        "given": "Joshua",
+        "family": "Welch"
+      },
+      {
+        "given": "Velina",
+        "family": "Kozareva"
+      },
+      {
+        "given": "Ashley",
+        "family": "Ferreira"
+      },
+      {
+        "given": "Charles",
+        "family": "Vanderburg"
+      },
+      {
+        "given": "Carly",
+        "family": "Martin"
+      },
+      {
+        "given": "Evan",
+        "family": "Macosko"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          2
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfgr7b",
+    "id": "OekvE5up"
+  },
+  {
     "publisher": "Springer Nature",
     "issue": "1",
     "DOI": "10.1186/1471-2164-13-160",
@@ -1896,6 +1988,53 @@
     "PMCID": "PMC5342018",
     "PMID": "27650546",
     "id": "1GkdWBzqU"
+  },
+  {
+    "publisher": "PeerJ",
+    "abstract": "<jats:p>Single-cell RNA-Sequencing (scRNA-Seq) is a fast-evolving technology that enables the understanding of biological processes at an unprecedentedly high resolution. However, well-suited bioinformatics tools to analyze the data generated from this new technology are still lacking. Here we investigate the performance of non-negative matrix factorization (NMF) method to analyze a wide variety of scRNA-Seq datasets, ranging from mouse hematopoietic stem cells to human glioblastoma data. In comparison to other unsupervised clustering methods including K-means and hierarchical clustering, NMF has higher accuracy in separating similar groups in various datasets. We ranked genes by their importance scores (<jats:italic>D</jats:italic>-scores) in separating these groups, and discovered that NMF uniquely identifies genes expressed at intermediate levels as top-ranked genes. Finally, we show that in conjugation with the modularity detection method FEM, NMF reveals meaningful protein-protein interaction modules. In summary, we propose that NMF is a desirable method to analyze heterogeneous single-cell RNA-Seq data. The NMF based subpopulation detection package is available at:<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/lanagarmire/NMFEM\">https://github.com/lanagarmire/NMFEM</jats:ext-link>.</jats:p>",
+    "DOI": "10.7717/peerj.2888",
+    "type": "article-journal",
+    "page": "e2888",
+    "source": "Crossref",
+    "title": "Detecting heterogeneity in single-cell RNA-Seq data by non-negative matrix factorization",
+    "volume": "5",
+    "author": [
+      {
+        "given": "Xun",
+        "family": "Zhu"
+      },
+      {
+        "given": "Travers",
+        "family": "Ching"
+      },
+      {
+        "given": "Xinghua",
+        "family": "Pan"
+      },
+      {
+        "given": "Sherman M.",
+        "family": "Weissman"
+      },
+      {
+        "given": "Lana",
+        "family": "Garmire"
+      }
+    ],
+    "container-title": "PeerJ",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          1,
+          19
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfgr7c",
+    "PMCID": "PMC5251935",
+    "PMID": "28133571",
+    "id": "GC2u23Xj"
   },
   {
     "title": "quantro: a data-driven approach to guide the choice of an appropriate normalization method.",

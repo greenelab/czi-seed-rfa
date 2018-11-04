@@ -6,7 +6,7 @@ author-meta:
 - Rob Patro
 - Elana J. Fertig
 - Michael I. Love
-date-meta: '2018-11-03'
+date-meta: '2018-11-04'
 keywords:
 - dimensionality reduction
 - search
@@ -27,10 +27,10 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/ca1c5f405b800bc9ec0157c4bbc31ee77052b13d/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/e7d13f055f72375bac1bc610adcba3ed1c1824fb/))
 was automatically generated
-from [greenelab/czi-seed-rfa@ca1c5f4](https://github.com/greenelab/czi-seed-rfa/tree/ca1c5f405b800bc9ec0157c4bbc31ee77052b13d)
-on November 3, 2018.
+from [greenelab/czi-seed-rfa@e7d13f0](https://github.com/greenelab/czi-seed-rfa/tree/e7d13f055f72375bac1bc610adcba3ed1c1824fb)
+on November 4, 2018.
 </em></small>
 
 ## Authors
@@ -183,8 +183,15 @@ on November 3, 2018.
 
 ## Proposal Body (2000 words)
 
-High dimensional data can often be compressed into fewer dimensions without a
-substantial loss of information. For transcriptomic data, compressing on the
+The Human Cell Atlas (HCA) provides unprecidented characterization of the molecular
+states of each cell across tissues, organisms, and individuals. 
+Computational techniques that enable readily accessible identification of 
+common biological processes from these data are critical to search and
+interpretation of this comprehensive dataset.
+The data from HCA are fundamentally high dimensional. These data can often be 
+compressed into fewer dimensions without a substantial loss of information and
+yield interpretable features from these data. 
+For transcriptomic data, compressing on the
 gene dimension is most attractive: it can be applied to single samples, and
 genes often provide information about other co-regulated genes. In the best
 case, the reduced dimensional space captures biological sources of variability
@@ -204,29 +211,29 @@ low-dimensional spaces; and 3) to increase the impact of the HCA and
 low-dimensional methods by enhancing software and training opportunities.
 
 *The first goal of our base enabling technology work* is to develop techniques
-that learn interpretable biologically-aligned representations. Our Bayesian,
+that learn interpretable biologically-aligned representations. We consider both
+linear and non-linear techniques. For linear techiques, we rely on our Bayesian,
 non-negative matrix factorization method scCoGAPS
-[@6i1NIkNx,@cJPxOJMp] (PI Fertig) robustly infers a
-low-dimensional representation of perturbation
-[@wkhRfjyx,@1GkdWBzqU] and time course
-[@uInnOMwX,@1DZRsfkoC] data, leading
-to the winning solution in the HPN DREAM8 challenge [@qpg6x7P4].
-Extending this method to single cell data simultaneously distinguishes cellular
-identity, dynamic trajectories, and cell state in the developing mouse retina
-[@6i1NIkNx]. This method includes an uncertainty estimate that can be
+[@6i1NIkNx,@cJPxOJMp] (PI Fertig). This technique has 
+been established as learning biologically relevant features in numerous
+contexts and data modalities
+[@wkhRfjyx,@1GkdWBzqU,@uInnOMwX,@1DZRsfkoC,@6i1NIkNx], 
+including notably the HPN DREAM8 challenge [@qpg6x7P4]. 
+This method includes an uncertainty estimate that can be
 readily modified to account for measurement-specific technical variation
 [@5Cj8i4Xu], which supports this seed network. As
 increasing spatial data becomes available, we will extend these techniques to
-incorporate this additional source of information.
-
-Neural networks, which may consist of multiple layers, provide a complementary
-path to low-dimensional representations. These can learn a non-linear mapping
-into the low-dimensional space. We have previously worked with such methods
-[@5CsWRjfp] (PI Greene). However, because so many groups are working
-in this area (see
-[@vpa3pNZU,@XjfRUvN5,@TkR5VPF7,@V3nGUaio,@eMe9qeSH]
-among many others), we don't propose specific work in this area. We plan to
-continue to use and rigorously evaluate these methods and to incorporate the
+incorporate this additional source of information. For non-linear mapping 
+techniques, neural networks with multiple layers, provide a 
+complementary path to low-dimensional representations [@5CsWRjfp] (PI Greene). 
+We note that many groups are working in this area for both linear and
+non-linear techniques (see as some examples
+[@vpa3pNZU,@XjfRUvN5,@TkR5VPF7,@V3nGUaio,@eMe9qeSH,@1GR3FIJMG,@GC2u23Xj,@OekvE5up]
+among many others). We plan to
+continue to use and rigorously evaluate these methods. 
+We will develop generalizable
+techniques to incorporate accurate error models and spatial distributions
+for these low dimensional representations, and incorporate the 
 best performing methods into search and transformation approaches. In the event
 that it becomes clear that these methods must be adapted, we are well positioned
 to address such needs. The latent space team from the HCA collaborative networks

@@ -1,5 +1,6 @@
 string	citation	standard_citation	citation_id
 @doi:10.1007/978-1-62703-721-1_6	doi:10.1007/978-1-62703-721-1_6	doi:10.1007/978-1-62703-721-1_6	uInnOMwX
+@doi:10.1016/j.cell.2017.10.023	doi:10.1016/j.cell.2017.10.023	doi:10.1016/j.cell.2017.10.023	1GR3FIJMG
 @doi:10.1016/j.tig.2018.07.003	doi:10.1016/j.tig.2018.07.003	doi:10.1016/j.tig.2018.07.003	Sn52lYwa
 @doi:10.1038/nmeth.3773	doi:10.1038/nmeth.3773	doi:10.1038/nmeth.3773	qpg6x7P4
 @doi:10.1038/nmeth.4197	doi:10.1038/nmeth.4197	doi:10.1038/nmeth.4197	vrqQcFyx
@@ -15,6 +16,7 @@ string	citation	standard_citation	citation_id
 @doi:10.1101/395004	doi:10.1101/395004	doi:10.1101/395004	cJPxOJMp
 @doi:10.1101/395947	doi:10.1101/395947	doi:10.1101/395947	1GtRgPRxn
 @doi:10.1101/457879	doi:10.1101/457879	doi:10.1101/457879	eMe9qeSH
+@doi:10.1101/459891	doi:10.1101/459891	doi:10.1101/459891	OekvE5up
 @doi:10.1186/1471-2164-13-160	doi:10.1186/1471-2164-13-160	doi:10.1186/1471-2164-13-160	wkhRfjyx
 @doi:10.1186/s13059-014-0550-8	doi:10.1186/s13059-014-0550-8	doi:10.1186/s13059-014-0550-8	w9AOzBMw
 @doi:10.1186/s13073-018-0545-2	doi:10.1186/s13073-018-0545-2	doi:10.1186/s13073-018-0545-2	1DZRsfkoC
@@ -22,4 +24,5 @@ string	citation	standard_citation	citation_id
 @doi:10.1371/journal.pone.0078127	doi:10.1371/journal.pone.0078127	doi:10.1371/journal.pone.0078127	5Cj8i4Xu
 @doi:10.18129/B9.bioc.tximeta	doi:10.18129/B9.bioc.tximeta	doi:10.18129/b9.bioc.tximeta	1FQ0kp4Dj
 @doi:10.18632/oncotarget.12075	doi:10.18632/oncotarget.12075	doi:10.18632/oncotarget.12075	1GkdWBzqU
+@doi:10.7717/peerj.2888	doi:10.7717/peerj.2888	doi:10.7717/peerj.2888	GC2u23Xj
 @pmid:26040460	pmid:26040460	pmid:26040460	13owodqhx
