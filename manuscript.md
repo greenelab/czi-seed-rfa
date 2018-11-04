@@ -27,9 +27,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/d3d4736df5e8d4b85bdaebd961e22ec3232bb35b/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/900b63e7d24a485e85a1b3e5048f83ed2e608d98/))
 was automatically generated
-from [greenelab/czi-seed-rfa@d3d4736](https://github.com/greenelab/czi-seed-rfa/tree/d3d4736df5e8d4b85bdaebd961e22ec3232bb35b)
+from [greenelab/czi-seed-rfa@900b63e](https://github.com/greenelab/czi-seed-rfa/tree/900b63e7d24a485e85a1b3e5048f83ed2e608d98)
 on November 4, 2018.
 </em></small>
 
@@ -152,6 +152,12 @@ on November 4, 2018.
     * Email: greenescientist@gmail.com
 
 5. Tom Hampton
+
+    * Title: Senior Bioinformatics Analyst
+    * Degrees: PhD
+    * Type of organization: Academic
+    * Tax ID: 02-0222111 (Dartmouth)
+    * Email: Thomas.H.Hampton@dartmouth.edu
 
 6. Michael Love
 
