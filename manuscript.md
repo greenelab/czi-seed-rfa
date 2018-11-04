@@ -26,9 +26,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/fabf403784f7ab962cea44bdbf1b3a08b9ff5d89/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/0d1c4a2db44c4e3aa9d9bc96f2f4d4e9ecaa7211/))
 was automatically generated
-from [greenelab/czi-seed-rfa@fabf403](https://github.com/greenelab/czi-seed-rfa/tree/fabf403784f7ab962cea44bdbf1b3a08b9ff5d89)
+from [greenelab/czi-seed-rfa@0d1c4a2](https://github.com/greenelab/czi-seed-rfa/tree/0d1c4a2db44c4e3aa9d9bc96f2f4d4e9ecaa7211)
 on November 4, 2018.
 </em></small>
 
@@ -305,23 +305,16 @@ because we will use low-dimensional representations.
 
 ### Aim 2
 
-*Rationale:* Biological systems are comprised of diverse cell types
-with overlapping molecular phenotypes, and biological processess are
-often reused with modifications across cellular contexts. The functional
-output of these systems is determined by the interactions between these
-complex components, rather than a single gene or cell. This suggests that
-fundamental biological mechanisms may broadly contribute to an observed
-state, with context-specific modifiers conferring selective suceptiability
-to disease. Latent space techniques are poised to reveal these
-fundamental mechanisms in the broad survey of single cell data across
-model systems and cellular contexts in the Human Cell Atlas. We
-hypothesize that the features learned from these techniques will
-define constitutive basis vectors that reflect discrete biological
-processes or features. Thus, these basis vectors will be shared across
-different biological systems, with context-specific perturbations
-indicating pathogenic differences in disease. *We propose a central
-suite of statistics for assessment and interpretation of latent space
-tools to define the identity and dimensionality of biological systems.*
+*Rationale:* Biological systems are comprised of diverse cell types with
+overlapping molecular phenotypes and biological processes are often reused with
+modifications across cell types. Low-dimensional representations can reveal
+these fundamental mechanisms across large collections of data including the HCA.
+We are evaluating and selecting methods that define basis vectors that reflect
+discrete biological processes or features. These basis vectors can be shared
+across different biological systems and can reveal context-specific
+perturbations such as pathogenic differences in disease. *We propose a central
+catalog of cell types and biological processes derived from low-dimensional
+representations of the HCA.*
 
 *Quantifying latent space estimation with transfer learning:* A
 critical challenge to latent space methods is the quantification of
