@@ -27,9 +27,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/187a5e81be3812619ac3fdac1c59c3e986de4c82/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/ff0162dde4d86484a0fb0239c547414ddd67aa69/))
 was automatically generated
-from [greenelab/czi-seed-rfa@187a5e8](https://github.com/greenelab/czi-seed-rfa/tree/187a5e81be3812619ac3fdac1c59c3e986de4c82)
+from [greenelab/czi-seed-rfa@ff0162d](https://github.com/greenelab/czi-seed-rfa/tree/ff0162dde4d86484a0fb0239c547414ddd67aa69)
 on November 4, 2018.
 </em></small>
 
@@ -264,7 +264,8 @@ they can quickly identify find cells and cell types and compare references to
 find differences. Low-dimensional representations, because they compress the
 space, provide the building blocks for search approaches that can be practically
 applied across very large datasets such as the HCA. *We propose to develop
-algorithms and software for efficient search over the HCA.*
+algorithms and software for efficient search over the HCA using low-dimensional
+representations.*
 
 The primary approach to search in low-dimensional spaces is relatively
 straightforward: one must create an appropriate low-dimensional representation
