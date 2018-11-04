@@ -27,9 +27,9 @@ title: Search for and transformation of human cells and cell types with latent s
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/86ac9b5c9e98eb453d7f60b4ed5554dae8740150/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/1999f3745cbb25fcf0f24086d0836633d8736d9d/))
 was automatically generated
-from [greenelab/czi-seed-rfa@86ac9b5](https://github.com/greenelab/czi-seed-rfa/tree/86ac9b5c9e98eb453d7f60b4ed5554dae8740150)
+from [greenelab/czi-seed-rfa@1999f37](https://github.com/greenelab/czi-seed-rfa/tree/1999f3745cbb25fcf0f24086d0836633d8736d9d)
 on November 4, 2018.
 </em></small>
 
@@ -456,17 +456,12 @@ RFA can be used within a typical genomic data analysis.
 ### Aim 3
 
 *Rationale:* Low-dimensional representations for scRNA-seq and HCA data make
-tasks faster, enable biologically grounded analyses, and provide interpretable
-summaries of complex high-dimensional data. However. Using these capabilities to
-the fullest extent requires integration with widely used toolkits and a scalable
-education effort that reaches students at and beyond undergraduate level. *We
-propose to enhance software usability and deliver short-course training that
-includes the topics of single cell profiling, machine learning methods,
-low-dimensional representations, reference cell type catalogs, and tools
-developed by our group in response to this RFA via educational materials that we
-will produce and make openly available.*
-
-*Below sections need to be cut by about half by my count*
+tasks faster, biological grounding, and provide interpretable summaries of
+complex high-dimensional data. However, a scalable education effort that reaches
+students at and beyond undergraduate level will be needed to prepare students
+maximize impact. *We propose deliver short-course training on the HCA, single
+cell profiling, machine learning methods, low-dimensional representations, and
+tools developed by our group in response to this RFA.*
 
 HCA data, and low-dimensional representation methods that work with them, will
 be valuable to many biomedical fields, but their use will require experience
@@ -481,18 +476,18 @@ frequency of the course. We will also run the course at locations distributed
 throughout the US. We will provide open course materials on GitHub to allow
 others to replicate the course. The expanded topics will include:
 
-    - UNIX
-    - The R Statistical Programming Environment
-    - Visualization and Exploration of High Dimensional Data
-    - Statistical Approaches for High Dimension Biomedical Data
-    - Gene Set and Pathway Analysis for Bulk Gene Expression Data
-    - Low-dimensional Representations of High Dimensional Data
-    - Compare and Contrast Bulk and Single-cell Biology
-    - scRNA-seq Assay Methods and Data
-    - The Human Cell Atlas Project
-    - scRNA-seq Computational Tools for Quantification and Cell Type Discovery
-    - scRNA-seq Statistical Tools for Low-dimensional Representations
-    - Tools for Search and Analysis in Low-dimensional Representations
+UNIX
+The R Statistical Programming Environment
+Visualization and Exploration of High Dimensional Data
+Statistical Approaches for High Dimension Biomedical Data
+Gene Set and Pathway Analysis for Bulk Gene Expression Data
+Low-dimensional Representations of High Dimensional Data
+Compare and Contrast Bulk and Single-cell Biology
+scRNA-seq Assay Methods and Data
+The Human Cell Atlas Project
+scRNA-seq Computational Tools for Quantification and Cell Type Discovery
+scRNA-seq Statistical Tools for Low-dimensional Representations
+Tools for Search and Analysis in Low-dimensional Representations
 
 We aim to have this course provide a force-multiplier effect for the HCA and
 low-dimensional methods, where course attendees transmit what they learn to tens
