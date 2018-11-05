@@ -6,7 +6,7 @@ author-meta:
 - Rob Patro
 - Elana J. Fertig
 - Michael I. Love
-date-meta: '2018-11-04'
+date-meta: '2018-11-05'
 keywords:
 - dimensionality reduction
 - search
@@ -26,10 +26,10 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/fd3b764168fe0e39ca17c01d81a3c506e299bfe1/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/4f6a6e90c43914c90dcb6cb35853606e61bf61d7/))
 was automatically generated
-from [greenelab/czi-seed-rfa@fd3b764](https://github.com/greenelab/czi-seed-rfa/tree/fd3b764168fe0e39ca17c01d81a3c506e299bfe1)
-on November 4, 2018.
+from [greenelab/czi-seed-rfa@4f6a6e9](https://github.com/greenelab/czi-seed-rfa/tree/4f6a6e90c43914c90dcb6cb35853606e61bf61d7)
+on November 5, 2018.
 </em></small>
 
 ## Authors
