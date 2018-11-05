@@ -1,5 +1,5 @@
 ---
-title: "Practical search and analysis with low-dimensional representations of the Human Cell Atlas"
+title: "Practical search and analysis with low-dimensional representations of the HCA"
 keywords:
   - dimensionality reduction
   - search
@@ -67,12 +67,3 @@ author_info:
     affiliations:
       - Department of Biostatistics, University of North Carolina at Chapel Hill
       - Department of Genetics, University of North Carolina at Chapel Hill
-  -
-    github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
-    affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
