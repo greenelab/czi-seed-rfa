@@ -26,9 +26,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/d756b52b132fbb7171283d9d76555cca605eaa25/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/5fb85474fc90234dc9837881bc9b8ba483ddf864/))
 was automatically generated
-from [greenelab/czi-seed-rfa@d756b52](https://github.com/greenelab/czi-seed-rfa/tree/d756b52b132fbb7171283d9d76555cca605eaa25)
+from [greenelab/czi-seed-rfa@5fb8547](https://github.com/greenelab/czi-seed-rfa/tree/5fb85474fc90234dc9837881bc9b8ba483ddf864)
 on November 6, 2018.
 </em></small>
 
@@ -218,17 +218,18 @@ non-negative matrix factorization method scCoGAPS
 [@6i1NIkNx,@cJPxOJMp] (PI Fertig). This technique learns
 biologically relevant features across contexts and data modalities
 [@wkhRfjyx,@1GkdWBzqU,@uInnOMwX,@1DZRsfkoC,@6i1NIkNx],
-including notably the HPN DREAM8 challenge [@qpg6x7P4]. We will
-modify the scCoGAPS uncertainty estimate to account for measurement-specific
-technical variation [@5Cj8i4Xu] in the HCA. As spatially
-annotated data becomes available, we will extend scCoGAPS to incorporate this.
+including notably the HPN DREAM8 challenge [@qpg6x7P4]. 
+This technique is specifically selected as a base enabling technnology 
+because its error distribution can naturally account for measurement-specific
+technical variation [@5Cj8i4Xu] and its prior distributions
+for different feature quantifications or spatial information. 
 For non-linear needs, neural networks with multiple layers, provide a
 complementary path to low-dimensional representations [@5CsWRjfp] (PI
-Greene). We note that many groups are working in this area for both linear and
+Greene) that model these diverse features of HCA data. We note that many groups are working in this area for both linear and
 non-linear techniques (e.g.,
 [@vpa3pNZU,@XjfRUvN5,@TkR5VPF7,@V3nGUaio,@eMe9qeSH,@1GR3FIJMG,@GC2u23Xj,@OekvE5up]).
 Because of the substantial number of groups developing neural network based
-methods, we don't currently plan additional efforts on this front; however, we
+methods, we do not currently plan additional efforts on methods development beyond scCoGAPS. However, we
 will continue to use and rigorously evaluate these methods. We will incorporate
 the best performing methods into our search and catalog tools. The latent space
 team from the HCA collaborative networks RFA (including PIs Fertig, Goff,
@@ -285,12 +286,15 @@ software to identify similar tissues or identify cells that are unusual as data
 are being collected. We will implement and evaluate techniques to learn shared
 low-dimensional representations between the UMI-resolution graph and quantified
 samples, so that samples where either component is available can be used for
-search **[CASEY ADD SHARED LATENT SPACE REF]**.
+search **[CASEY ADD SHARED LATENT SPACE REF]**. 
+These UMI-graphs will be embedded in the prior of scCoGAPS and architecture of non-linear latent space techniques.
 
 Reference genomes allow scientists to identify specific differences between the
 reference and genomes of interest. We will use these representations to quantify
 differences between a reference transcriptome map (the HCA) and target
-transcriptome maps from samples of interest. We will leverage common
+transcriptome maps from samples of interest.
+**Elana: I find this confusing -- are we referring to reference genome builds or references in low dimensional space? Need to clarify.**
+We will leverage common
 low-dimensional representations and cell-to-cell correlation structure both
 within and across transcriptome maps. Quantifying the differences between
 samples characterized at the single-cell level reveals population or individual
@@ -302,6 +306,8 @@ metric. We plan to implement and evaluate linear mixed models to account for the
 correlation structure within and between transcriptome maps. This statistical
 method will be fast, memory-efficient and will scale to billions of cells
 because we will use low-dimensional representations.
+**Elana: these linear mixed models seem to go away from base enabling technologies. I think this would read better edited to incorporate these
+distributions in the architecture of nonlinear-methods or in the prior of scCoGAPS to reflect better integration. How are these reflecting latent spaces?**
 
 ### Aim 2
 
@@ -324,12 +330,18 @@ generalizable biolobical features. We have developed new transfer learning
 methods to quantify the extent to which latent space representations from one
 set of training data are represented in another
 [@cJPxOJMp,@1GtRgPRxn]. These provide a strong foundation to
-compare low-dimensional representations. Generalizable representations should
-transfer across datasets of related biological contexts. In addition, We have
+compare low-dimensional representations across different low dimensional data representation technniques. 
+Generalizable representations should
+transfer across datasets of related biological contexts. 
+In addition, we have
 found that combining multiple representations can better capture biological
 processes across scales [@Hlprh8TG], and that
 representations across scales capture distinct, valid signatures
-[@5Cj8i4Xu].
+[@5Cj8i4Xu]. 
+Therefore, we will form a catalogue from the set of low dimensional features learned
+across linear and non-linear methods from our base enabling technologies and proposed
+extensions in Aim 1.
+
 
 We will package and version reference cell types and their corresponding
 low-dimensional representations and deliver these as structured data objects in
