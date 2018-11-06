@@ -6,7 +6,7 @@ author-meta:
 - Rob Patro
 - Elana J. Fertig
 - Michael I. Love
-date-meta: '2018-11-05'
+date-meta: '2018-11-06'
 keywords:
 - dimensionality reduction
 - search
@@ -26,10 +26,10 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/4f6a6e90c43914c90dcb6cb35853606e61bf61d7/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/10641aad0a4081985466b80a4b1c90decd950619/))
 was automatically generated
-from [greenelab/czi-seed-rfa@4f6a6e9](https://github.com/greenelab/czi-seed-rfa/tree/4f6a6e90c43914c90dcb6cb35853606e61bf61d7)
-on November 5, 2018.
+from [greenelab/czi-seed-rfa@10641aa](https://github.com/greenelab/czi-seed-rfa/tree/10641aad0a4081985466b80a4b1c90decd950619)
+on November 6, 2018.
 </em></small>
 
 ## Authors
@@ -213,7 +213,7 @@ representations and the HCA in general.
 
 *The first goal of our base enabling technology work* is to identify techniques
 that learn interpretable, biologically-aligned representations. We consider both
-linear and non-linear techniques. For linear techiques, we rely on our Bayesian,
+linear and non-linear techniques. For linear techniques, we rely on our Bayesian,
 non-negative matrix factorization method scCoGAPS
 [@6i1NIkNx,@cJPxOJMp] (PI Fertig). This technique learns
 biologically relevant features across contexts and data modalities
