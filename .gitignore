@@ -23,7 +23,7 @@ __pycache__/
 .Rproj.user
 
 # Don't make budgets public
-budgets/
+budgets/*
 
 # Stupid Mac Folder crap
 .DS_Store
