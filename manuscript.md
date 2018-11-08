@@ -26,9 +26,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/441d52ed7e9a593f1f879376fa8713df35facf45/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/ab71efbb0df5b1d341dc7433da897aff36e188f4/))
 was automatically generated
-from [greenelab/czi-seed-rfa@441d52e](https://github.com/greenelab/czi-seed-rfa/tree/441d52ed7e9a593f1f879376fa8713df35facf45)
+from [greenelab/czi-seed-rfa@ab71efb](https://github.com/greenelab/czi-seed-rfa/tree/ab71efbb0df5b1d341dc7433da897aff36e188f4)
 on November 8, 2018.
 </em></small>
 
@@ -201,6 +201,8 @@ In the best case, the reduced dimensional space captures biological sources of
 variability while ignoring noise and each dimension aligns to interpretable 
 biological processes.
 
+### Scientific Goals
+
 Our seed network aims to create low-dimensional representations that provide
 search and catalog capabilities for the HCA. The benefit of these approaches
 will become particularly pronounced as the number of cells and tissues becomes
@@ -216,7 +218,7 @@ representations and the HCA in general.
 that learn interpretable, biologically-aligned representations. We consider both
 linear and non-linear techniques. For linear techniques, we rely on our Bayesian,
 non-negative matrix factorization method scCoGAPS
-[@6i1NIkNx,@cJPxOJMp] (PI Fertig). This technique learns
+[@6i1NIkNx,@cJPxOJMp](PIs Fertig & Goff). This technique learns
 biologically relevant features across contexts and data modalities
 [@wkhRfjyx,@1GkdWBzqU,@uInnOMwX,@1DZRsfkoC,@6i1NIkNx],
 including notably the HPN DREAM8 challenge [@qpg6x7P4]. 
@@ -232,42 +234,45 @@ non-linear techniques (e.g.,
 Because of the substantial number of groups developing neural network based
 methods, we do not currently plan additional efforts on methods development beyond scCoGAPS. However, we
 will continue to use and rigorously evaluate these methods and incorporate
-the best performing methods into our search and catalog tools. The latent space
+the best performing methods into our search and catalog tools. We will extend 
+transfer learning methods, including ProjectR [@cJPxOJMp] (PIs Goff & Fertig) to enable 
+rapid integration, interpretation, and annotation of learned latent spaces. The latent space
 team from the HCA collaborative networks RFA (including PIs Fertig, Goff,
 Greene, and Patro) is establishing common definitions and requirements for latent spaces 
 for the HCA, as well as standardized output formats for low-dimensional representations from distinct classes of methods.
 
-The *second part of our work on base enabling technologies* is the improvement
+The *second goal of our base enabling technology work* is the improvement
 of techniques for fast and accurate quantification. Existing approaches for
 quantification from scRNA-seq data using tagged-end end protocols (e.g. 10x
-Chromium, drop-Seq, inDrop, etc.) have no mechanism for accounting for reads
+Chromium, drop-Seq, inDrop, etc.) have no mechanism to account for reads
 mapping between multiple genes in the resulting quantification estimates. This
-affects approximately 15-25% of the reads generated in a typical experiment. 
-This reduces quantification accuracy, and leads to systematic biases in gene 
+affects approximately 15-25% of the reads generated in a typical experiment, 
+reduces quantification accuracy, and leads to systematic biases in gene 
 expression estimates that correlate with the size of gene families and gene 
 function[@FPpU83vH]. We recently developed a quantification method for
 tagged-end data that accounts for reads mapping to multiple genomic loci in a
 principled and consistent way [**CITE?**].  We will expand on this work by,
 building these capabilities into a production quality tool for the processing of
-scRNA-seq data. The tool will support: 1. Exploring alternative models for UMI
+scRNA-seq data. The tool will support: 1. Exploring alternative models for Unique Molecular Identifier (UMI)
 resolution. 2. Developing new approaches for quality control and filtering using
 the UMI-resolution graph. 3. Creating a compressed and indexible data structure
-for the UMI-resolution graph to enable direct access, query, and fast search.
+for the UMI-resolution graph to enable direct access, query, and fast search prior
+to secondary analysis.
 
 We will implement the base enabling technologies and methods for search,
-analysis, and transformation into R/Bioconductor and Python frameworks. The
-python and R software will use common input and output formats. The software
-will be fast, scalable, and memory-efficient because will leverage the
-computational tools previously developed by Bioconductor for single-cell data
-access to the HCA, data representation (`SingleCellExperiment`, `beachmat`,
-`DelayedArray`, `HDF5Array` and `rhdf5`) and data assessment and amelioration of
-data quality (`scater`, `scran`, `DropletUtils`).
+analysis, and latent space transformations into R/Bioconductor. We will additionally
+develop platform-agnostic input and output formats for latent space representations 
+of the HCA data to maximize interoperability. The software tools produced will be fast, 
+scalable, and memory-efficient because we will leverage the computational tools 
+previously developed by Bioconductor for single-cell data access to the HCA, data representation 
+(`SingleCellExperiment`, `beachmat`, `LinearEmbeddingMatrix`, `DelayedArray`, `HDF5Array` and `rhdf5`) 
+and data assessment and amelioration of data quality (`scater`, `scran`, `DropletUtils`).
 
 ### Aim 1
 
-*Rationale:* The HCA provides a reference atlas to human cells, cell types, and
-the pathways that they express. Scientists will benefit most from the HCA when
-they can quickly identify find cells and cell types and compare references to
+*Rationale:* The HCA provides a reference atlas to human cell types, states, and
+the biological processes they engage. Scientists will benefit most from the HCA when
+they can quickly identify cell types and states and compare references to
 find differences. Low-dimensional representations, because they compress the
 space, provide the building blocks for search approaches that can be practically
 applied across very large datasets such as the HCA. *We propose to develop
@@ -279,74 +284,69 @@ must create an appropriate low-dimensional representation and identify a
 distance function or functions that match what biologists seek. Using the
 low-dimensional representation improves speed and can also reduce noise. We will
 evaluate representations for their ability to support search and implement the
-best performing approach. However, the most obvious approaches require
-investigators to perform quantification on the entirety of a new sample and
-select cells or cell types that they wish to search for. We also aim to enable
-search even before investigators complete quantification. This will allow
-software to identify similar tissues or identify cells that are unusual as data
-are being collected. We will implement and evaluate techniques to learn shared
+best performing approaches. Current approaches require investigators to perform 
+gene-level quantification on the entirety of a new sample. We aim to enable 
+search during sample preprocessing, prior to gene-level quantification. 
+This will enable in-line annotation of cell types and states and identification of novel features
+as samples are being processed. We will implement and evaluate techniques to learn and transfer shared
 low-dimensional representations between the UMI-resolution graph and quantified
 samples, so that samples where either component is available can be used for
-search **[CASEY ADD SHARED LATENT SPACE REF]**. 
-These UMI-graphs will be embedded in the prior of scCoGAPS and architecture of non-linear latent space techniques.
+search and annotation **[CASEY ADD SHARED LATENT SPACE REF]**. 
+These UMI-graphs will be embedded in the prior of scCoGAPS and architecture of non-linear latent space techniques. **[Do we need this line? It's a bit more specific than the rest of the paragraph -LAG]**
 
-In the case of mutations, reference genomes allow scientists to identify specific differences between the
-reference and genomes of interest. 
-We will use low dimensional representations from latent spaces to define a reference transcriptome map (the HCA) and differences from that reference in target
-transcriptome maps from new samples of interest.
-We will leverage common
-low-dimensional representations and cell-to-cell correlation structure both
-within and across transcriptome maps from Aim 2 to define this reference. Quantifying the differences between
-samples characterized at the single-cell level reveals population or individual
-level differences. Comparison of scRNA-seq maps from individuals with a
-particular phenotype to the HCA reference that is computationally infeasible  from the large scale of HCA data becomes tractable in these low dimensional spaces. 
-We (PI Hicks) have extensive
+Similarly to the approach by which comparisons to a reference genomes can identify specific 
+differences in a genome of interest, we will use low-dimensional 
+representations from latent spaces to define a reference transcriptome map (the HCA) 
+and use this to quantify differences in target transcriptome maps from new samples of 
+interest. We will leverage common low-dimensional representations and cell-to-cell 
+correlation structure both within and across transcriptome maps from Aim 2 to define 
+this reference. Quantifying the differences between samples characterized at the 
+single-cell level reveals population or individual level differences. **[<-- I'm not sure 
+what this sentence means.  Please clarify.  - LAG]** Comparison of scRNA-seq maps from 
+individuals with a particular phenotype to the HCA reference 
+that is computationally infeasible from the large scale of HCA data becomes tractable 
+in these low dimensional spaces. We (PI Hicks) have extensive
 experience dealing with the distributions of cell expression within and between
 individuals [@13owodqhx], which will be critical for defining an appropriate
-metric to compare references in latent spaces. We plan to implement and evaluate linear mixed models to account for the
-correlation structure within and between transcriptome maps. This statistical
-method will be fast, memory-efficient and will scale to billions of cells
-because we will use low-dimensional representations.
+metric to compare references in latent spaces. We plan to implement and evaluate 
+linear mixed models to account for the correlation structure within and between 
+transcriptome maps. This statistical method will be fast, memory-efficient and will 
+be scalable to billions of cells using low-dimensional representations.
 
 ### Aim 2
 
-*Rationale:* Biological systems are comprised of diverse cell types with
-overlapping molecular phenotypes and biological processes are often reused with
-modifications across cell types. Low-dimensional representations can reveal
-these fundamental mechanisms across large collections of data including the HCA.
-We are evaluating and selecting methods that define basis vectors that reflect
-discrete biological processes or features. These basis vectors can be shared
-across different biological systems and can reveal context-specific
-perturbations such as pathogenic differences in disease. *We propose a central
-catalog of cell types and biological processes derived from low-dimensional
+*Rationale:* Biological systems are comprised of diverse cell types and states with
+overlapping molecular phenotypes. Furthermore, biological processes are often reused with
+modifications across cell types. Low-dimensional representations can identify these shared 
+features, independent of total distance between cells in gene expression space, 
+across large collections of data including the HCA. We will evaluate and select methods 
+that define latent spaces that reflect discrete biological processes or cellular features. 
+These latent spaces can be shared across different biological systems and can reveal 
+context-specific divergence such as pathogenic differences in disease. *We propose to establish 
+a central catalog of cell types, states, and biological processes derived from low-dimensional
 representations of the HCA.*
 
-Basing a catalog of cell types and their corresponding processes off of multiple
-low-dimensional representations can reduce noise and aid in biological
-interpretability. However, there are currently no standardized, quantitative
-metrics to determine the extent to which low-dimensional representations capture
-generalizable biolobical features. We have developed new transfer learning
+By establishing a catalog of cellular features using low-dimensional representations 
+can reduce noise and aid in biological interpretability. However, there are currently 
+no standardized, quantitative metrics to determine the extent to which low-dimensional 
+representations capture generalizable biolobical features. We have developed new transfer learning
 methods to quantify the extent to which latent space representations from one
-set of training data are represented in another
-[@cJPxOJMp,@1GtRgPRxn]. These provide a strong foundation to
-compare low-dimensional representations across different low dimensional data representation technniques. 
-Generalizable representations should
-transfer across datasets of related biological contexts. 
-In addition, we have
-found that combining multiple representations can better capture biological
-processes across scales [@Hlprh8TG], and that
-representations across scales capture distinct, valid signatures
-[@5Cj8i4Xu]. 
-Therefore, we will form a catalogue from the set of low dimensional features learned
-across linear and non-linear methods from our base enabling technologies and proposed
+set of training data are represented in another [@cJPxOJMp,@1GtRgPRxn] (PIs Goff & Fertig). 
+These provide a strong foundation to compare low-dimensional representations across different 
+low-dimensional data representation technniques. Generalizable representations should
+transfer across datasets of related biological contexts, while representations of noise will not. 
+In addition, we have found that combining multiple representations can better capture biological
+processes across scales [@Hlprh8TG], and that representations across 
+scales capture distinct, valid biological signatures [@5Cj8i4Xu]. 
+Therefore, we will establish a versioned catalog consisting of low-dimensional features learned
+across both linear and non-linear methods from our base enabling technologies and proposed
 extensions in Aim 1.
 
-
-We will package and version reference cell types and their corresponding
-low-dimensional representations and deliver these as structured data objects in
-Bioconductor and Python. Such summaries and annotations have proven widely
-successful for the ENCODE, Roadmap Epigenome Mapping, and GTEx projects. We are
-core package developers and power users of Bioconductor (PIs Hicks and Love) and
+We will package and version low-dimensional representations and annotate these representations 
+based on their corresponding celluar features (e.g. cell type, tissue, biological process) and 
+deliver these as structured data objects in Bioconductor as well as platform-agnostic data formats. 
+Such summaries and annotations have proven widely successful for the ENCODE, Roadmap Epigenome Mapping, 
+and GTEx projects. We are core package developers and power users of Bioconductor (PIs Hicks and Love) and
 will support on-the-fly downloading of these materials via the *AnnotationHub*
 framework. To enable reproducible research leveraging HCA, we will implement a
 content-based versioning system, which identifies versions of the reference cell
@@ -360,7 +360,7 @@ defining which definition of that cell type. We will develop *F1000Research*
 workflows demonstrating how HCA-defined reference cell types and tools developed
 in this RFA can be used within a typical genomic data analysis. 
 This catalogue will be used as the basis of defining the references for 
-cell-type or individual-specific differences with the linear models proposed in Aim 1.
+cell type and state, or individual-specific differences with the linear models proposed in Aim 1.
 
 ### Aim 3
 
@@ -404,6 +404,8 @@ instructors), slides, and exercises. We expect that this module will support
 faculty who attend with an easy enhancement to any bioinformatics or
 computational biology instruction that they are already providing at their
 institution.
+
+### Tools
 
 
 ## References {.page_break_before}
