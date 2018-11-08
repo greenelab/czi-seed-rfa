@@ -139,7 +139,7 @@
     "repo_slug": "greenelab/czi-seed-rfa",
     "repo_owner": "greenelab",
     "repo_name": "czi-seed-rfa",
-    "commit": "ab71efbb0df5b1d341dc7433da897aff36e188f4"
+    "commit": "a4dd14be3f6797148b4b2eacbd431b3e77392f5d"
   },
   "manuscript_stats": {
     "reference_counts": {
@@ -147,6 +147,6 @@
       "pmid": 1,
       "total": 28
     },
-    "word_count": 2867
+    "word_count": 2968
   }
 }
