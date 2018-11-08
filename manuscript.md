@@ -26,9 +26,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/a4dd14be3f6797148b4b2eacbd431b3e77392f5d/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/f7af0a3902dacbe1a939df282fb866cd3a8bfae2/))
 was automatically generated
-from [greenelab/czi-seed-rfa@a4dd14b](https://github.com/greenelab/czi-seed-rfa/tree/a4dd14be3f6797148b4b2eacbd431b3e77392f5d)
+from [greenelab/czi-seed-rfa@f7af0a3](https://github.com/greenelab/czi-seed-rfa/tree/f7af0a3902dacbe1a939df282fb866cd3a8bfae2)
 on November 8, 2018.
 </em></small>
 
@@ -392,11 +392,12 @@ latent spaces. We (PI Hampton) will run the course at locations distributed thro
 and provide open course materials on GitHub to allow others to replicate the course. 
 
 New topics will include:
-- Comparison of Bulk and Single-cell Assays and Data
-- The Human Cell Atlas Project
-- scRNA-seq: Expression Quantification and Cell Type Annotation
-- scRNA-seq: Low-dimensional Representations
-- scRNA-seq: Search and Analysis in Low-dimensional Representations
+
+	- Comparison of Bulk and Single-cell Assays and Data
+	- The Human Cell Atlas Project
+	- scRNA-seq: Expression Quantification and Cell Type Annotation
+	- scRNA-seq: Low-dimensional Representations
+	- scRNA-seq: Search and Analysis in Low-dimensional Representations
 
 We aim to provide a force-multiplier for the HCA and low-dimensional methods as
 course attendees transmit what they learn to tens of students each year at their
