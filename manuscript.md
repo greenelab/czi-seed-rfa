@@ -26,9 +26,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/a4326470dbd690dcf994e8296a1568e0c2501965/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/6f5b8da815ae1b16aff0101d297aa56989ce134b/))
 was automatically generated
-from [greenelab/czi-seed-rfa@a432647](https://github.com/greenelab/czi-seed-rfa/tree/a4326470dbd690dcf994e8296a1568e0c2501965)
+from [greenelab/czi-seed-rfa@6f5b8da](https://github.com/greenelab/czi-seed-rfa/tree/6f5b8da815ae1b16aff0101d297aa56989ce134b)
 on November 9, 2018.
 </em></small>
 
@@ -182,7 +182,7 @@ on November 9, 2018.
 4. Casey Greene
 5. Tom Hampton
 6. Michael Love is an Assistant Professor of Biostatistics and Genetics at the University of North Carolina at Chapel Hill. He is a leading developer of statistical software for RNA-seq analysis in the Bioconductor Project, maintaining the widely used DESeq2 [@w9AOzBMw] and tximport [@9CN5KEFo] packages. He is a close collaborator with Dr. Rob Patro on bias-aware estimation of transcript abundance from RNA-seq and estimation of uncertainty during transcript quantification [@vrqQcFyx]. Dr. Love will work with co-PIs to disseminate versioned reference cell type catalogs through widely used frameworks for genomic data analysis including R/Bioconductor and Python.
-7. Rob Patro is an Assistant Professor of Computer Science at Stony Brook University.  He leads the COMBINE-lab, that [develops and maintains numerous open-source genomics tools and methods](https://github.com/COMBINE-lab).  He is the primary developer of the popular transcript quantification tools Sailfish [@RIPzCufe] and Salmon [@vrqQcFyx], having collaborated closely with Dr. Love on the latter. He and Dr. Love are actively collaborating on improved methods for transcript quantification, differential testing, and also on reproducible analysis via [tximeta](https://github.com/mikelove/tximeta). He has recently been focused on developing improved methods for gene-level quantification from tagged-end single-cell RNA-seq data, as implemented in the alevin tool [@FPpU83vH]. Dr. Patro will worth with co-PIs to develop improved single-cell quantification tools that can account for gene-ambiguous reads and provide uncertainty information about the quantification estimates --- which is important for accurate and robust creation of reduced-dimensionality latent spaces.  He will also work with the co-PIs to develop efficient algorithms and data structures to enable efficient expression search over low-dimensional representations of HCA data.
+7. Rob Patro is an Assistant Professor of Computer Science at Stony Brook University.  He leads the COMBINE-lab, that [develops and maintains numerous open-source genomics tools and methods](https://github.com/COMBINE-lab).  He is the primary developer of the popular transcript quantification tools Sailfish [@RIPzCufe] and Salmon [@vrqQcFyx], having collaborated closely with Dr. Love on the latter. He and Dr. Love are actively collaborating on improved methods for transcript quantification, differential testing, and also on reproducible analysis via [tximeta](https://github.com/mikelove/tximeta). He has recently been focused on developing improved methods for gene-level quantification from tagged-end single-cell RNA-seq data, as implemented in the alevin tool [@FPpU83vH]. Dr. Patro will worth with co-PIs to develop improved single-cell quantification tools that can account for gene-ambiguous reads and provide uncertainty information about the quantification estimates (base enabling technologies) --- which is important for accurate and robust creation of reduced-dimensionality latent spaces.  He will also work with the co-PIs to develop efficient algorithms and data structures, and robust implementations, to enable efficient expression search over low-dimensional representations of HCA data (Aim 1).
 
 
 ## Proposal Body (2000 words)
