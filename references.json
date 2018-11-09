@@ -228,6 +228,46 @@
   },
   {
     "publisher": "Springer Nature",
+    "issue": "5",
+    "DOI": "10.1038/nbt.2862",
+    "type": "article-journal",
+    "page": "462-464",
+    "source": "Crossref",
+    "title": "Sailfish enables alignment-free isoform quantification from RNA-seq reads using lightweight algorithms",
+    "volume": "32",
+    "author": [
+      {
+        "given": "Rob",
+        "family": "Patro"
+      },
+      {
+        "given": "Stephen M",
+        "family": "Mount"
+      },
+      {
+        "given": "Carl",
+        "family": "Kingsford"
+      }
+    ],
+    "container-title": "Nature Biotechnology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          4,
+          20
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfghc2",
+    "container-title-short": "Nat Biotechnol",
+    "PMCID": "PMC4077321",
+    "PMID": "24752080",
+    "id": "RIPzCufe"
+  },
+  {
+    "publisher": "Springer Nature",
     "issue": "4",
     "DOI": "10.1038/nmeth.3773",
     "type": "article-journal",
