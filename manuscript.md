@@ -6,7 +6,7 @@ author-meta:
 - Rob Patro
 - Elana J. Fertig
 - Michael I. Love
-date-meta: '2018-11-09'
+date-meta: '2018-11-10'
 keywords:
 - dimensionality reduction
 - search
@@ -26,10 +26,10 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/0c11275f47b38520db72efbe5d89fd71f39b1bc0/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/0e45584244a43980f940bd85dde7e2805872b3ae/))
 was automatically generated
-from [greenelab/czi-seed-rfa@0c11275](https://github.com/greenelab/czi-seed-rfa/tree/0c11275f47b38520db72efbe5d89fd71f39b1bc0)
-on November 9, 2018.
+from [greenelab/czi-seed-rfa@0e45584](https://github.com/greenelab/czi-seed-rfa/tree/0e45584244a43980f940bd85dde7e2805872b3ae)
+on November 10, 2018.
 </em></small>
 
 ## Authors
@@ -189,18 +189,17 @@ on November 9, 2018.
 
 The Human Cell Atlas (HCA) provides unprecedented characterization of molecular phenotypes 
 across individuals, tissues and disease states -- resolving differences to the level of 
-individual cells. The enormous opportunities for scientific advancement that HCA provides 
-will depend on our ability to rapidly query, characterize, and analyze these intrinsically 
-high-dimensional data. To facilitate this, HCA data can be compressed into fewer dimensions 
+individual cells. This dataset provides an extraordinary opportunity scientific advancement enabled by new tools to rapidly query, characterize, and analyze these intrinsically 
+high-dimensional data. To facilitate this, our seed network proposes to compress HCA data into fewer dimensions 
 that preserve the important attributes of the original high dimensional data and yield
 interpretable, searchable features. For transcriptomic data, compressing on the gene 
 dimension is most attractive: it can be applied to single samples, and genes often provide 
 information about other co-regulated genes or cellular attributes. In the best case, the 
 reduced dimensional space captures biological sources of variability while ignoring noise 
 and each dimension aligns to interpretable biological processes. Our seed network will 
-incorporate biologists and computer scientists from five leading academic institutions with 
-other members of the broader HCA who will work together to create foundational technologies 
-and educational opportunities that promote effective use of HCA data.
+incorporate biologists and computer scientists from five leading academic institutions who will work together to create foundational technologies 
+and educational opportunities that promote effective interpretation of low dimensional representations of HCA data. We will continue our active collaborations with other
+members of the broader HCA network to integrate state of the art latent space tools, portals, and annotations to enable unprecidented utilization of a low dimensional catalogue of HCA data.  
 
 ## Scientific Goals
 
