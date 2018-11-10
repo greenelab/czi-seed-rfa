@@ -26,9 +26,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/aca6c5e4794404b9eeb9313133f82d36244c8287/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/f7e044632cd8a45e258f825cc10933574486cf61/))
 was automatically generated
-from [greenelab/czi-seed-rfa@aca6c5e](https://github.com/greenelab/czi-seed-rfa/tree/aca6c5e4794404b9eeb9313133f82d36244c8287)
+from [greenelab/czi-seed-rfa@f7e0446](https://github.com/greenelab/czi-seed-rfa/tree/f7e044632cd8a45e258f825cc10933574486cf61)
 on November 10, 2018.
 </em></small>
 
@@ -195,10 +195,10 @@ that preserve the important attributes of the original high dimensional data and
 interpretable, searchable features. For transcriptomic data, compressing on the gene 
 dimension is most attractive: it can be applied to single samples, and genes often provide 
 information about other co-regulated genes or cellular attributes. We hypothesize that building an ensemble of low dimensional representations across latent space methods will provide a  
-reduced dimensional space that captures biological sources of variability that is robust to measurement noise. Our seed network will 
+reduced dimensional space that captures biological sources of variability and is robust to measurement noise. Our seed network will 
 incorporate biologists and computer scientists from five leading academic institutions who will work together to create foundational technologies 
 and educational opportunities that promote effective interpretation of low dimensional representations of HCA data. We will continue our active collaborations with other
-members of the broader HCA network to integrate state of the art latent space tools, portals, and annotations to enable biological utilization of the resulting low dimensional catalogue of HCA data.  
+members of the broader HCA network to integrate state of the art latent space tools, portals, and annotations to enable biological utilization of HCA data through latent spaces.  
 
 ## Scientific Goals
 
