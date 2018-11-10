@@ -26,9 +26,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/b499521e664af7a86dccf581018945d715b35e3f/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/aca6c5e4794404b9eeb9313133f82d36244c8287/))
 was automatically generated
-from [greenelab/czi-seed-rfa@b499521](https://github.com/greenelab/czi-seed-rfa/tree/b499521e664af7a86dccf581018945d715b35e3f)
+from [greenelab/czi-seed-rfa@aca6c5e](https://github.com/greenelab/czi-seed-rfa/tree/aca6c5e4794404b9eeb9313133f82d36244c8287)
 on November 10, 2018.
 </em></small>
 
@@ -383,8 +383,7 @@ in basic bioinformatics and always achieve approval ratings of over 90%.  We bel
 the success of these learning experiences has to do with our instructional paradigm, which 
 includes a very challenging course project coupled with one-on-one support from instructors. 
 We will develop a new curriculum specifically tailored to HCA that incorporates: 1) didactic 
-course material on single cell gene expression profiling previously developed as part of the 
-annual McKusick Short Course on Human and Mammalian Genetics at Jackson Labs (PI Goff), 2) 
+course material on single cell gene expression profiling (PI Goff), 2) 
 machine learning methods (PI Greene), 4) statistics for genomics (PIs Fertig and Hicks), 4) search and analysis in low-dimensional 
 representations, and 5) tools developed by our group in response to this RFA.
 
