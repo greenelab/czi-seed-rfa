@@ -26,9 +26,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/07afb950f7edb9d15d11668acf5c2376d9a4d88f/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/33771be31d73b3bba7aa9e43d6ebe7fad72b6d66/))
 was automatically generated
-from [greenelab/czi-seed-rfa@07afb95](https://github.com/greenelab/czi-seed-rfa/tree/07afb950f7edb9d15d11668acf5c2376d9a4d88f)
+from [greenelab/czi-seed-rfa@33771be](https://github.com/greenelab/czi-seed-rfa/tree/33771be31d73b3bba7aa9e43d6ebe7fad72b6d66)
 on November 10, 2018.
 </em></small>
 
@@ -329,8 +329,9 @@ reduce noise and aid in biological interpretability. However, there are currentl
 standardized, quantitative metrics to determine the extent to which low-dimensional 
 representations capture generalizable biolobical features. We have developed new transfer 
 learning methods to quantify the extent to which latent space representations from one
-set of training data are represented in another [@cJPxOJMp,@1GtRgPRxn] 
-(PIs Goff & Fertig). These provide a strong foundation to compare low-dimensional 
+set of training data are represented in another [@cJPxOJMp,@1GtRgPRxn,@1GtRgPRxn] 
+(PIs Greene, Goff & Fertig).
+These provide a strong foundation to compare low-dimensional 
 representations across different low-dimensional data representation technniques. 
 Generalizable representations should transfer across datasets of related biological 
 contexts, while representations of noise will not. In addition, we have found that combining 
