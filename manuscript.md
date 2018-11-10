@@ -26,9 +26,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/33771be31d73b3bba7aa9e43d6ebe7fad72b6d66/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/26149e6eb6b44fcf35e51ac0bdcc9b85605cff1e/))
 was automatically generated
-from [greenelab/czi-seed-rfa@33771be](https://github.com/greenelab/czi-seed-rfa/tree/33771be31d73b3bba7aa9e43d6ebe7fad72b6d66)
+from [greenelab/czi-seed-rfa@26149e6](https://github.com/greenelab/czi-seed-rfa/tree/26149e6eb6b44fcf35e51ac0bdcc9b85605cff1e)
 on November 10, 2018.
 </em></small>
 
@@ -327,7 +327,7 @@ representations of the HCA.*
 By establishing a catalog of cellular features using low-dimensional representations can 
 reduce noise and aid in biological interpretability. However, there are currently no 
 standardized, quantitative metrics to determine the extent to which low-dimensional 
-representations capture generalizable biolobical features. We have developed new transfer 
+representations capture generalizable biological features. We have developed new transfer 
 learning methods to quantify the extent to which latent space representations from one
 set of training data are represented in another [@cJPxOJMp,@1GtRgPRxn,@1GtRgPRxn] 
 (PIs Greene, Goff & Fertig).
@@ -399,19 +399,11 @@ people who will drive the next wave of innovation. All of our course materials w
 freely available, enabling course participants to bring what they learned home with them. A 
 capstone session will be included in which we will provide suggestions about how the 
 materials presented in the course can be incorporated into existing course curricula. Course 
-faculty will be available to assist with integration effort after the course.
+faculty will be available to assist with integration effort after the course. Finally, the short course will facilitate scientific collaborations 
+by engaging participants in utilizing these tools for collaborative research efforts.
 
-Finally, the short course will facilitate scientific collaborations as follows. In addition 
-to engaging in group presentations as part of the class project that will involve scRNA-seq 
-data retrieved from HCA, participants will also provide a 10-minute chalk talk explaining 
-their research interests. This allows course faculty to identify course participants whose 
-needs they can help address, both during and after the course.  The course design will 
-include faculty office hours where participants can get help with any bioinformatic problems 
-they are encountering with their ongoing research. 
+**[I feel like we are missing a concluding summary of broader impacts to pull this together - EJF]**
 
-We will provide this course free to 25 students twice a year, with the understanding that 
-its effective reach will be much greater than the 150 students who enroll. Our students will 
-begin to teach others, and our materials will be incorporated into many local courses.
 
 
 ## References {.page_break_before}
