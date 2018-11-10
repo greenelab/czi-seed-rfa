@@ -26,9 +26,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/507d93432fd789c269855c43389bee98d6e48afb/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/07afb950f7edb9d15d11668acf5c2376d9a4d88f/))
 was automatically generated
-from [greenelab/czi-seed-rfa@507d934](https://github.com/greenelab/czi-seed-rfa/tree/507d93432fd789c269855c43389bee98d6e48afb)
+from [greenelab/czi-seed-rfa@07afb95](https://github.com/greenelab/czi-seed-rfa/tree/07afb950f7edb9d15d11668acf5c2376d9a4d88f)
 on November 10, 2018.
 </em></small>
 
@@ -288,7 +288,8 @@ low-dimensional representations between the UMI-resolution graph and quantified 
 that samples where either component is available can be used for search and annotation 
 **[CASEY ADD SHARED LATENT SPACE REF]**. These UMI-graphs will be embedded in the prior of 
 scCoGAPS and architecture of non-linear latent space techniques. **[Do we need this line? 
-It's a bit more specific than the rest of the paragraph -LAG]**
+It's a bit more specific than the rest of the paragraph -LAG]** 
+**[I think we need something to link in how this fits to the latent space methods -- maybe not so specific, but something that ties it back beyond preprocessing - EJF]**
 
 Similarly to the approach by which comparisons to a reference genomes can identify specific 
 differences in a genome of interest, we will use low-dimensional representations from latent 
@@ -297,7 +298,10 @@ differences in target transcriptome maps from new samples of interest. We will l
 common low-dimensional representations and cell-to-cell correlation structure both within 
 and across transcriptome maps from Aim 2 to define this reference. Quantifying the 
 differences between samples characterized at the single-cell level reveals population or 
-individual level differences. **[<-- I'm not sure what this sentence means.  Please clarify.  - LAG]** Comparison of scRNA-seq maps from individuals with a particular phenotype 
+individual level differences. 
+**[<-- I'm not sure what this sentence means.  Please clarify.  - LAG]**
+**[My take is that it means if we have an average from the catalogue we've built for a cell type or state, that deviations in particular samples could yield context-specific differences, not sure how to reword - EJF]**
+Comparison of scRNA-seq maps from individuals with a particular phenotype 
 to the HCA reference that is computationally infeasible from the large scale of HCA data 
 becomes tractable in these low dimensional spaces. We (PI Hicks) have extensive
 experience dealing with the distributions of cell expression within and between
