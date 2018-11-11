@@ -6,7 +6,7 @@ author-meta:
 - Rob Patro
 - Elana J. Fertig
 - Michael I. Love
-date-meta: '2018-11-10'
+date-meta: '2018-11-11'
 keywords:
 - dimensionality reduction
 - search
@@ -26,10 +26,10 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/f7e044632cd8a45e258f825cc10933574486cf61/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/3c2d484f0a97ae51aa4da7f799bb42729a929a32/))
 was automatically generated
-from [greenelab/czi-seed-rfa@f7e0446](https://github.com/greenelab/czi-seed-rfa/tree/f7e044632cd8a45e258f825cc10933574486cf61)
-on November 10, 2018.
+from [greenelab/czi-seed-rfa@3c2d484](https://github.com/greenelab/czi-seed-rfa/tree/3c2d484f0a97ae51aa4da7f799bb42729a929a32)
+on November 11, 2018.
 </em></small>
 
 ## Authors
@@ -180,7 +180,7 @@ on November 10, 2018.
 2. Stephanie C. Hicks is an Assistant Professor of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. She is an expert in statistical methodology with a strong track record in processing and analyzing single-cell genomics data, including extensive experience developing fast, memory-efficient R/Bioconductor software to remove systematic and technical biases from scRNA-seq data [@DJaucmAA]. Dr. Hicks will work together with Co-PIs to implement fast search algorithms in latent spaces (Aim 1) and to implement the methods developed into fast, scalable, and memory-efficient R/Bioconductor software packages (Aim 3).
 3. Elana Fertig is an Associate Professor of Oncology and Applied Mathematics and Statistics at Johns Hopkins University. She developed of the Bayesian non-negative matrix factorization algorithm CoGAPS [@1DrhKLdVp] for latent space analysis. In collaboration with co-PI Goff, she adapted this tool to scRNA-seq data and developed a new transfer learning framework to relate the low-dimensional features in scRNA-seq data across data modalities, biological conditions, and organisms [@cJPxOJMp]. Dr. Fertig will work with the co-PIs to incorporate the error models from Aim 1 into the latent space representations, dimensionality estimation, and biological assessment metrics in Aim 2. She is developing standardized language for latent space representation in collaboration with co-PIs Goff and Greene [@Sn52lYwa] that will provide a strong foundation for standardization of these approaches across different unsupervised learning tools.
 4. Casey Greene
-5. Tom Hampton
+5. Tom Hampton is Director of Bioinformatic Training for two program projects at the Geisel School of Medicine at Dartmouth. In that role, he has a long collaboration with co-PI Casey Greene, with whom he has collaborated in the development of short courses taught at Mount Desert Island Biological Laboratory and at Dartmouth. Dr Hampton’s  bioinformatic research is focused on using data from multiple independent studies to identify concordant patterns of gene express in response to stressors such as infection and environmental stress.
 6. Michael Love is an Assistant Professor of Biostatistics and Genetics at the University of North Carolina at Chapel Hill. He is a leading developer of statistical software for RNA-seq analysis in the Bioconductor Project, maintaining the widely used DESeq2 [@w9AOzBMw] and tximport [@9CN5KEFo] packages. He is a close collaborator with Dr. Rob Patro on bias-aware estimation of transcript abundance from RNA-seq and estimation of uncertainty during transcript quantification [@vrqQcFyx]. Dr. Love will work with co-PIs to disseminate versioned reference cell type catalogs through widely used frameworks for genomic data analysis including R/Bioconductor and Python.
 7. Rob Patro is an Assistant Professor of Computer Science at Stony Brook University.  He leads the COMBINE-lab, that [develops and maintains numerous open-source genomics tools and methods](https://github.com/COMBINE-lab).  He is the primary developer of the popular transcript quantification tools Sailfish [@RIPzCufe] and Salmon [@vrqQcFyx], having collaborated closely with Dr. Love on the latter. He and Dr. Love are actively collaborating on improved methods for transcript quantification, differential testing, and also on reproducible analysis via [tximeta](https://github.com/mikelove/tximeta). He has recently been focused on developing improved methods for gene-level quantification from tagged-end single-cell RNA-seq data, as implemented in the alevin tool [@FPpU83vH]. Dr. Patro will worth with co-PIs to develop improved single-cell quantification tools that can account for gene-ambiguous reads and provide uncertainty information about the quantification estimates (base enabling technologies) --- which is important for accurate and robust creation of reduced-dimensionality latent spaces.  He will also work with the co-PIs to develop efficient algorithms and data structures, and robust implementations, to enable efficient expression search over low-dimensional representations of HCA data (Aim 1).
 
