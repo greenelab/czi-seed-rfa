@@ -26,9 +26,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/89e99fd622ff13d2f3ceded7ea1e8344ecedfbdc/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/9cef2522923b869c6261db9d19bc5041577f58b1/))
 was automatically generated
-from [greenelab/czi-seed-rfa@89e99fd](https://github.com/greenelab/czi-seed-rfa/tree/89e99fd622ff13d2f3ceded7ea1e8344ecedfbdc)
+from [greenelab/czi-seed-rfa@9cef252](https://github.com/greenelab/czi-seed-rfa/tree/9cef2522923b869c6261db9d19bc5041577f58b1)
 on November 12, 2018.
 </em></small>
 
@@ -189,7 +189,7 @@ on November 12, 2018.
 
 The Human Cell Atlas (HCA) provides unprecedented characterization of molecular phenotypes 
 across individuals, tissues and disease states -- resolving differences to the level of 
-individual cells. This dataset provides an extraordinary opportunity for scientific advancement enabled by new tools to rapidly query, characterize, and analyze these intrinsically 
+individual cells. This dataset provides an extraordinary opportunity for scientific advancement, enabled by new tools to rapidly query, characterize, and analyze these intrinsically 
 high-dimensional data. To facilitate this, our seed network proposes to compress HCA data into fewer dimensions 
 that preserve the important attributes of the original high dimensional data and yield
 interpretable, searchable features. For transcriptomic data, compressing on the gene 
@@ -220,7 +220,7 @@ specifically selected as a base enabling technnology because its error distribut
 naturally account for measurement-specific technical variation 
 [@5Cj8i4Xu] and its prior distributions for different feature 
 quantifications or spatial information. For non-linear needs, neural networks with multiple 
-layers, provide a complementary path to low-dimensional representations 
+layers provide a complementary path to low-dimensional representations 
 [@5CsWRjfp] (PI Greene) that model these diverse features of HCA data. We will 
 make use of substantial progress that has already been made in both linear and non-linear 
 techniques (e.g.,
@@ -237,10 +237,10 @@ Second, we will improve techniques for fast and accurate quantification. Existin
 for scRNA-seq data using tagged-end end protocols (e.g. 10x Chromium, drop-Seq, inDrop, 
 etc.) do not account for reads mapping between multiple genes. This affects approximately 
 15-25% of the reads generated in a typical experiment, reducing quantification accuracy, and 
-leads to systematic biases in gene expression estimates [@FPpU83vH]. To address 
+leading to systematic biases in gene expression estimates [@FPpU83vH]. To address 
 this, we will build on our recently developed quantification method for tagged-end data that 
 accounts for reads mapping to multiple genomic loci in a principled and consistent way 
-[@FPpU83vH] (PI Patro) and extend this into a production quality tool for 
+[@FPpU83vH] (PI Patro), and extend this into a production quality tool for 
 scRNA-Seq preprocessing. Our tool will support: 1. Exploration of alternative models for 
 Unique Molecular Identifier (UMI) resolution. 2. Development of new approaches for quality 
 control and filtering using the UMI-resolution graph. 3. Creation of a compressed and 
@@ -255,7 +255,7 @@ tools produced will be fast, scalable, and memory-efficient by leveraging the av
 assets and expertises of the R/Bioconductor project (PIs Hicks & Love) as well as the 
 broader HCA community.
 
-By using and extending our base enabling technologies we will provide three principle 
+By using and extending our base enabling technologies, we will provide three principle 
 tools and resources for the HCA. These include 1) software to enable fast and accurate 
 search and annotation using low-dimensional representations of cellular features, 2) a 
 versioned and annotated catalog of latent spaces corresponding to signatures of cell types, 
@@ -267,7 +267,7 @@ HCA in general.
 
 *Rationale:* The HCA provides a reference atlas to human cell types, states, and the 
 biological processes in which they engage. The utility of the reference therefore requires 
-that one can easily compare references to each other or a new sample to the compendium of 
+that one can easily compare references to each other, or a new sample to the compendium of 
 reference samples. Low-dimensional representations, because they compress the space, provide 
 the building blocks for search approaches that can be practically applied across very large 
 datasets such as the HCA. *We propose to develop algorithms and software for efficient 
@@ -293,7 +293,7 @@ It's a bit more specific than the rest of the paragraph -LAG]**
 
 Similarly to the approach by which comparisons to a reference genomes can identify specific 
 differences in a genome of interest, we will use low-dimensional representations from latent 
-spaces to define a reference transcriptome map (the HCA) and use this to quantify 
+spaces to define a reference transcriptome map (the HCA), and use this to quantify 
 differences in target transcriptome maps from new samples of interest. We will leverage 
 common low-dimensional representations and cell-to-cell correlation structure both within 
 and across transcriptome maps from Aim 2 to define this reference. Quantifying the 
@@ -331,9 +331,9 @@ representations capture generalizable biological features. We have developed new
 learning methods to quantify the extent to which latent space representations from one
 set of training data are represented in another [@cJPxOJMp,@1GtRgPRxn,@1GtRgPRxn] 
 (PIs Greene, Goff & Fertig).
-These provide a strong foundation to compare low-dimensional 
-representations across different low-dimensional data representation technniques. 
-[**<-- too much repitition here?**]
+These provide a strong foundation to compare different low-dimensional representations
+and techniques for learning and transferring knowledge between them [**<-- didn't understand
+what was here before too well, please make sure I didn't muck with the meaning too much.**]
 Generalizable representations should transfer across datasets of related biological 
 contexts, while representations of noise will not. In addition, we have found that combining 
 multiple representations can better capture biological processes across scales 
@@ -389,7 +389,7 @@ course material on single cell gene expression profiling (PI Goff), 2)
 machine learning methods (PI Greene), 4) statistics for genomics (PIs Fertig and Hicks), 4) search and analysis in low-dimensional 
 representations, and 5) tools developed by our group in response to this RFA.
 
-Second, the short course will train not only students, but instructors. Our one-on-one 
+Second, the short course will train not only students, but also instructors. Our one-on-one 
 approach to course projects will require a high instructor-to-student ratio. We will 
 therefore recruit former participants of this class to return in subsequent years, first as 
 teaching assistants, and later as module presenters. We have found that course alumni are 
