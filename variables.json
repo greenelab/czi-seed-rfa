@@ -91,6 +91,20 @@
         9,
         10
       ]
+    },
+    {
+      "github": null,
+      "name": "Thomas H. Hampton",
+      "initials": "THH",
+      "orcid": "0000-0003-0543-402X",
+      "twitter": null,
+      "email": "Thomas.H.Hampton@dartmouth.edu",
+      "affiliations": [
+        "Department of Microbiology and Immunology, Geisel School of Medicine at Dartmouth"
+      ],
+      "affiliation_numbers": [
+        11
+      ]
     }
   ],
   "affiliations": [
@@ -133,13 +147,17 @@
     {
       "affiliation": "Department of Genetics, University of North Carolina at Chapel Hill",
       "affiliation_number": 10
+    },
+    {
+      "affiliation": "Department of Microbiology and Immunology, Geisel School of Medicine at Dartmouth",
+      "affiliation_number": 11
     }
   ],
   "ci_source": {
     "repo_slug": "greenelab/czi-seed-rfa",
     "repo_owner": "greenelab",
     "repo_name": "czi-seed-rfa",
-    "commit": "12cbac962b36c1205e7dccbe1fff9879f4228dec"
+    "commit": "27385e742b0154106381b34fce8902654d7134e1"
   },
   "manuscript_stats": {
     "reference_counts": {
@@ -147,6 +165,6 @@
       "pmid": 1,
       "total": 29
     },
-    "word_count": 3639
+    "word_count": 3644
   }
 }

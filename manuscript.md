@@ -6,6 +6,7 @@ author-meta:
 - Rob Patro
 - Elana J. Fertig
 - Michael I. Love
+- Thomas H. Hampton
 date-meta: '2018-11-12'
 keywords:
 - dimensionality reduction
@@ -26,9 +27,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/12cbac962b36c1205e7dccbe1fff9879f4228dec/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/27385e742b0154106381b34fce8902654d7134e1/))
 was automatically generated
-from [greenelab/czi-seed-rfa@12cbac9](https://github.com/greenelab/czi-seed-rfa/tree/12cbac962b36c1205e7dccbe1fff9879f4228dec)
+from [greenelab/czi-seed-rfa@27385e7](https://github.com/greenelab/czi-seed-rfa/tree/27385e742b0154106381b34fce8902654d7134e1)
 on November 12, 2018.
 </em></small>
 
@@ -100,6 +101,17 @@ on November 12, 2018.
      Department of Biostatistics, University of North Carolina at Chapel Hill; Department of Genetics, University of North Carolina at Chapel Hill
   </small>
 
++ **Thomas H. Hampton**<br>
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    [0000-0003-0543-402X](https://orcid.org/0000-0003-0543-402X)
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    [None](https://github.com/None)
+    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
+    [None](https://twitter.com/None)<br>
+  <small>
+     Department of Microbiology and Immunology, Geisel School of Medicine at Dartmouth
+  </small>
+
 
 
 ## Abstract {.page_break_before}
@@ -143,6 +155,7 @@ and impact of low-dimensional representations and the HCA in general.
 * Hicks refs: [@DJaucmAA]
 * ProjectR & scCoGAPS: [@cJPxOJMp]
 * Alevin: [@FPpU83vH]
+* Developing Mouse Retina: [@6i1NIkNx]
 
 
 ## Project Team
@@ -181,7 +194,7 @@ and impact of low-dimensional representations and the HCA in general.
     * Tax ID: 23-1352685 (UPenn)
     * Email: greenescientist@gmail.com
 
-5. Tom Hampton
+5. Thomas Hampton
 
     * Title: Senior Bioinformatics Analyst
     * Degrees: PhD
