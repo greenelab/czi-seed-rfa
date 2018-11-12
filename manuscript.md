@@ -27,9 +27,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/878004f83dbf14261f09a5a2b24c7ea677bed9bd/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/a50bbc7c9e8784606b7877543b3713278c5212b3/))
 was automatically generated
-from [greenelab/czi-seed-rfa@878004f](https://github.com/greenelab/czi-seed-rfa/tree/878004f83dbf14261f09a5a2b24c7ea677bed9bd)
+from [greenelab/czi-seed-rfa@a50bbc7](https://github.com/greenelab/czi-seed-rfa/tree/a50bbc7c9e8784606b7877543b3713278c5212b3)
 on November 12, 2018.
 </em></small>
 
@@ -373,9 +373,9 @@ learning methods to quantify the extent to which latent space representations fr
 set of training data are represented in another [@cJPxOJMp,@1GtRgPRxn,@1GtRgPRxn]
 (PIs Greene, Goff & Fertig).
 These provide a strong foundation to compare different low-dimensional representations
-and techniques for learning and transferring knowledge between them [**<-- didn't understand
-what was here before too well, please make sure I didn't muck with the meaning too much.**]
-Generalizable representations should transfer across datasets of related biological
+through cross-validation techniques based upon learning representations in once source dataset and testing their ability to transfer in another target dataset. [**<-- didn't understand
+what was here before too well, please make sure I didn't muck with the meaning too much.**] [** Is this clearer? - EJF**]
+Generalizable representations should also be robust in cross-study validation, transfering across datasets of related biological
 contexts, while representations of noise will not. In addition, we have found that combining
 multiple representations can better capture biological processes across scales
 [@Hlprh8TG], and that representations across scales capture distinct,
