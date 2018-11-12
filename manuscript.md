@@ -26,9 +26,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/90c3cecd722aa266abf555920059e57c49dde5b6/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/36e7964b31787ffeb6064f3a424c2e131eab1cf6/))
 was automatically generated
-from [greenelab/czi-seed-rfa@90c3cec](https://github.com/greenelab/czi-seed-rfa/tree/90c3cecd722aa266abf555920059e57c49dde5b6)
+from [greenelab/czi-seed-rfa@36e7964](https://github.com/greenelab/czi-seed-rfa/tree/36e7964b31787ffeb6064f3a424c2e131eab1cf6)
 on November 12, 2018.
 </em></small>
 
@@ -105,6 +105,36 @@ on November 12, 2018.
 ## Abstract {.page_break_before}
 
 **Instructions**: Describe your collaborative project, highlighting key achievements of the project; limited to 250 words.
+
+
+The HCA provides a reference atlas to human cell types, states, and
+the biological processes in which they engage. The utility of the
+reference therefore requires that one can easily compare references to
+each other, or a new sample to the compendium of reference
+samples. Low-dimensional representations, because they compress the
+space, provide the building blocks for search approaches that can be
+practically applied across very large datasets such as the HCA. 
+Our seed network proposes to compress HCA data
+into fewer dimensions that preserve the important attributes of the
+original high dimensional data and yield interpretable, searchable
+features.
+We hypothesize that building an ensemble of low
+dimensional representations across latent space methods will provide a
+reduced dimensional space that captures biological sources of
+variability and is robust to measurement noise.
+We will identify techniques that learn interpretable,
+biologically-aligned representations, improve techniques for fast and
+accurate quantification, and implement these base enabling
+technologies and methods for search, analysis, and latent space
+transformations as freely available, open source software tools.
+By using and extending our base enabling technologies, we will provide
+three principle tools and resources for the HCA. These include 1)
+software to enable fast and accurate search and annotation using
+low-dimensional representations of cellular features, 2) a versioned
+and annotated catalog of latent spaces corresponding to signatures of
+cell types, states, and biological attributes across the the HCA, and
+3) short course and educational materials that will increase the use
+and impact of low-dimensional representations and the HCA in general. 
 
 
 ## Five Key References
