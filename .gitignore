@@ -24,6 +24,7 @@ __pycache__/
 
 # Don't make budgets public
 budgets/*
+submission/budgets/*
 
 # Stupid Mac Folder crap
 .DS_Store
