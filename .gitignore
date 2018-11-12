@@ -23,7 +23,8 @@ __pycache__/
 .Rproj.user
 
 # Don't make budgets public
-budgets/
+budgets/*
+submission/budgets/*
 
 # Operating system specific files
 
@@ -39,3 +40,4 @@ budgets/
 ## Windows
 Thumbs.db
 [Dd]esktop.ini
+
