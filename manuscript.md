@@ -26,9 +26,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/10eacd62f5b319dccc79361eb9086b9d9dae97ab/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/89e99fd622ff13d2f3ceded7ea1e8344ecedfbdc/))
 was automatically generated
-from [greenelab/czi-seed-rfa@10eacd6](https://github.com/greenelab/czi-seed-rfa/tree/10eacd62f5b319dccc79361eb9086b9d9dae97ab)
+from [greenelab/czi-seed-rfa@89e99fd](https://github.com/greenelab/czi-seed-rfa/tree/89e99fd622ff13d2f3ceded7ea1e8344ecedfbdc)
 on November 12, 2018.
 </em></small>
 
@@ -324,7 +324,7 @@ divergence such as pathogenic differences in disease. *We propose to establish a
 catalog of cell types, states, and biological processes derived from low-dimensional 
 representations of the HCA.*
 
-By establishing a catalog of cellular features using low-dimensional representations can 
+Establishing a catalog of cellular features using low-dimensional representations can 
 reduce noise and aid in biological interpretability. However, there are currently no 
 standardized, quantitative metrics to determine the extent to which low-dimensional 
 representations capture generalizable biological features. We have developed new transfer 
@@ -333,12 +333,13 @@ set of training data are represented in another [@cJPxOJMp,@1GtRgPRxn,@1GtRgPRxn
 (PIs Greene, Goff & Fertig).
 These provide a strong foundation to compare low-dimensional 
 representations across different low-dimensional data representation technniques. 
+[**<-- too much repitition here?**]
 Generalizable representations should transfer across datasets of related biological 
 contexts, while representations of noise will not. In addition, we have found that combining 
 multiple representations can better capture biological processes across scales 
 [@Hlprh8TG], and that representations across scales capture distinct, 
 valid biological signatures [@5Cj8i4Xu]. Therefore, we will 
-establish a versioned catalog consisting of low-dimensional features learned across both 
+establish a catalog consisting of low-dimensional features learned across both 
 linear and non-linear methods from our base enabling technologies and proposed
 extensions in Aim 1.
 
@@ -349,14 +350,15 @@ platform-agnostic data formats. Where applicable, we will leverage the computati
 previously developed by Bioconductor for single-cell data access to the HCA, data 
 representation (`SingleCellExperiment`, `beachmat`, `LinearEmbeddingMatrix`, `DelayedArray`, 
 `HDF5Array` and `rhdf5`) and data assessment and amelioration of data quality (`scater`, 
-`scran`, `DropletUtils`). Such summaries and annotations have proven widely successful for 
-the ENCODE, Roadmap Epigenome Mapping, and GTEx projects. We are core package developers and 
+`scran`, `DropletUtils`). We are core package developers and 
 power users of Bioconductor (PIs Hicks and Love) and will support on-the-fly downloading of 
 these materials via the *AnnotationHub* framework. To enable reproducible research 
-leveraging HCA, we will implement a content-based versioning system, which identifies versions of the reference cell type catalog by the gene weights and transcript nucleotide 
-sequences using a hash function. We (PI Love) developed hash-based versioning and provenance
-identification and detection framework for bulk RNA-seq that supports reproducible 
-computational analyses and has proven to be successful [@1FQ0kp4Dj]. This 
+leveraging HCA, we will implement a content-based versioning system, 
+which identifies versions of the reference cell type catalog by the gene weights and transcript nucleotide 
+sequences using a hash function. We (PIs Love and Patro) previously developed hash-based versioning and provenance
+detection framework for bulk RNA-seq that supports reproducible 
+computational analyses and has proven to be successful [@1FQ0kp4Dj]. 
+Our versioning and dissemination of reference cell type catalogs
 will help to avoid scenarios where researchers report on matches to a certain cell type in 
 HCA without precisely defining which definition of that cell type. We will develop 
 *F1000Research* workflows demonstrating how HCA-defined reference cell types and tools 
@@ -388,7 +390,7 @@ machine learning methods (PI Greene), 4) statistics for genomics (PIs Fertig and
 representations, and 5) tools developed by our group in response to this RFA.
 
 Second, the short course will train not only students, but instructors. Our one-on-one 
-approach to course projects will require a high instructor to student ratio. We will 
+approach to course projects will require a high instructor-to-student ratio. We will 
 therefore recruit former participants of this class to return in subsequent years, first as 
 teaching assistants, and later as module presenters. We have found that course alumni are 
 eager to improve their teaching resumes, that they learn the material in a new way as they 
