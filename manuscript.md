@@ -6,7 +6,7 @@ author-meta:
 - Rob Patro
 - Elana J. Fertig
 - Michael I. Love
-date-meta: '2018-11-11'
+date-meta: '2018-11-12'
 keywords:
 - dimensionality reduction
 - search
@@ -26,10 +26,10 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/3c2d484f0a97ae51aa4da7f799bb42729a929a32/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/6f871571868be0a104acf815daaeaef5b386273d/))
 was automatically generated
-from [greenelab/czi-seed-rfa@3c2d484](https://github.com/greenelab/czi-seed-rfa/tree/3c2d484f0a97ae51aa4da7f799bb42729a929a32)
-on November 11, 2018.
+from [greenelab/czi-seed-rfa@6f87157](https://github.com/greenelab/czi-seed-rfa/tree/6f871571868be0a104acf815daaeaef5b386273d)
+on November 12, 2018.
 </em></small>
 
 ## Authors
@@ -237,7 +237,7 @@ Second, we will improve techniques for fast and accurate quantification. Existin
 for scRNA-seq data using tagged-end end protocols (e.g. 10x Chromium, drop-Seq, inDrop, 
 etc.) do not account for reads mapping between multiple genes. This affects approximately 
 15-25% of the reads generated in a typical experiment, reducing quantification accuracy, and 
-leads to systematic biases in gene expression estimates[@FPpU83vH]. To address 
+leads to systematic biases in gene expression estimates [@FPpU83vH]. To address 
 this, we will build on our recently developed quantification method for tagged-end data that 
 accounts for reads mapping to multiple genomic loci in a principled and consistent way 
 [@FPpU83vH] (PI Patro) and extend this into a production quality tool for 
