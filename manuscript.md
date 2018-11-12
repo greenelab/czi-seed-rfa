@@ -26,9 +26,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/6f871571868be0a104acf815daaeaef5b386273d/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/10eacd62f5b319dccc79361eb9086b9d9dae97ab/))
 was automatically generated
-from [greenelab/czi-seed-rfa@6f87157](https://github.com/greenelab/czi-seed-rfa/tree/6f871571868be0a104acf815daaeaef5b386273d)
+from [greenelab/czi-seed-rfa@10eacd6](https://github.com/greenelab/czi-seed-rfa/tree/10eacd62f5b319dccc79361eb9086b9d9dae97ab)
 on November 12, 2018.
 </em></small>
 
@@ -302,7 +302,7 @@ individual level differences.
 **[<-- I'm not sure what this sentence means.  Please clarify.  - LAG]**
 **[My take is that it means if we have an average from the catalogue we've built for a cell type or state, that deviations in particular samples could yield context-specific differences, not sure how to reword - EJF]**
 Comparison of scRNA-seq maps from individuals with a particular phenotype 
-to the HCA reference that is computationally infeasible from the large scale of HCA data 
+to the HCA reference, which is computationally infeasible from the large scale of HCA data, 
 becomes tractable in these low dimensional spaces. We (PI Hicks) have extensive
 experience dealing with the distributions of cell expression within and between
 individuals [@13owodqhx], which will be critical for defining an appropriate
