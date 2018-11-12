@@ -26,9 +26,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/36e7964b31787ffeb6064f3a424c2e131eab1cf6/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/12cbac962b36c1205e7dccbe1fff9879f4228dec/))
 was automatically generated
-from [greenelab/czi-seed-rfa@36e7964](https://github.com/greenelab/czi-seed-rfa/tree/36e7964b31787ffeb6064f3a424c2e131eab1cf6)
+from [greenelab/czi-seed-rfa@12cbac9](https://github.com/greenelab/czi-seed-rfa/tree/12cbac962b36c1205e7dccbe1fff9879f4228dec)
 on November 12, 2018.
 </em></small>
 
@@ -104,8 +104,8 @@ on November 12, 2018.
 
 ## Abstract {.page_break_before}
 
-**Instructions**: Describe your collaborative project, highlighting key achievements of the project; limited to 250 words.
-
+**Instructions**: Describe your collaborative project, highlighting
+key achievements of the project; limited to 250 words.
 
 The HCA provides a reference atlas to human cell types, states, and
 the biological processes in which they engage. The utility of the
@@ -128,13 +128,14 @@ accurate quantification, and implement these base enabling
 technologies and methods for search, analysis, and latent space
 transformations as freely available, open source software tools.
 By using and extending our base enabling technologies, we will provide
-three principle tools and resources for the HCA. These include 1)
-software to enable fast and accurate search and annotation using
-low-dimensional representations of cellular features, 2) a versioned
-and annotated catalog of latent spaces corresponding to signatures of
-cell types, states, and biological attributes across the the HCA, and
+three principle tools and resources for the HCA: 
+1) software to enable fast and accurate search and annotation using
+low-dimensional representations of cellular features, 
+2) a versioned and annotated catalog of latent spaces corresponding to
+signatures of cell types, states, and biological attributes across the
+the HCA, and 
 3) short course and educational materials that will increase the use
-and impact of low-dimensional representations and the HCA in general. 
+and impact of low-dimensional representations and the HCA in general.
 
 
 ## Five Key References
