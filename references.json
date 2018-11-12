@@ -1689,6 +1689,56 @@
     "id": "OekvE5up"
   },
   {
+    "publisher": "American Society for Microbiology",
+    "issue": "1",
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>\n                    The increasing number of genome-wide assays of gene expression available from public databases presents opportunities for computational methods that facilitate hypothesis generation and biological interpretation of these data. We present an unsupervised machine learning approach, ADAGE (\n                    <jats:italic>a</jats:italic>\n                    nalysis using\n                    <jats:italic>d</jats:italic>\n                    enoising\n                    <jats:italic>a</jats:italic>\n                    utoencoders of\n                    <jats:italic>g</jats:italic>\n                    ene\n                    <jats:italic>e</jats:italic>\n                    xpression), and apply it to the publicly available gene expression data compendium for\n                    <jats:italic>Pseudomonas aeruginosa</jats:italic>\n                    . In this approach, the machine-learned ADAGE model contained 50 nodes which we predicted would correspond to gene expression patterns across the gene expression compendium. While no biological knowledge was used during model construction, cooperonic genes had similar weights across nodes, and genes with similar weights across nodes were significantly more likely to share KEGG pathways. By analyzing newly generated and previously published microarray and transcriptome sequencing data, the ADAGE model identified differences between strains, modeled the cellular response to low oxygen, and predicted the involvement of biological processes based on low-level gene expression differences. ADAGE compared favorably with traditional principal component analysis and independent component analysis approaches in its ability to extract validated patterns, and based on our analyses, we propose that these approaches differ in the types of patterns they preferentially identify. We provide the ADAGE model with analysis of all publicly available\n                    <jats:italic>P. aeruginosa</jats:italic>\n                    GeneChip experiments and open source code for use with other species and settings. Extraction of consistent patterns across large-scale collections of genomic data using methods like ADAGE provides the opportunity to identify general principles and biologically important patterns in microbial biology. This approach will be particularly useful in less-well-studied microbial species.\n                  </jats:p>\n                  <jats:p>\n                     <jats:bold>IMPORTANCE</jats:bold>\n                    The quantity and breadth of genome-scale data sets that examine RNA expression in diverse bacterial and eukaryotic species are increasing more rapidly than for curated knowledge. Our ADAGE method integrates such data without requiring gene function, gene pathway, or experiment labeling, making practical its application to any large gene expression compendium. We built a\n                    <jats:italic>Pseudomonas aeruginosa</jats:italic>\n                    ADAGE model from a diverse set of publicly available experiments without any prespecified biological knowledge, and this model was accurate and predictive. We provide ADAGE results for the complete\n                    <jats:italic>P. aeruginosa</jats:italic>\n                    GeneChip compendium for use by researchers studying\n                    <jats:italic>P. aeruginosa</jats:italic>\n                    and source code that facilitates ADAGE’s application to other species and data types.\n                  </jats:p>",
+    "DOI": "10.1128/msystems.00025-15",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "\n                    ADAGE-Based Integration of Publicly Available\n                    Pseudomonas aeruginosa\n                    Gene Expression Data with Denoising Autoencoders Illuminates Microbe-Host Interactions\n                  ",
+    "volume": "1",
+    "author": [
+      {
+        "given": "Jie",
+        "family": "Tan"
+      },
+      {
+        "given": "John H.",
+        "family": "Hammond"
+      },
+      {
+        "given": "Deborah A.",
+        "family": "Hogan"
+      },
+      {
+        "given": "Casey S.",
+        "family": "Greene"
+      }
+    ],
+    "container-title": "mSystems",
+    "language": "en",
+    "editor": [
+      {
+        "given": "Jack A.",
+        "family": "Gilbert"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          1,
+          19
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gcgmbq",
+    "container-title-short": "mSystems",
+    "PMCID": "PMC5069748",
+    "PMID": "27822512",
+    "id": "1CFhfCyWN"
+  },
+  {
     "publisher": "Springer Nature",
     "issue": "1",
     "DOI": "10.1186/1471-2164-13-160",
@@ -2180,6 +2230,37 @@
     "URL": "https://www.ncbi.nlm.nih.gov/pubmed/26040460",
     "type": "article-journal",
     "id": "13owodqhx"
+  },
+  {
+    "title": "Extracting a biologically relevant latent space from cancer transcriptomes with variational autoencoders.",
+    "volume": "23",
+    "page": "80-91",
+    "container-title": "Pacific Symposium on Biocomputing. Pacific Symposium on Biocomputing",
+    "container-title-short": "Pac Symp Biocomput",
+    "ISSN": "2335-6936",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Gregory P",
+        "family": "Way"
+      },
+      {
+        "given": "Casey S",
+        "family": "Greene"
+      }
+    ],
+    "PMID": "29218871",
+    "PMCID": "PMC5728678",
+    "abstract": "The Cancer Genome Atlas (TCGA) has profiled over 10,000 tumors across 33 different cancer-types for many genomic features, including gene expression levels. Gene expression measurements capture substantial information about the state of each tumor. Certain classes of deep neural network models are capable of learning a meaningful latent space. Such a latent space could be used to explore and generate hypothetical gene expression profiles under various types of molecular and genetic perturbation. For example, one might wish to use such a model to predict a tumor's response to specific therapies or to characterize complex gene expression activations existing in differential proportions in different tumors. Variational autoencoders (VAEs) are a deep neural network approach capable of generating meaningful latent spaces for image and text data. In this work, we sought to determine the extent to which a VAE can be trained to model cancer gene expression, and whether or not such a VAE would capture biologically-relevant features. In the following report, we introduce a VAE trained on TCGA pan-cancer RNA-seq data, identify specific patterns in the VAE encoded features, and discuss potential merits of the approach. We name our method \"Tybalt\" after an instigative, cat-like character who sets a cascading chain of events in motion in Shakespeare's \"Romeo and Juliet\". From a systems biology perspective, Tybalt could one day aid in cancer stratification or predict specific activated expression patterns that would result from genetic changes or treatment effects.",
+    "URL": "https://www.ncbi.nlm.nih.gov/pubmed/29218871",
+    "type": "article-journal",
+    "id": "1EDo3CSrj"
   },
   {
     "URL": "https://github.com/greenelab/shared-latent-space",
