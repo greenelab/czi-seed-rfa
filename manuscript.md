@@ -27,9 +27,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/9f9d1b94c299c2b188b43afb12355a3e187899ee/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/878004f83dbf14261f09a5a2b24c7ea677bed9bd/))
 was automatically generated
-from [greenelab/czi-seed-rfa@9f9d1b9](https://github.com/greenelab/czi-seed-rfa/tree/9f9d1b94c299c2b188b43afb12355a3e187899ee)
+from [greenelab/czi-seed-rfa@878004f](https://github.com/greenelab/czi-seed-rfa/tree/878004f83dbf14261f09a5a2b24c7ea677bed9bd)
 on November 12, 2018.
 </em></small>
 
@@ -328,8 +328,8 @@ perform gene-level quantification on the entirety of a new sample. We aim to ena
 during sample preprocessing, prior to gene-level quantification. This will enable in-line
 annotation of cell types and states and identification of novel features as samples are
 being processed. We will implement and evaluate techniques to learn and transfer shared
-low-dimensional representations between read-based data (e.g., kmer representations) and quantified samples, so
-that samples where either quantified or read data is available can be used for search and annotation
+low-dimensional representations between raw or lightly processed data (e.g., kmer representations or UMI-graphs) and quantified samples, so
+that samples where either quantified or raw data are available can be used for search and annotation
 [@1FQXRCgqZ].
 
 Similarly to the approach by which comparisons to a reference genomes can identify specific
