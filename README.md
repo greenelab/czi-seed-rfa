@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/greenelab/czi-seed-rfa/tree/gh-pages) branch hosts the contents of this directory at https://greenelab.github.io/czi-seed-rfa/.
-The permalink for this webpage version is https://greenelab.github.io/czi-seed-rfa/v/3cd15fa945d99f2a49c7d07e2cd6e08d76dacbfe/.
+The permalink for this webpage version is https://greenelab.github.io/czi-seed-rfa/v/a81cc83b33fa18036f5854eb9e5e8ef88a0d5904/.
 To redirect to the permalink for the latest manuscript version at anytime, use the link https://greenelab.github.io/czi-seed-rfa/v/freeze/.
 
 ## Files
@@ -32,4 +32,4 @@ git add v/*/*.ots
 ## Source
 
 The manuscripts in this directory were built from
-[`3cd15fa945d99f2a49c7d07e2cd6e08d76dacbfe`](https://github.com/greenelab/czi-seed-rfa/commit/3cd15fa945d99f2a49c7d07e2cd6e08d76dacbfe).
+[`a81cc83b33fa18036f5854eb9e5e8ef88a0d5904`](https://github.com/greenelab/czi-seed-rfa/commit/a81cc83b33fa18036f5854eb9e5e8ef88a0d5904).
