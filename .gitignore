@@ -25,6 +25,7 @@ __pycache__/
 # Don't make budgets public
 budgets/*
 submission/budgets/*
+submission/final/*
 
 # Operating system specific files
 
