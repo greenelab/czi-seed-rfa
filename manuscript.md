@@ -27,9 +27,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/1158d54c90d1d9ddccdf8dc913d1e1aa89543bfa/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/fca4989c029a3f837ea105d655bc6d2327982642/))
 was automatically generated
-from [greenelab/czi-seed-rfa@1158d54](https://github.com/greenelab/czi-seed-rfa/tree/1158d54c90d1d9ddccdf8dc913d1e1aa89543bfa)
+from [greenelab/czi-seed-rfa@fca4989](https://github.com/greenelab/czi-seed-rfa/tree/fca4989c029a3f837ea105d655bc6d2327982642)
 on November 13, 2018.
 </em></small>
 
@@ -265,7 +265,7 @@ non-negative matrix factorization method scCoGAPS [@6i1NIkNx,@cJPxOJMp]
 (PIs Fertig & Goff). This technique learns biologically relevant features across contexts
 and data modalities [@wkhRfjyx,@1GkdWBzqU,@uInnOMwX,@1DZRsfkoC,@6i1NIkNx],
 including notably the HPN DREAM8 challenge [@qpg6x7P4]. This technique is
-specifically selected as a base enabling technnology because its error distribution can
+specifically selected as a base enabling technology because its error distribution can
 naturally account for measurement-specific technical variation
 [@5Cj8i4Xu] and its prior distributions for different feature
 quantifications or spatial information. For non-linear needs, neural networks with multiple
@@ -290,7 +290,7 @@ leading to systematic biases in gene expression estimates [@FPpU83vH]. To addres
 this, we will build on our recently developed quantification method for tagged-end data that
 accounts for reads mapping to multiple genomic loci in a principled and consistent way
 [@FPpU83vH] (PI Patro), and extend this into a production quality tool for
-scRNA-Seq preprocessing. Our tool will support: 1. Exploration of alternative models for
+scRNA-seq preprocessing. Our tool will support: 1. Exploration of alternative models for
 Unique Molecular Identifier (UMI) resolution. 2. Development of new approaches for quality
 control and filtering using the UMI-resolution graph. 3. Creation of a compressed and
 indexible data structure for the UMI-resolution graph to enable direct access, query, and
@@ -301,7 +301,7 @@ analysis, and latent space transformations as freely available, open source soft
 We will additionally develop platform-agnostic input and output data formats and standards
 for latent space representations of the HCA data to maximize interoperability. The software
 tools produced will be fast, scalable, and memory-efficient by leveraging the available
-assets and expertises of the R/Bioconductor project (PIs Hicks & Love) as well as the
+assets and expertise of the R/Bioconductor project (PIs Hicks & Love) as well as the
 broader HCA community.
 
 By using and extending our base enabling technologies, we will provide three principle
@@ -326,18 +326,19 @@ The primary approach to search in low-dimensional spaces is straightforward: one
 must create an appropriate low-dimensional representation and identify distance functions
 that enable biologically meaningful comparisons. Ideal low-dimensional representations are
 predicted to be much faster to search, and potentially more biologically relevant, as noise
-can be removed. In this aim, we will evaluate novel low-dimensional representations to
+can be removed. In this aim, we will evaluate novel, low-dimensional representations to
 identify those with optimal qualities of compression, noise reduction, and retention of
-biologically meaningful features. Current scRNA-Seq approaches require investigators to
-perform gene-level quantification on the entirety of a new sample. We aim to enable search
+biologically meaningful features. Current scRNA-seq approaches require investigators to
+perform gene-level quantification on the entirety of a new sample. We aim to search
 during sample preprocessing, prior to gene-level quantification. This will enable in-line
 annotation of cell types and states and identification of novel features as samples are
 being processed. We will implement and evaluate techniques to learn and transfer shared
-low-dimensional representations between raw or lightly processed data (e.g., kmer representations or UMI-graphs) and quantified samples, so
-that samples where either quantified or raw data are available can be used for search and annotation
+low-dimensional representations between raw or lightly processed data (e.g., kmer
+representations or UMI-graphs) and quantified samples, so that samples where either
+quantified or raw data are available can be used for search and annotation
 [@1FQXRCgqZ].
 
-Similarly to the approach by which comparisons to a reference genomes can identify specific
+Similar to the approach by which comparisons to a reference genomes can identify specific
 differences in a genome of interest, we will use low-dimensional representations from latent
 spaces to define a reference transcriptome map (the HCA), and use this to quantify
 differences in target transcriptome maps from new samples of interest. We will leverage
@@ -417,7 +418,7 @@ individual-specific differences with the linear models proposed in Aim 1.
 *Rationale:* Low-dimensional representations of scRNA-seq and HCA data make tasks faster and
 provide interpretable summaries of complex high-dimensional cellular features. The HCA
 data-associated methods and workflows will be valuable to many biomedical fields, but their
-use will require an understanding of basic bioinformatics, scRNA-Seq, and how the tools
+use will require an understanding of basic bioinformatics, scRNA-seq, and how the tools
 being developed work. Furthermore, researchers will need exposure to the conceptual basis of
 low-dimensional interpretations of biological systems. This aim addresses these needs in
 three ways.
