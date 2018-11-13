@@ -27,9 +27,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/fca4989c029a3f837ea105d655bc6d2327982642/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/06b7d7e3b9ce7e41fe5fa2749c2fe84be757dbc9/))
 was automatically generated
-from [greenelab/czi-seed-rfa@fca4989](https://github.com/greenelab/czi-seed-rfa/tree/fca4989c029a3f837ea105d655bc6d2327982642)
+from [greenelab/czi-seed-rfa@06b7d7e](https://github.com/greenelab/czi-seed-rfa/tree/06b7d7e3b9ce7e41fe5fa2749c2fe84be757dbc9)
 on November 13, 2018.
 </em></small>
 
@@ -381,7 +381,7 @@ set of training data are represented in another [@cJPxOJMp,@1GtRgPRxn,@1GtRgPRxn
 These provide a strong foundation to compare different low-dimensional representations
 through cross-validation techniques based upon learning representations in once source dataset and testing their ability to transfer in another target dataset. [**<-- didn't understand
 what was here before too well, please make sure I didn't muck with the meaning too much.**] [** Is this clearer? - EJF**]
-Generalizable representations should also be robust in cross-study validation, transfering across datasets of related biological
+Generalizable representations should also be robust in cross-study validation, transferring across datasets of related biological
 contexts, while representations of noise will not. In addition, we have found that combining
 multiple representations can better capture biological processes across scales
 [@Hlprh8TG], and that representations across scales capture distinct,
@@ -423,7 +423,7 @@ being developed work. Furthermore, researchers will need exposure to the concept
 low-dimensional interpretations of biological systems. This aim addresses these needs in
 three ways.
 
-First, we will develop a  bioinformatic training program for biologists at all levels,
+First, we will develop a bioinformatic training program for biologists at all levels,
 including those with no experience in bioinformatics. Lecture materials will be extended
 from existing materials from previous bioinformatic courses we (PI Hampton) have run at
 Mount Desert Island Biological Laboratory, the University of Birmingham, UK, and Geisel
@@ -432,9 +432,9 @@ in basic bioinformatics and always achieve approval ratings of over 90%.  We bel
 the success of these learning experiences has to do with our instructional paradigm, which
 includes a very challenging course project coupled with one-on-one support from instructors.
 We will develop a new curriculum specifically tailored to HCA that incorporates: 1) didactic
-course material on single cell gene expression profiling (PI Goff), 2)
-machine learning methods (PI Greene), 4) statistics for genomics (PIs Fertig and Hicks), 4) search and analysis in low-dimensional
-representations, and 5) tools developed by our group in response to this RFA.
+course material on single cell gene expression profiling (PI Goff), 2) machine learning
+methods (PI Greene), 4) statistics for genomics (PIs Fertig and Hicks), 4) search and analysis
+in low-dimensional representations, and 5) tools developed by our group in response to this RFA.
 
 Second, the short course will train not only students, but also instructors. Our one-on-one
 approach to course projects will require a high instructor-to-student ratio. We will
@@ -447,8 +447,9 @@ people who will drive the next wave of innovation. All of our course materials w
 freely available, enabling course participants to bring what they learned home with them. A
 capstone session will be included in which we will provide suggestions about how the
 materials presented in the course can be incorporated into existing course curricula. Course
-faculty will be available to assist with integration effort after the course. Finally, the short course will facilitate scientific collaborations
-by engaging participants in utilizing these tools for collaborative research efforts.
+faculty will be available to assist with integration effort after the course. Finally, the short course
+will facilitate scientific collaborations by engaging participants in utilizing these tools for
+collaborative research efforts.
 
 **[I feel like we are missing a concluding summary of broader impacts to pull this together - could be a brief bulleted summary of tools required by app as Andrew suggested - EJF]**
 
