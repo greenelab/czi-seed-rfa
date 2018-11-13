@@ -7,7 +7,7 @@ author-meta:
 - Elana J. Fertig
 - Michael I. Love
 - Thomas H. Hampton
-date-meta: '2018-11-12'
+date-meta: '2018-11-13'
 keywords:
 - dimensionality reduction
 - search
@@ -27,10 +27,10 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/544a90e64ee0651af68b03d0ef0a800d685f682a/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/e20c10773c1d9e4e7bc620da199ddf64029166bc/))
 was automatically generated
-from [greenelab/czi-seed-rfa@544a90e](https://github.com/greenelab/czi-seed-rfa/tree/544a90e64ee0651af68b03d0ef0a800d685f682a)
-on November 12, 2018.
+from [greenelab/czi-seed-rfa@e20c107](https://github.com/greenelab/czi-seed-rfa/tree/e20c10773c1d9e4e7bc620da199ddf64029166bc)
+on November 13, 2018.
 </em></small>
 
 ## Authors
@@ -123,19 +123,18 @@ The HCA provides a reference atlas to human cell types, states, and
 the biological processes in which they engage. The utility of the
 reference therefore requires that one can easily compare references to
 each other, or a new sample to the compendium of reference
-samples. Low-dimensional representations, because they compress the
-space, provide the building blocks for search approaches that can be
+samples. Because they compress the space, low-dimensional representations  
+provide the building blocks for search approaches that can be
 practically applied across very large datasets such as the HCA. 
 Our seed network proposes to compress HCA data
 into fewer dimensions that preserve the important attributes of the
 original high dimensional data and yield interpretable, searchable
 features.
-We hypothesize that building an ensemble of low
-dimensional representations across latent space methods will provide a
-reduced dimensional space that captures biological sources of
-variability and is robust to measurement noise.
-We will identify techniques that learn interpretable,
-biologically-aligned representations, improve techniques for fast and
+We hypothesize that using latent space methods to identify low 
+dimensional representations of HCA data will accurately capture biological 
+sources of variability and will be robust to measurement noise.
+We propose techniques that learn interpretable, biologically-aligned 
+representations, improve techniques for fast and
 accurate quantification, and implement these base enabling
 technologies and methods for search, analysis, and latent space
 transformations as freely available, open source software tools.
