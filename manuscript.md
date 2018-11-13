@@ -27,9 +27,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/a81cc83b33fa18036f5854eb9e5e8ef88a0d5904/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/32a1c8ad01870e76f589f6433b1d01b042a8b5b3/))
 was automatically generated
-from [greenelab/czi-seed-rfa@a81cc83](https://github.com/greenelab/czi-seed-rfa/tree/a81cc83b33fa18036f5854eb9e5e8ef88a0d5904)
+from [greenelab/czi-seed-rfa@32a1c8a](https://github.com/greenelab/czi-seed-rfa/tree/32a1c8ad01870e76f589f6433b1d01b042a8b5b3)
 on November 13, 2018.
 </em></small>
 
@@ -359,10 +359,7 @@ differences in target transcriptome maps from new samples of interest. We will l
 common low-dimensional representations and cell-to-cell correlation structure both within
 and across transcriptome maps from Aim 2 to define this reference. Quantifying the
 differences between samples characterized at the single-cell level reveals population or
-individual level differences.
-**[<-- I'm not sure what this sentence means.  Please clarify.  - LAG]**
-**[My take is that it means if we have an average from the catalogue we've built for a cell type or state, that deviations in particular samples could yield context-specific differences, not sure how to reword - EJF]**
-Comparison of scRNA-seq maps from individuals with a particular phenotype
+individual level differences. Comparison of scRNA-seq maps from individuals with a particular phenotype
 to the HCA reference, which is computationally infeasible from the large scale of HCA data,
 becomes tractable in these low dimensional spaces. We (PI Hicks) have extensive
 experience dealing with the distributions of cell expression within and between
@@ -381,20 +378,19 @@ features, independent of total distance between cells in gene expression space, 
 collections of data including the HCA. We will evaluate and select methods that define
 latent spaces that reflect discrete biological processes or cellular features. These latent
 spaces can be shared across different biological systems and can reveal context-specific
-divergence such as pathogenic differences in disease. *We propose to establish a central
+divergence such as pathogenic differences in disease. *We propose to establish a versioned
 catalog of cell types, states, and biological processes derived from low-dimensional
 representations of the HCA.*
 
-Establishing a catalog of cellular features using low-dimensional representations can
-reduce noise and aid in biological interpretability. However, there are currently no
+Establishing a reference catalog of cellular features using low-dimensional representations can
+help to reduce noise and aid in biological interpretability. However, there are currently no
 standardized, quantitative metrics to determine the extent to which low-dimensional
 representations capture generalizable biological features. We have developed new transfer
 learning methods to quantify the extent to which latent space representations from one
 set of training data are represented in another [@cJPxOJMp,@1GtRgPRxn,@1GtRgPRxn]
 (PIs Greene, Goff & Fertig).
-These provide a strong foundation to compare different low-dimensional representations
-through cross-validation techniques based upon learning representations in once source dataset and testing their ability to transfer in another target dataset. [**<-- didn't understand
-what was here before too well, please make sure I didn't muck with the meaning too much.**] [** Is this clearer? - EJF**]
+These provide a foundation to compare different low-dimensional representations
+through cross-validation techniques by learning representations in source datasets and testing their ability to transfer into a target dataset.
 Generalizable representations should also be robust in cross-study validation, transferring across datasets of related biological
 contexts, while representations of noise will not. In addition, we have found that combining
 multiple representations can better capture biological processes across scales
@@ -404,9 +400,8 @@ establish a catalog consisting of low-dimensional features learned across both
 linear and non-linear methods from our base enabling technologies and proposed
 extensions in Aim 1.
 
-We will package and version low-dimensional representations and annotate these
-representations based on their corresponding celluar features (e.g. cell type, tissue,
-biological process) and deliver these as structured data objects in Bioconductor as well as
+We will package and version low-dimensional representations of the HCA and annotate these
+latent spaces via their corresponding celluar features. We will deliver these as structured data objects in Bioconductor as well as
 platform-agnostic data formats. Where applicable, we will leverage the computational tools
 previously developed by Bioconductor for single-cell data access to the HCA, data
 representation (`SingleCellExperiment`, `beachmat`, `LinearEmbeddingMatrix`, `DelayedArray`,
@@ -415,11 +410,11 @@ representation (`SingleCellExperiment`, `beachmat`, `LinearEmbeddingMatrix`, `De
 power users of Bioconductor (PIs Hicks and Love) and will support on-the-fly downloading of
 these materials via the *AnnotationHub* framework. To enable reproducible research
 leveraging HCA, we will implement a content-based versioning system,
-which identifies versions of the reference cell type catalog by the gene weights and transcript nucleotide
+which identifies versions of the reference catalog by the gene weights and transcript nucleotide
 sequences using a hash function. We (PIs Love and Patro) previously developed hash-based versioning and provenance
 detection framework for bulk RNA-seq that supports reproducible
 computational analyses and has proven to be successful [@1FQ0kp4Dj].
-Our versioning and dissemination of reference cell type catalogs
+Our versioning and dissemination of reference latent space catalogs
 will help to avoid scenarios where researchers report on matches to a certain cell type in
 HCA without precisely defining which definition of that cell type. We will develop
 *F1000Research* workflows demonstrating how HCA-defined reference cell types and tools
