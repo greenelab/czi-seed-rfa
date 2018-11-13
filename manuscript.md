@@ -27,9 +27,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/3cd15fa945d99f2a49c7d07e2cd6e08d76dacbfe/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/a81cc83b33fa18036f5854eb9e5e8ef88a0d5904/))
 was automatically generated
-from [greenelab/czi-seed-rfa@3cd15fa](https://github.com/greenelab/czi-seed-rfa/tree/3cd15fa945d99f2a49c7d07e2cd6e08d76dacbfe)
+from [greenelab/czi-seed-rfa@a81cc83](https://github.com/greenelab/czi-seed-rfa/tree/a81cc83b33fa18036f5854eb9e5e8ef88a0d5904)
 on November 13, 2018.
 </em></small>
 
@@ -146,28 +146,28 @@ the use and impact of low-dimensional representations and the HCA in general.
 
 ## Five Key References
 
-1. Stephanie C Hicks, F William Townes, Mingxiang Teng, Rafael A Irizarry
-Missing data and technical variability in single-cell RNA-sequencing experiments
+1. Stephanie C Hicks, F William Townes, Mingxiang Teng, Rafael A Irizarry. 
+Missing data and technical variability in single-cell RNA-sequencing experiments.
 Biostatistics (2017-11-06) https://doi.org/gfb8g4
 DOI: 10.1093/biostatistics/kxx053 · PMID: 29121214 · PMCID: PMC6215955
 
-2. Genevieve L Stein-O’Brien, Brian S. Clark, Thomas Sherman, Christina Zibetti, Qiwen Hu, Rachel Sealfon, Sheng Liu, Jiang Qian, Carlo Colantuoni, Seth Blackshaw, Loyal A. Goff, Elana J. Fertig
+2. Genevieve L Stein-O’Brien, Brian S. Clark, Thomas Sherman, Christina Zibetti, Qiwen Hu, Rachel Sealfon, Sheng Liu, Jiang Qian, Carlo Colantuoni, Seth Blackshaw, Loyal A. Goff, Elana J. Fertig. 
 Decomposing cell identity for transfer learning across cellular measurements, platforms, tissues, and species.
 Cold Spring Harbor Laboratory (2018-08-20) https://doi.org/gd2xpn
 DOI: 10.1101/395004
 
-3. Avi Srivastava, Laraib Malik, Tom Sean Smith, Ian Sudbery, Rob Patro
-Alevin efficiently estimates accurate gene abundances from dscRNA-seq data
+3. Avi Srivastava, Laraib Malik, Tom Sean Smith, Ian Sudbery, Rob Patro. 
+Alevin efficiently estimates accurate gene abundances from dscRNA-seq data. 
 Cold Spring Harbor Laboratory (2018-06-01) https://doi.org/gffk42
 DOI: 10.1101/335000
 
-4. Brian Clark, Genevieve Stein-O’Brien, Fion Shiau, Gabrielle Cannon, Emily Davis, Thomas Sherman, Fatemeh Rajaii, Rebecca James-Esposito, Richard Gronostajski, Elana J. Fertig, Loyal A. Goff, Seth Blackshaw
-Comprehensive analysis of retinal development at single cell resolution identifies NFI factors as essential for mitotic exit and specification of late-born cells
+4. Brian Clark, Genevieve Stein-O’Brien, Fion Shiau, Gabrielle Cannon, Emily Davis, Thomas Sherman, Fatemeh Rajaii, Rebecca James-Esposito, Richard Gronostajski, Elana J. Fertig, Loyal A. Goff, Seth Blackshaw. 
+Comprehensive analysis of retinal development at single cell resolution identifies NFI factors as essential for mitotic exit and specification of late-born cells. 
 Cold Spring Harbor Laboratory (2018-07-27) https://doi.org/gdwrzh
 DOI: 10.1101/378950
 
-5. Rob Patro & Michael Love
-tximeta
+5. Rob Patro & Michael Love. 
+tximeta. 
 Bioconductor (2018) https://doi.org/gfddxw
 DOI: 10.18129/b9.bioc.tximeta
 
@@ -243,7 +243,7 @@ DOI: 10.18129/b9.bioc.tximeta
 7. Rob Patro is an Assistant Professor of Computer Science at Stony Brook University.  He leads the COMBINE-lab, that [develops and maintains open-source genomics tools](https://github.com/COMBINE-lab).  He is the primary developer of the popular transcript quantification tools Sailfish [@RIPzCufe] and Salmon [@vrqQcFyx]. Dr. Love and he are actively collaborating on improved methods for transcript quantification, differential testing, and reproducible analysis via [tximeta](https://github.com/mikelove/tximeta) [@1FQ0kp4Dj]. He is focused on developing improved methods for gene-level quantification from tagged-end scRNA-Seq data, as implemented in the tool alevin [@FPpU83vH]. He will work with co-PIs to develop improved single-cell quantification tools that account for gene-ambiguous reads and provide quantification uncertainty estimates --- which is important for accurate and robust creation of reduced-dimensionality representations.  He will additionally develop algorithms and data structures to enable efficient expression and sample search over low-dimensional representations of HCA data (Aim 1).
 
 
-## Proposal Body (2000 words)
+## Proposal Body
 
 The Human Cell Atlas (HCA) provides unprecedented characterization of molecular phenotypes
 across individuals, tissues and disease states -- resolving differences to the level of
