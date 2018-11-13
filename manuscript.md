@@ -27,9 +27,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/22383dac0a510cc0b2c97c9d75d771ab8fa2a0d5/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/1158d54c90d1d9ddccdf8dc913d1e1aa89543bfa/))
 was automatically generated
-from [greenelab/czi-seed-rfa@22383da](https://github.com/greenelab/czi-seed-rfa/tree/22383dac0a510cc0b2c97c9d75d771ab8fa2a0d5)
+from [greenelab/czi-seed-rfa@1158d54](https://github.com/greenelab/czi-seed-rfa/tree/1158d54c90d1d9ddccdf8dc913d1e1aa89543bfa)
 on November 13, 2018.
 </em></small>
 
@@ -155,6 +155,7 @@ and impact of low-dimensional representations and the HCA in general.
 * ProjectR & scCoGAPS: [@cJPxOJMp]
 * Alevin: [@FPpU83vH]
 * Developing Mouse Retina: [@6i1NIkNx]
+* tximeta [@1FQ0kp4Dj]
 
 
 ## Project Team
