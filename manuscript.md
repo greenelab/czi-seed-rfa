@@ -27,9 +27,9 @@ title: Practical search and analysis with low-dimensional representations of the
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/czi-seed-rfa/v/957daad47e1742f056d7d2c518abbffdf1dce0c3/))
+([permalink](https://greenelab.github.io/czi-seed-rfa/v/4b2423998b84dfc73ce0ce063070e9fdd7d1d31c/))
 was automatically generated
-from [greenelab/czi-seed-rfa@957daad](https://github.com/greenelab/czi-seed-rfa/tree/957daad47e1742f056d7d2c518abbffdf1dce0c3)
+from [greenelab/czi-seed-rfa@4b24239](https://github.com/greenelab/czi-seed-rfa/tree/4b2423998b84dfc73ce0ce063070e9fdd7d1d31c)
 on November 13, 2018.
 </em></small>
 
